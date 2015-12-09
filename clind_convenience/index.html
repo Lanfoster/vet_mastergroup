@@ -1,0 +1,33 @@
+
+<link rel="stylesheet" href="app/pages/clind_convenience/style.css">
+
+<div class="pageTitle">
+	<h1><%= title %></h1>
+</div>
+
+<div class="content">
+
+	<h2><%= bloc1.title %></h2>
+	<ul class="listeplay">
+		<li>
+			<%= bloc1.list %>
+			<% for(var i in bloc1.sub.list) { %>
+
+				<span>• <%= bloc1.sub.list[i] %></span>
+
+			<% } %>
+		</li>
+	</ul>
+
+	<h2><%= bloc2.title %></h2>
+	<ul class="listeplay">
+		<% for(var i in bloc2.list) { %>
+
+			<li><%= bloc2.list[i] %></li>
+
+		<% } %>
+	</ul>
+
+	<img class="supshow" src="app/pages/clind_convenience/img/background.png">
+
+</div>

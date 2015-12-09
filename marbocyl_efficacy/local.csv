@@ -1,0 +1,80 @@
+key;ref;value;
+title;The best way for the cure;Une bonne voie vers la guérison
+list;100% bioavailability [infos[(1)]];Biodisponibilité de 100 % [infos[(1)]]
+list;Rapid peak concentration [infos[(1)]];Concentration maximale rapidement atteinte [infos[(1)]]
+list;Efficient against numerous bacteria [infos[(2)]];Efficace contre de nombreuses bactéries [infos[(2)]]
+list;Supported by REQUEST [infos[(3)]];Corroboré par REQUEST [infos[(3)]]
+list;Wide range of indications;Grande variété d'indications
+tableleft_dog;Skin and soft tissue infections;Infections de la peau et des tissus mous
+tableleft_dog;Urinary tract infections, associated or not with prostatitis;Infections urinaires, associées ou non à une prostatite
+tableleft_dog;Repiratory tract infection;Infections respiratoires
+tableleft_cat;Infected wounds and abscesses;Plaies infectées et abcès
+tableleft_cat;Upper respiratory tract infections;Infections respiratoires supérieures
+tableright_dog;Infected wounds and abscesses;Plaies infectées et abcès
+tableright_dog;Urinary tract infections;Infections urinaires
+tableright_dog;Prevention of surgical infections;Prévention des infections chirurgicales
+tableright_cat;Infected wounds and abscesses;Plaies infectées et abcès
+tableright_cat;Prevention of surgical infections;Prévention des infections chirurgicales
+popin1_title;A unique kinetic curve;Une pharmacocinétique unique
+popin1_leftlegend;Concentration (Î¼g/ml);Concentration (Î¼g/ml)
+popin1_rightlegend;MIC[sub[90]] for marbofloxacin against<br><i>S. Pseudintermedius</i> (0.5 Î¼g/ml);CMI[sub[90]] pour la marbofloxacine contre<br><i>S. Pseudintermedius</i> (0,5 Î¼g/ml)
+popin1_botlegend;Time (h);Temps (h)
+popin2_title;Bacterial sensitivities to Marbocyl®;Sensibilité des bactéries à Marbocyl®
+popin2_table_titleX;BACTERIAL SPECIES;ESPECES BACTERIENNES
+popin2_table_titleX;PATHOLOGIES;AFFECTIONS
+popin2_table_titleX;PERCENTAGE OF SENSITIVITY<br>(NUMBER OF STRAINS);POURCENTAGE DE SENSIBILITE<br>(NOMBRE DE SOUCHES)
+popin2_table_titleY;Gram negative;Gram négatif
+popin2_table_titleY;Gram positive;Gram positif
+popin2_table_line1;Pasteurella multocida;<i>Pasteurella multocida</i>
+popin2_table_line1;Respiratory infections<br>Dermatological infections;Infections respiratoires<br>Infections dermatologiques
+popin2_table_line1;-<br>99.17% (120);-<br>99,17 % (120)
+popin2_table_line2;Escherichia coli;<i>Escherichia coli</i>
+popin2_table_line2;Urinary infections;Infections urinaires
+popin2_table_line2;90.88% (307);90,88 % (307)
+popin2_table_line3;Proteus mirabilis;<i>Proteus mirabilis</i>
+popin2_table_line3;Urinary infections;Infections urinaires
+popin2_table_line3;97.01% (67);97,01 % (67)
+popin2_table_line4;Pseudomonas aeruginosa;<i>Pseudomonas aeruginosa</i>
+popin2_table_line4;Otitis<br>Dermatological infections;Otites<br>Infections dermatologiques
+popin2_table_line4;73.56% (329)<br>88.37% (43);73,56 % (329)<br>88,37 % (43)
+popin2_table_line5;Staphylococcus<br>pseudintermedius;<i>Staphylococcus<br>pseudintermedius</i>
+popin2_table_line5;Otitis<br>Dermatological infections;Otites<br>Infections dermatologiques
+popin2_table_line5;96.98% (199)<br>99.39% (164);96,98 % (199)<br>99,39 % (164)
+popin2_table_line6;Staphylococcus aureus;<i>Staphylococcus aureus</i>
+popin2_table_line6;Otitis<br>Dermatological infections;Otites<br>Infections dermatologiques
+popin2_table_line6;96.67% (30)<br>92.98% (57);96,67 % (30)<br>92,98 % (57)
+popin3_title;REQUEST guidelines[subtitle[(REassessing fluoroQUinolones European STandards)]];Recommandations RESQUEST[subtitle[(REassessing fluoroQUinolones European STandards)]]
+popin3_question1;What?;Quoi ?
+popin3_question1;â€¢ A multinational and multidisciplinary<br>independant group of experts.; Un groupe international et pluridisciplinaire<br>d'experts indépendants
+popin3_question2;Who?;Qui ?
+popin3_question3;Why?;Pourquoi ?
+popin3_question3;â€¢ Based on current literature, achieve a consensus on when and how to use fluoroquinolones among companion animals.;A partir de la littérature actuelle, parvenir à un consensus sur la prescription raisonnée des fluoroquinolones chez les animaux de compagnie.
+popin3_question4;What was created?;Quel résultat ?
+popin3_question4;â€¢ Index for grading when use is appropriate, encompassing:; Index pour évaluer la pertinence de l'utilisation, intégrant : 
+popin3_question4_sub1;#¿NOMBRE?;Données pharmacocinétiques
+popin3_question4_sub1;#¿NOMBRE?;Données bactériologiques
+popin3_question4_sub1;#¿NOMBRE?;Données cliniques
+popin3_question4;â€¢ Index for ranking available medications, encompassing:; Index de classement des médicaments existants, intégrant :
+popin3_question4_sub2;#¿NOMBRE?;Données d'éfficacité
+popin3_question4_sub2;#¿NOMBRE?;Données de tolérance
+popin3_question4_sub2;#¿NOMBRE?;Données de praticité
+popin3_question4_sub2;#¿NOMBRE?;Données d'observance
+popin3_button;Further information on www.request-guidelines.org;Plus d'informations sur www.request-guidelines.org
+popin3a_title;REQUEST members;Membres REQUEST
+popin3a_members1;Pr. JP Cotard;Pr. JP Cotard
+popin3a_members1;Pr. HJ Boulouis;Pr. HJ Boulouis
+popin3a_members1;Dr. S Caney;Dr. S Caney
+popin3a_members1;Pr. G DuprÃ©;Pr. G Dupré
+popin3a_members1;Pr. AM Farca;Pr. AM Farca
+popin3a_members1;Dr. J Fontaine;Dr. J Fontaine
+popin3a_members1;Pr. M Kietzmann;Pr. M Kietzmann
+popin3a_members1;Pr. R Lechowski;Pr. R Lechowski
+popin3b_title;REQUEST grading table;Tableau de classement REQUEST
+popin3b_table_titre;GRADE;NIVEAU
+popin3b_table_titre;SIGNIFICANCE;SIGNIFICATION
+popin3b_table_list;High quality evidence with coherence between pharmacokinetic, pharmacodynamic and clinical data that make this kind of recommendation a mandatory proper usage of Fluoroquinolones among companion animals or specific species.;Haut niveau de preuve avec cohérence des données pharmacocinétiques, pharmacodynamiques et cliniques, qui conduit à une recommandation de bon usage obligatoire des fluoroquinolones chez les animaux de compagnie ou certaines espèces spécifiques.
+popin3b_table_list;High or good quality evidence with coherence between pharmacokinetic, pharmacodynamic and clinical data despite the fact that some data are missing that make this kind of recommendation a relevant proper usage of Fluoroquinolones among companion animals or specific species until additional data are available.;Haut ou bon niveau de preuve avec cohérence des données pharmacocinétiques, pharmacodynamiques et cliniques, malgré l'absence de certaines données, qui conduit à une recommandation de bon usage raisonné des fluoroquinolones chez les animaux de compagnie ou certaines espèces spécifiques jusqu'à la publication de données supplémentaires.
+popin3b_table_list;High or good quality evidence with possible discrepancy between pharmacokinetic, pharmacodynamic and clinical data (whether missing or not) that make this kind of recommendation a current possible usage of Fluoroquinolones among companion animals or specific species until additional data are available.;Haut ou bon niveau de preuve avec divergences possibles entre les données pharmacocinétiques, pharmacodynamiques et cliniques (manquantes ou non), qui conduit à une recommandation d'usage actuel possible des fluoroquinolones chez les animaux de compagnie ou certaines espèces spécifiques jusqu'à la publication de données supplémentaires.
+popin3b_table_list;Insufficient or poor quality evidence despite consensus among experts that make this kind of recommendation a cautious usage of Fluoroquinolones among companion animals or specific species. Requires that veterinary schools, and/or pharmaceutical companies, conduct specific research and publish related results in order to reassess the recommendation as soon as possible.;Niveau de preuve insuffisant ou mauvais malgré l'existence d'un consensus parmi les experts qui conduit à une recommandation d'usage prudent des fluoroquinolones chez les animaux de compagnie ou certaines espèces spécifiques. Il est nécessaire que les écoles vétérinaires, et/ou les laboratoires pharmaceutiques, réalisent des études spécifiques et publient leurs résultats pour réévaluer la recommandation dès que possible.
+popin3b_table_list;High or good quality evidence with possible discrepancy between pharmacokinetic, pharmacodynamic and clinical data (whether missing or not) that recommend not to use Fluoroquinolones among companion animals or specific species until additional data are available.;Haut ou bon niveau de preuve avec divergences possibles entre les données pharmacocinétiques, pharmacodynamiques et cliniques (manquantes ou non), qui conduit à déconseiller l'usage des fluoroquinolones chez les animaux de compagnie ou certaines espèces spécifiques jusqu'à la publication de données supplémentaires.
+popin3b_table_list;Absence of evidence to use Fluoroquinolones among companion animals or specific species. Requires that veterinary schools, and/or pharmaceutical companies, conduct specific research and publish related results in order to reassess the recommendation as soon as possible.;Absence de preuve pour l'usage des fluoroquinolones chez les animaux de compagnie ou certaines espèces spécifiques. Il est nécessaire que les écoles vétérinaires, et/ou les laboratoires pharmaceutiques, réalisent des études spécifiques et publient leurs résultats pour réévaluer la recommandation dès que possible.

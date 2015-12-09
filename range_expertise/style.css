@@ -1,0 +1,114 @@
+#range_expertise {
+	text-align: center;
+}
+
+/** content **/
+#range_expertise .content {
+	display: inline-block;
+	text-align: left;
+	margin-top: 130px;
+	width: 750px;
+}
+
+#range_expertise .content .part{
+	font-family: "FuturaStdBook";
+	margin-bottom: 15px;
+}
+
+#range_expertise .content .title{
+	font-size: 34px;
+	color: #0072cf;
+}
+
+#range_expertise .content .desc{
+	font-size: 22px;
+	line-height: 28px;
+	color: #7c959d;
+}
+
+#range_expertise .content .desc b{
+	font-family: "FuturaStdHeavy";
+	color: #0072cf;
+	position: relative;
+	padding: 0 10px;
+}
+
+#range_expertise .content .desc b:before{
+	content: "";
+	position: absolute;
+	left: -3px;
+	width: 100%; height: 130%;
+	background-color: #fff;
+	z-index: -1;
+	box-shadow: 0 0 10px rgba(0,0,0,.3);
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#range_expertise .content ul {
+  list-style: none;
+  font-family: "FuturaStdBook";
+  font-size: 22px;
+  color: #7c959d;
+  padding-right: 10px;
+}
+
+#range_expertise .content ul li {
+  position: relative;
+  z-index: 2;
+}
+
+#range_expertise .content ul li:before {
+  content: "";
+  display: inline-block;
+  margin-right: 5px;
+  width: 23px; height: 23px;
+  background: url('img/puce.png');
+  background-size: 23px;
+}
+
+
+/** BLOCS **/
+#range_expertise .bloc{
+	position: absolute;
+	bottom: 100px;
+	border-top-left-radius: 50px;
+	background-color: #7c959d;
+	box-shadow: 0 0 10px rgba(0,0,0,.3);
+	font-family: "FuturaStdBold";
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 19px;
+	padding: 13px 25px 20px;
+}
+
+#range_expertise .bloc:before{
+	content: '';
+	display: block;
+	width: 27px; height: 27px;
+	background: url('img/bigArrow.png');
+	background-size:  27px;
+}
+
+#range_expertise .blocLeft{
+	right: 50%;
+	margin-right: 40px;
+}
+
+#range_expertise .blocRight{
+	background-color: #0072cf;
+	padding: 33px 25px 20px 70px;
+	left: 50%; margin-left: -90px;
+}
+
+
+#range_expertise .content .flag {
+	width: 30px; height: 20px;
+	position: relative;
+	top: 2px;
+	display: inline-block;
+	background: url('img/flag.gif');
+	background-size: 100%;
+}
+
+

@@ -1,0 +1,9 @@
+
+<link rel="stylesheet" href="app/pages/clava_refs/style.css">
+<div class="pageTitle">
+	<h1><%= title %></h1>
+</div>
+
+<div class="refs">
+	<ol><% _.each( refs.list, function(item) { %><li><%= item %></li><% }) %></ol>
+</div>

@@ -1,0 +1,47 @@
+key;value
+title;Choose the best<br>fluoroquinolone
+list;[blue[Marbocyl®]] has the longest half-life<br>compared to enrofloxacin [sub[(7)]]
+list;[blue[Marbocyl®]] shows higher sensitivity levels [sub[(2)]]
+list;[blue[Marbocyl®]] is safer than enrofloxacin
+popin1_title;Comparative kinetics<br>of Marbocyl® and enrofloxacin
+popin1_leftlegend;Concentration (ug/ml)
+popin1_botlegend;Time (Hours)
+popin1_legend;Arithmetic plots of the mean plasma  concentrations (μg.ml) of enrofloxacin,<br>[legendgrey[and its metabolite (ciprofloxacin)]] [legendpoint[and marbofloxacin]] [legendpink[<i>versus</i> time (h)]],<br>after a single oral administration of enrofloxacin or marbofloxacin at the nominal dose of 5 and 2 mg Kg, respectively.
+popin2_title;Percentages of susceptibility of bacteria<br>to various antibiotics used<br>in the treatment of cats and dogs infections in Europe
+popin2_paragraph;Based on CSLI registered breakpoints, over the 2002-2009 period.
+popin2_legend;Percentages have not been calculated when breakpoints are not registered by CSLI.
+popin2_table_title;BACTERIAL SPECIES
+popin2_table_title;PATHOLOGIES
+popin2_table_title;PERCENTAGE OF SUSCEPTIBILITY<br>(number of strains) TO ANTIBIOTICS
+popin2_table_title;ENR
+popin2_table_title;MAR
+popin2_table_titleY;Gram negative
+popin2_table_titleY;Gram positive
+popin2_table_line1;Pasteurella multocida
+popin2_table_line1;Respiratory infections<br>Dermatological infections
+popin2_table_line1;96.89% (257)<br>95.83% (120)
+popin2_table_line1;-<br>99.17% (120)
+popin2_table_line2;Escherichia coli
+popin2_table_line2;Urinary infections
+popin2_table_line2;87.95% (307)
+popin2_table_line2;90.88% (307)
+popin2_table_line3;Proteus mirabilis
+popin2_table_line3;Urinary infections
+popin2_table_line3;82.09% (67)
+popin2_table_line3;97.01% (67)
+popin2_table_line4;Pseudomonas aeruginosa
+popin2_table_line4;Otitis<br>Dermatological infections
+popin2_table_line4;17.02% (329)<br>4.65% (43)
+popin2_table_line4;73.56% (329)<br>88.37% (43)
+popin2_table_line5;Staphylococcus pseudintermedius
+popin2_table_line5;Otitis<br>Dermatological infections
+popin2_table_line5;96.48% (199)<br>98.78% (164)
+popin2_table_line5;96.98% (199)<br>99.39% (164)
+popin2_table_line6;Staphylococcus aureus
+popin2_table_line6;Otitis<br>Dermatological infections
+popin2_table_line6;96.55% (29)<br>89.47% (57)
+popin2_table_line6;96.67% (30)<br>92.98% (57)
+popin3_title;To prescribe in confidence
+popin3_list;<b>Well tolerated,</b> even in dogs with renal failure [sub[(4)]]
+popin3_list;<b>No cartilage abnormality</b> reported after the use of [blue[Marbocyl®]] [sub[(5)]]
+popin3_list;<b>No link with cases of retinal toxicity</b> in cats [sub[(6)]]

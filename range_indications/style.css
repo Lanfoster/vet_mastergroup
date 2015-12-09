@@ -1,0 +1,124 @@
+#range_indications .content {
+	position: absolute;
+	width: 100%; height: 100%;
+	background: url('img/bg.jpg');
+}
+
+#range_indications .puce {
+	position: absolute;
+	width: 22px; height: 22px;
+	border-radius: 44px;
+	background-color: #FFF;
+	border: 4px solid #0072cf;
+	cursor: pointer;
+}
+#range_indications .puce[data-link='ear'] 			{ left: 721px; 	top: 153px; }
+#range_indications .puce[data-link='oral'] 			{ left: 771px; 	top: 235px; }
+#range_indications .puce[data-link='respiratory'] 	{ left: 566px; 	top: 303px; }
+#range_indications .puce[data-link='pyoderma'] 		{ left: 706px; 	top: 274px; }
+#range_indications .puce[data-link='osteo'] 		{ left: 665px; 	top: 417px; }
+#range_indications .puce[data-link='surgical'] 		{ left: 450px; 	top: 339px; }
+#range_indications .puce[data-link='urinary'] 		{ left: 388px; 	top: 306px; }
+#range_indications .puce[data-link='digestive']		{ left: 396px; 	top: 248px; }
+#range_indications .puce[data-link='wounds'] 		{ left: 548px; 	top: 229px; }
+
+/*****/
+
+#range_indications .detail {
+	position: absolute;
+}
+
+#range_indications .detail:before {
+	position: absolute;
+	content: ""
+}
+
+#range_indications .detail .bloc{
+	position: absolute;
+	right: 0; top:0;
+	padding: 15px 20px;
+	background-color: #7c959d;
+	border-radius: 15px 0 15px 0;
+	color: #FFF;
+	font-size: 20px;
+	line-height: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,.3);
+	width: auto;
+}
+
+#range_indications .detail .close {
+	position: absolute;
+	top: -7px; left: -12px;
+	width: 22px; height: 22px;
+	border-radius: 22px;
+	background-color: #0072cf;
+	text-align: center;
+	line-height: 22px;
+	font-size: 20px;
+	font-family: "futurastdBold";
+	color: #FFF;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+#range_indications .detail[data-link='ear'] 		{ left: 730px; 	top: 48px; }
+#range_indications .detail[data-link='oral'] 		{ left: 905px; 	top: 48px; }
+#range_indications .detail[data-link='respiratory'] { left: 954px; 	top: 408px; }
+#range_indications .detail[data-link='pyoderma'] 	{ left: 963px; 	top: 294px; }
+#range_indications .detail[data-link='osteo'] 		{ left: 982px; 	top: 484px; }
+#range_indications .detail[data-link='surgical'] 	{ left: 664px; 	top: 538px; }
+#range_indications .detail[data-link='surgical'] .bloc 	{ width: 195px; }
+#range_indications .detail[data-link='urinary'] 	{ left: 225px; 	top: 323px; }
+#range_indications .detail[data-link='urinary'] .bloc 	{ width: 195px; }
+#range_indications .detail[data-link='digestive']	{ left: 171px; 	top: 249px; }
+#range_indications .detail[data-link='wounds'] 		{ left: 295px; 	top: 48px; }
+#range_indications .detail[data-link='wounds'] .bloc { width: 250px; }
+
+#range_indications .detail[data-link='ear']:before {
+	left: -3px; top: 0;
+	width: 39px; height: 115px;
+	background: url('img/ear.png');	
+}
+#range_indications .detail[data-link='oral']:before {
+	right: -37px; top: 0;
+	width: 160px; height: 198px;
+	background: url('img/oral.png');	
+}
+#range_indications .detail[data-link='respiratory']:before {
+	right: 0; bottom: -13px;
+	width: 375px; height: 113px;
+	background: url('img/respiratory.png');	
+}
+#range_indications .detail[data-link='pyoderma']:before {
+	right: 0px; bottom: -34px;
+	width: 244px; height: 74px;
+	background: url('img/pyoderma.png');	
+}
+#range_indications .detail[data-link='osteo']:before {
+	right: 0; bottom: -9px;
+	width: 306px; height: 67px;
+	background: url('img/osteo.png');	
+}
+#range_indications .detail[data-link='surgical']:before {
+	right: 0; bottom: -15px;
+	width: 205px; height: 208px;
+	background: url('img/surgical.png');	
+}
+#range_indications .detail[data-link='urinary']:before {
+	left: -6px; top: -15px;
+	width: 179px; height: 29px;
+	background: url('img/urinary.png');	
+}
+#range_indications .detail[data-link='digestive']:before {
+	left: -8px; top: -12px;
+	width: 244px; height: 50px;
+	background: url('img/digestive.png');	
+}
+#range_indications .detail[data-link='wounds']:before {
+	left: -5px; top: -2px;
+	width: 270px; height: 198px;
+	background: url('img/wounds.png');	
+}

@@ -1,0 +1,54 @@
+.pageTitle h1 {
+	background-color: #fed905
+}
+
+.content {
+	margin: 160px 0 0 130px
+}
+
+.content h2 {
+	background: #fff;
+	border-radius: 10px 0;
+	display: table;
+	padding: 10px;
+	font-weight: bold;
+	margin-top: 50px;
+	color: #fed905;
+	box-shadow: 0 0 20px #c4d5db;
+	font-size: 28px
+}
+
+.listeplay {
+	color: #7c959d;
+	list-style: none;
+	font-family: "FuturaStdBook";
+	font-size: 20px;
+	padding: 10px 0 0 30px;
+	font-size: 22px
+}
+.listeplay li span {
+	margin-top: 5px;
+	display: block;
+	font-size: 18px
+}
+.listeplay li {
+	margin-bottom: 5px;
+	position: relative;
+}
+.listeplay li:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -30px;
+	width: 23px;
+	height: 23px;
+	background: url('img/puce.png');
+	background-size: 23px;
+}
+
+.supshow {
+	right: 50px;
+	position: absolute;
+	z-index: -1;
+	top: 180px;
+}

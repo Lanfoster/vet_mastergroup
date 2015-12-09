@@ -1,0 +1,256 @@
+
+<link rel="stylesheet" href="app/pages/marbocyl_efficacy/style.css">
+
+<div class="pageTitle">
+	<h1><%= title %></h1>
+</div>
+
+<div class="content">
+	<img class="supshow" src="app/pages/marbocyl_efficacy/img/background.png">
+	<ul class="listeplay">
+		<li><%= list[0] %></li>
+		<li><%= list[1] %> <div class="popBtn" data-popin="popin1">i</div></li>
+		<li><%= list[2] %> <div class="popBtn" data-popin="popin2">i</div></li>
+		<li><%= list[3] %> <div class="popBtn" data-popin="popin3">i</div></li>
+		<li><%= list[4] %></li>
+	</ul>
+
+	<div class="bloc">
+		<div>
+			<span class="tablelogo">
+				<img src="app/pages/marbocyl_efficacy/img/titre_p.gif">
+			</span>
+
+			<ul class="table">
+				<li class="tabletitle"><img src="app/pages/marbocyl_efficacy/img/dog.png"></li>
+				<% for(var i in tableleft.dog) { %>
+
+					<li><%= tableleft.dog[i] %></li>
+
+				<% } %>
+			</ul>
+
+			<ul class="table">
+				<li class="tabletitle"><img src="app/pages/marbocyl_efficacy/img/cat.png"></li>
+				<% for(var i in tableleft.cat) { %>
+
+					<li><%= tableleft.cat[i] %></li>
+
+				<% } %>
+			</ul>
+		</div>
+		<div>
+			<span class="tablelogo">
+				<img src="app/pages/marbocyl_efficacy/img/titre_fd.gif">
+			</span>
+
+			<ul class="table">
+				<li class="tabletitle"><img src="app/pages/marbocyl_efficacy/img/dog.png"></li>
+				<% for(var i in tableright.dog) { %>
+
+					<li><%= tableright.dog[i] %></li>
+
+				<% } %>
+			</ul>
+
+			<ul class="table">
+				<li class="tabletitle"><img src="app/pages/marbocyl_efficacy/img/cat.png"></li>
+				<% for(var i in tableright.cat) { %>
+
+					<li><%= tableright.cat[i] %></li>
+
+				<% } %>
+			</ul>
+		</div>
+	</div>
+
+	
+
+</div>
+
+
+<div id="popin">
+
+	<div class="pop popin1">
+		<span class="close">+</span>
+		<h2><%= popin1.title %></h2>
+		<div class="graph">
+			<img width="600px" src="app/pages/marbocyl_efficacy/img/popup1_graph.gif">
+			<span class="leftlegend"><%= popin1.leftlegend %></span>
+			<span class="rightlegend"><%= popin1.rightlegend %></span>
+			<span class="botlegend"><%= popin1.botlegend %></span>
+		</div>		
+	</div>
+
+	<div class="pop popin2">
+		<span class="close">+</span>
+		<h2><%= popin2.title %></h2>
+
+		<table>
+			<tr align="center" class="tabletitles">
+				<td></td>
+				<td><%= popin2.table.titleX[0] %></td>
+				<td><%= popin2.table.titleX[1] %></td>
+				<td><%= popin2.table.titleX[2] %></td>
+			</tr>
+
+			<tr>
+				<td rowspan="4" valign="top"><%= popin2.table.titleY[0] %></td>
+				<td class="tstyle"><%= popin2.table.line1[0] %></td>
+				<td><%= popin2.table.line1[1] %></td>
+				<td align="center"><%= popin2.table.line1[2] %></td>
+			</tr>
+			<tr>
+				<td class="tstyle"><%= popin2.table.line2[0] %></td>
+				<td><%= popin2.table.line2[1] %></td>
+				<td align="center"><%= popin2.table.line2[2] %></td>
+			</tr>
+			<tr>
+				<td class="tstyle"><%= popin2.table.line3[0] %></td>
+				<td><%= popin2.table.line3[1] %></td>
+				<td align="center"><%= popin2.table.line3[2] %></td>
+			</tr>
+			<tr>
+				<td class="tstyle"><%= popin2.table.line4[0] %></td>
+				<td><%= popin2.table.line4[1] %></td>
+				<td align="center"><%= popin2.table.line4[2] %></td>
+			</tr>
+
+			<tr>
+				<td rowspan="2" valign="top"><%= popin2.table.titleY[1] %></td>
+				<td class="tstyle"><%= popin2.table.line5[0] %></td>
+				<td><%= popin2.table.line5[1] %></td>
+				<td align="center"><%= popin2.table.line5[2] %></td>
+			</tr>
+			<tr>
+				<td class="tstyle"><%= popin2.table.line6[0] %></td>
+				<td><%= popin2.table.line6[1] %></td>
+				<td align="center"><%= popin2.table.line6[2] %></td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="pop popin3">
+		<span class="close">+</span>
+		<h2><%= popin3.title %></h2>
+		
+		<div class="popcontent">
+			<ul>
+				<li class="blocls">
+					<%= popin3.question1[0] %>
+					<p><%= popin3.question1[1] %></p>
+				</li>
+				<li class="blocls">
+					<%= popin3.question2 %> <div class="popBtn" data-popin="popin3a">i</div>
+				</li>
+				<li class="blocls">
+					<%= popin3.question3[0] %>
+					<p><%= popin3.question3[1] %></p>
+				</li>
+			</ul>
+
+			<ul>
+				<li class="blocls">
+					<%= popin3.question4[0] %> <div class="popBtn" data-popin="popin3b">i</div>
+					<p>
+						<%= popin3.question4[1] %>
+						<div class="sub">
+							<% for(var i in popin3.question4.sub1){ %>
+								<%= popin3.question4.sub1[i]+'<br>' %>
+							<% } %>
+						</div>
+					</p>
+					<p>
+						<%= popin3.question4[2] %>
+						<div class="sub">
+							<% for(var i in popin3.question4.sub2){ %>
+								<%= popin3.question4.sub2[i]+'<br>' %>
+							<% } %>
+						</div>
+					</p>
+				</li>
+			</ul>
+		</div>
+
+		<div class="button"><%= popin3.button %></div>
+	</div>
+
+	<div class="pop popin3a">
+		<span class="close1">+</span>
+		<h2><%= popin3a.title %></h2>
+		
+		<ul>
+			<li>
+				<img src="app/pages/marbocyl_efficacy/img/photos/cotard.jpg">
+				<span><%= popin3a.members1[0] %></span>
+			</li>
+			<li>
+				<img src="app/pages/marbocyl_efficacy/img/photos/boulouis.jpg">
+				<span><%= popin3a.members1[1] %></span>
+			</li>
+			<li>
+				<img src="app/pages/marbocyl_efficacy/img/photos/caney.jpg">
+				<span><%= popin3a.members1[2] %></span>
+			</li>
+			<li>
+				<img src="app/pages/marbocyl_efficacy/img/photos/dupre.jpg">
+				<span><%= popin3a.members1[3] %></span>
+			</li>
+
+			<li>
+				<img src="app/pages/marbocyl_efficacy/img/photos/farca.jpg">
+				<span><%= popin3a.members1[4] %></span>
+			</li>
+			<li>
+				<img src="app/pages/marbocyl_efficacy/img/photos/fontaine.jpg">
+				<span><%= popin3a.members1[5] %></span>
+			</li>
+			<li>
+				<img src="app/pages/marbocyl_efficacy/img/photos/kietzmann.jpg">
+				<span><%= popin3a.members1[6] %></span>
+			</li>
+			<li>
+				<img src="app/pages/marbocyl_efficacy/img/photos/lechowski.jpg">
+				<span><%= popin3a.members1[7] %></span>
+			</li>
+		</ul>
+	</div>
+
+	<div class="pop popin3b">
+		<span class="close1">+</span>
+		<h2><%= popin3b.title %></h2>
+		
+		<table>
+			<tr>
+				<td><%= popin3b.table.titre[0] %></td>
+				<td><%= popin3b.table.titre[1] %></td>
+			</tr>
+			<tr>
+				<td>A</td>
+				<td><%= popin3b.table.list[0] %></td>
+			</tr>
+			<tr>
+				<td>B</td>
+				<td><%= popin3b.table.list[1] %></td>
+			</tr>
+			<tr>
+				<td>C</td>
+				<td><%= popin3b.table.list[2] %></td>
+			</tr>
+			<tr>
+				<td>D</td>
+				<td><%= popin3b.table.list[3] %></td>
+			</tr>
+			<tr>
+				<td>E</td>
+				<td><%= popin3b.table.list[4] %></td>
+			</tr>
+			<tr>
+				<td>F</td>
+				<td><%= popin3b.table.list[5] %></td>
+			</tr>
+		</table>
+	</div>
+
+</div>
+

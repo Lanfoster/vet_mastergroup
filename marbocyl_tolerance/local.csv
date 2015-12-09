@@ -1,0 +1,14 @@
+key;ref;value;
+title;To prescribe in confidence;Pour prescrire en toute confiance
+list;<b>Well tolerated,</b> even in dogs with renal failure [sub[(4)]];<b>Bien toléré,</b> même chez les chiens insuffisants rénaux [sub[(4)]]
+list;<b>No cartilage abnormality</b> reported<br>after the use of <b>Marbocyl®</b> [sub[(5)]];<b>Aucune anomalie cartilagineuse</b> décrite<br>après l'utilisation de <b>Marbocyl®</b> [sub[(5)]]
+list;<b>No link with cases of retinal toxicity</b><br>in cats [sub[(6)]];<b>Aucun lien avec les cas de toxicité rétinienne</b><br>chez le chat [sub[(6)]]
+popin_title;Good tolerance, even on dogs suffering<br>from renal failure;Bonne tolérance, même chez les chiens<br> souffrantd'insuffisance rénale
+popin_graph_left_title;Parameters measuring the<br>accumulation of Marbocyl®;Paramètres mesurant<br>l'accumulation de Marbocyl®
+popin_graph_right_title;Kinetic curve<br>of Marbocyl® in plasma;Pharmacocinétique<br>de Marbocyl® dans le plasma
+popin_graph_legend_blocblue;Healthy dogs;Chiens sains
+popin_graph_legend_blocorange;RF dogs;Chiens insuffisants rénaux
+popin_graph_legend_vertical;Concentration in plasma (mg/l);Concentration plasmatique (mg/l)
+popin_graph_legend_bottom;Time (days);Temps (jours)
+popin_list;No accumulation of [blue[Marbocyl®]] in dogs with moderate renal failure.;Pas d'accumulation de [blue[Marbocyl®]] chez les chiens en insuffisance rénale modérée
+popin_list;No need to adapt the dose rate in this kind of pathology.;Pas besoin d'adapter la posologie dans ce type de pathologie

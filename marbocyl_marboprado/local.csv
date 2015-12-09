@@ -1,0 +1,43 @@
+key;ref;value;
+title;Choose the best<br>fluoroquinolone;Choisissez la meilleure<br>fluroquinolone
+list;[blue[Marbocyl®]] is registered in more indications<br>than pradofloxacin;[blue[Marbocyl®]] est enregistré dans plus d'indications<br>que la pradofloxacine
+list;[blue[Marbocyl®]] provides you with an injectable solution;[blue[Marbocyl®]] vous offre une solution injectable
+list;[blue[Marbocyl®]] shows a lower mutant selection window<br>compared to pradofloxacin[sub[(8)]];[blue[Marbocyl®]] montre une fenêtre de sélection des mutants inférieure<br>à celle de la pradofloxacine[sub[(8)]]
+list;Bacteria remain sensitive to [blue[Marbocyl®]] over time.<br>First publications on sensitivity to pradofloxacin<br>show resistance levels similar to marbofloxacin ones[sub[(9)]];Les bactéries restent sensibles à [blue[Marbocyl®]] au cours du temps.<br>Les premières publications sur la sensibilité à la pradofloxacine<br>montrent des niveaux de résistance équivalents à ceux de la marbofloxacine[sub[(9)]]
+popin1_title;Comparative registered indications<br>of Marbocyl® and Veraflox;Comparaison des indications AMM<br>de Marbocyl® et de Veraflox
+popin1_table_yes;Yes;Oui
+popin1_table_no;No;Non
+popin1_table_line1;Wound infections;Plaies infectées
+popin1_table_line2;Superficial / deep pyoderma;Pyodermites superficielles / profondes
+popin1_table_line3;Urinary tract infections;Infections urinaires
+popin1_table_line4;Respiratory tract infections;Infections respiratoires
+popin1_table_line5;Dental surgery;Chirurgie bucco-dentaire
+popin1_table_line6;Prevention of post surgical infections;Prévention des infections post-chirurgicales
+popin1_table_line7;Upper respiratory tract infections;Infections respiratoires hautes
+popin1_table_line8;Wound infections;Plaies infectées
+popin1_table_line9;Prevention of post surgical infections;Prévention des infections post-chirurgicales
+popin2_title;Injectable, to act fast<br>and increase compliance;Injectable, pour agir vite<br>et augmenter l'observance
+popin2_list;The only one registered IV on the market;Le seul injectable enregisté en IV sur le marché
+popin2_list;SC and IV routes;Voies SC et IV
+popin2_list;2 mg/kg once daily or 4 mg/kg 3 times<br>every 4 days in UTIs in dogs;2 mg/kg une fois par jour ou 4 mg/kg 3 fois<br>tous les 4 jours lors d'infection urinaire chez le chien
+popin2_list;Indicated in SSTIs, UTIs and surgery;Indiqué pour les infections de la peau et des tissus mous, les infections urinaires et suite à une chirurgie
+popin2_list;Storage at room temperature;Conservation à température ambiante
+popin3_title;Mutant Selection Window: example of <i>E. coli</i>;Fenêtre de sélection des mutants :<br>exemple d'<i>E. coli</i>
+popin3_table_titleleft;Strains;Souches
+popin3_table_titleleft;E. coli ATCC8739;E. coli ATCC8739
+popin3_table_titleleft;MIC[sub[90]] (Î¼g/ml);CMI[sub[90]] (Î¼g/ml)
+popin3_table_titleleft;MPC (Î¼g/ml);CPM (Î¼g/ml)
+popin3_table_titleleft;Mutant Selection Window<br>(MPC/MIC);Fenêtre de sélection des mutants<br>(CPM/CMI)
+popin3_table_value_l1;0.03;0,03
+popin3_table_value_l1;0.015-0.03;0,015-0,03
+popin3_table_value_l2;0.25-0.3;0,25-0,3
+popin3_table_value_l2;0.2-0.25;0,2-0,25
+popin3_table_value_l3;9.2;9,2
+popin3_table_value_l3;9.4;9,4
+popin4_title;Percentage of resistance of <i>S. pseudintermedius</i><br>to marbofloxacin and pradofloxacin in dogs<br>and cats suffering from dermatological infections;Pourcentage de  <i> S. pseudintermedius résistants </i><br>à la marbofloxacine et la pradofloxacine chez les chiens et les chats souffrant<br>d'infections dermatologiques
+popin4_table_title;Dogs;Chiens
+popin4_table_title;Cats;Chats
+popin4_table_percent;5.6%;5,6 %
+popin4_table_percent;4.3%;4,3 %
+popin4_table_percent;10.2%;10,2 %
+popin4_table_percent;8.2%;8,2 %

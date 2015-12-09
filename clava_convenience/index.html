@@ -1,0 +1,66 @@
+
+<link rel="stylesheet" href="app/pages/clava_convenience/style.css">
+<div class="pageTitle">
+	<h1><%= title %></h1>
+</div>
+
+<div class="tableTitle"><%= tableTitle %></div>
+<div class="table">
+	<table cellspacing="0">
+		<tr height="33">
+			<td width="120" 				 ></td>
+			<td width="130" bgcolor="#eea8cb">50 mg</td>
+			<td width="130" bgcolor="#d74d95" class='white'>62,5 mg</td>
+			<td width="130" bgcolor="#d30072" class='white'>250 mg</td>
+			<td width="130" bgcolor="#a71367" class='white'>500 mg</td>
+		</tr>
+		<tr height="39">
+			<td width="120" bgcolor="#dadada">4 kg</td>
+			<td width="130" bgcolor="#f7d6e8" class="pills"></td>
+			<td width="130" bgcolor="#eab0d1"></td>
+			<td width="130" bgcolor="#e89bba"></td>
+			<td width="130" bgcolor="#cf91af"></td>
+		</tr>
+		<tr height="39">
+			<td width="120" bgcolor="#b2b2b2">5 kg</td>
+			<td width="130" bgcolor="#eea8cb"></td>
+			<td width="130" bgcolor="#d74d95" class="pills"></td>
+			<td width="130" bgcolor="#d30072"></td>
+			<td width="130" bgcolor="#a71367"></td>
+		</tr>
+		<tr height="39">
+			<td width="120" bgcolor="#dadada">10 kg</td>
+			<td width="130" bgcolor="#f7d6e8"></td>
+			<td width="130" bgcolor="#eab0d1"></td>
+			<td width="130" bgcolor="#e89bba"class="pills05"></td>
+			<td width="130" bgcolor="#cf91af"></td>
+		</tr>
+		<tr height="39">
+			<td width="120" bgcolor="#b2b2b2">20 kg</td>
+			<td width="130" bgcolor="#eea8cb"></td>
+			<td width="130" bgcolor="#d74d95"></td>
+			<td width="130" bgcolor="#d30072" class="pills" ></td>
+			<td width="130" bgcolor="#a71367" class="pills05"></td>
+		</tr>
+		<tr height="39">
+			<td width="120" bgcolor="#dadada">30 kg</td>
+			<td width="130" bgcolor="#f7d6e8"></td>
+			<td width="130" bgcolor="#eab0d1"></td>
+			<td width="130" bgcolor="#e89bba" class="pills15"></td>
+			<td width="130" bgcolor="#cf91af"></td>
+		</tr>
+		<tr height="39">
+			<td width="120" bgcolor="#b2b2b2">40 kg</td>
+			<td width="130" bgcolor="#eea8cb"></td>
+			<td width="130" bgcolor="#d74d95"></td>
+			<td width="130" bgcolor="#d30072"></td>
+			<td width="130" bgcolor="#a71367" class="pills"></td>
+		</tr>
+	</table>
+</div>
+<div class="easy"></div>
+<div class="pillsPack"><div class="text"><%= pillsSize %></div></div>
+<div class="list">
+	<ul class="left"><% _.each( table.list, function(item, index) { if(index%2 ==0 ) { %><li><%= item %></li><% }}) %></ul>
+	<ul class="right"><% _.each( table.list, function(item, index) { if(index%2 ==1 ) { %><li><%= item %></li><% }}) %></ul>
+</div>

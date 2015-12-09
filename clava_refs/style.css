@@ -1,0 +1,17 @@
+#clava_refs {
+}
+
+#clava_refs .pageTitle h1 {
+	background-color: #d70073;
+}
+
+#clava_refs .refs {
+	position: absolute;
+	top: 185px; left: 50%;
+	width: 730px; margin-left: -365px;
+	font-size: 23px;
+	line-height: 25px;
+	color: #7c959d;
+}
+
+#clava_refs li{	margin-bottom: 60px; }

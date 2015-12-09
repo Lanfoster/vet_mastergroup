@@ -1,0 +1,42 @@
+#clava_presentation .page-bg{
+	position: absolute;
+	left:0; top: 0;
+	width: 100%; height: 100%;
+	background: url('img/bg.jpg');
+}
+
+#clava_presentation .pageTitle h1 {
+	background-color: #d70073;
+}
+
+#clava_presentation .animals {
+	position: absolute;
+	width: 593px; height: 639px;
+	background: url('img/animals.png');
+	top: 130px; left: 10px;
+}
+
+#clava_presentation .pack-l {
+	position: absolute;
+	width: 182px; height: 177px;
+	background: url('img/pack_l.png');
+	top: 392px; left: 611px;
+}
+
+#clava_presentation .pack-r {
+	position: absolute;
+	width: 200px; height: 169px;
+	background: url('img/pack_r.png');
+	top: 389px; left: 812px;
+}
+
+#clava_presentation .easy{
+	position: absolute;
+	width: 124px; height: 58px;
+	background: url('img/easy.png');
+	top: 576px; left: 602px;
+}
+
+
+
+

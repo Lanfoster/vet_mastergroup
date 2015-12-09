@@ -1,0 +1,26 @@
+
+<link rel="stylesheet" href="app/pages/range_expertise/style.css">
+<div class="pageTitle">
+	<h1><%= title %></h1>
+</div>
+
+<div class="content">
+	<div class="part expertise">
+		<div class="title"><%= expertiseTitle %></div>
+		<div class="desc"><%= expertiseDesc %></div>
+	</div>
+
+	<div class="part Leadership">
+		<div class="title"><%= leadershipTitle %></div>
+		<div class="desc"><%= leadershipDesc %></div>
+	</div>
+
+	<div class="part solutions">
+		<div class="title"><%= solutionsTitle %></div>
+		<ul><% _.each( solutionsList, function(item) { %><li><%= item %></li><% }) %></ul>
+	</div>
+</div>
+
+<div class="bloc blocRight"><%= blocRight %></div>
+<div class="bloc blocLeft"><%= blocLeft %></div>
+

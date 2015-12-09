@@ -1,0 +1,14 @@
+key;value
+title;To prescribe in confidence
+list;<b>Well tolerated,</b> even in dogs with renal failure [sub[(4)]]
+list;<b>No cartilage abnormality</b> reported<br>after the use of <b>Marbocyl®</b> [sub[(5)]]
+list;<b>No link with cases of retinal toxicity</b><br>in cats [sub[(6)]]
+popin_title;Good tolerance, even on dogs suffering<br>from renal failure
+popin_graph_left_title;Parameters measuring the<br>accumulation of Marbocyl®
+popin_graph_right_title;Kinetic curve<br>of Marbocyl® in plasma
+popin_graph_legend_blocblue;Healthy dogs
+popin_graph_legend_blocorange;RF dogs
+popin_graph_legend_vertical;Concentration in plasma (mg/l)
+popin_graph_legend_bottom;Time (days)
+popin_list;No accumulation of [blue[Marbocyl®]] in dogs with moderate renal failure.
+popin_list;No need to adapt the dose rate in this kind of pathology.

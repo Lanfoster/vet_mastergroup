@@ -1,0 +1,46 @@
+
+<link rel="stylesheet" href="app/pages/range_services/style.css">
+
+
+<div class="pageTitle">
+	<h1><%= title %></h1>
+</div>
+
+
+<div class="introBloc prescription" >
+	<div class="title"><%= prescription.title%></div>
+	<ul><% if(_.isArray(prescription.list)){ _.each( prescription.list, function(item,i) { %><li data-link="prescription-<%=i%>"><%= item %></li><% }) } else {%><li><%= prescription.list %></li><% } %></ul>
+</div>
+<div class="introBloc data" >
+	<div class="picture"></div>
+	<div class="title"><%= data.title%></div>
+	<ul><% if(_.isArray(data.list)){ _.each( data.list, function(item,i) { %><li data-link="data-<%=i%>"><%= item %></li><% }) } else {%><li><%= data.list %></li><% } %></ul>
+</div>
+<div class="introBloc services" >
+	<div class="title"><%= services.title%></div>
+	<ul><% if(_.isArray(services.list)){ _.each( services.list, function(item,i) { %><li data-link="services-<%=i%>"><%= item %></li><% }) } else {%><li><%= services.list %></li><% } %></ul>
+</div>
+<div class="introBloc education" >
+	<div class="title"><%= education.title%></div>
+	<ul><% if(_.isArray(education.list)){ _.each( education.list, function(item,i) { %><li data-link="education-<%=i%>"><%= item %></li><% }) } else {%><li><%= education.list %></li><% } %></ul>
+</div>
+
+
+<div class="popup">
+	<% _.each( popup, function(arg) { %>
+		<div class="bloc <%= arg.id %>">
+			<div class="title"><%= arg.title %><div class="close">+</div></div>
+			<div class="content">
+				<div class="picture"></div>
+				<div class="text">
+					<ul>
+						<% _.each( arg.list, function(arg) { %>
+							<li><%= arg %></li>
+						<% }) %>
+					</ul>
+				</div>
+				<% _.each( arg.other, function(arg) { %><%= arg %><% }) %>
+			</div>
+		</div>
+	<% }) %>
+</div>

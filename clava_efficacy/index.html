@@ -1,0 +1,41 @@
+
+<link rel="stylesheet" href="app/pages/clava_efficacy/style.css">
+<div class="pageTitle">
+	<h1><%= title %></h1>
+</div>
+<div class="cat"></div>
+<ul class="intro">
+	<li class="URTD"><%= URTD %> <div class="popBtn">i</div></li>
+	<li class="resistance"><%= resistance %> <div class="popBtn">i</div></li>
+	<li class="first"><%= first %> <div class="popBtn">i</div></li>
+</ul>
+
+<div class="popup">
+
+	<div class="bloc treatments" >
+		<div class="close">+</div>
+		<div class="title"><%= treatments.title %></div>
+		<div class="content">
+			<ul><% _.each( treatments.list, function(item) { %><li><%= item %></li><% }) %></ul>
+			<div class="picture"></div>		
+		</div>		
+	</div>
+
+	<div class="bloc cats" >
+		<div class="close">+</div>
+		<div class="title"><%= cats.title %></div>
+		<div class="content">
+			<ul><% _.each( cats.list, function(item) { %><li><%= item %></li><% }) %></ul>
+			<div class="picture"></div>		
+		</div>		
+	</div>
+
+	<div class="bloc picturePop" >
+		<div class="close">+</div>
+		<div class="content">
+		<div class="zoom"></div>			
+		</div>
+		<div class="picture"></div>
+	</div>
+
+</div>

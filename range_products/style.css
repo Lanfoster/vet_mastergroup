@@ -1,0 +1,381 @@
+#range_products .products {
+  margin-top: 140px;
+  text-align: center;
+}
+#range_products .introBloc {
+	width: 280px; height: 160px;
+  margin: 5px 2px;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  font-family: "flora-bold";
+  font-size: 36px;
+  line-height: 140px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+#range_products .introBloc:nth-child(4n+3) { border-radius: 0 25px; }
+#range_products .introBloc:nth-child(8n+1) { border-radius: 25px 0; }
+#range_products .introBloc:nth-child(3n+2) { border-radius: 25px; }
+#range_products .introBloc:nth-child(4) { border-radius: 0 25px 25px 0; }
+#range_products .introBloc:nth-child(6) { border-radius: 25px 0 0 25px; }
+
+#range_products .introBloc.clavaseptin:after {
+	content: "";
+	position: absolute;
+	bottom: 18px; right: 18px;
+	background: url('img/easyToGive.png');
+  background-size: 100%;
+	width: 93px; height: 39px;
+}
+#range_products .introBloc.marbocyl {
+  color: transparent;
+	background: url('img/marbocyl_logo.png') #fff center no-repeat;
+	background-position-y:50px;
+  background-size: 70%;
+}
+
+#range_products .introBloc.clavaseptin { color:#cc1b7e; }
+#range_products .introBloc.clindaseptin { color:#ffda00; }
+#range_products .introBloc.oridermyl { color:#b8ccd3; }
+#range_products .introBloc.fluidixine { color:#c9a502; }
+#range_products .introBloc.aurizon { color:#00338e; }
+#range_products .introBloc.cefaseptin { color:#ae4429; }
+#range_products .introBloc.septotryl { color:#cde130; }
+#range_products .introBloc.predniderm { color:#51b8d3; }
+
+/***/
+
+/*
+* POPUP
+*/
+
+#range_products .popup2, #range_products .popup {
+	display: none;
+  position: absolute;
+  top: 0; left: 0;
+  z-index: 10;
+  width: 100%; height: 668px;
+  background-color: rgba( 0, 0, 0, .7);
+}
+
+#range_products .popup2 .bloc, #range_products .popup .bloc {
+  position: absolute;
+  left: 50%; top: 50%;
+  margin: -240px 0 0 -335px;
+  width: 670px; height: 480px;
+  background-color: #0072cf;
+  border-radius: 0 50px 0 50px;
+}
+
+#range_products .popup2 .bloc .close, #range_products .popup .bloc .close{
+  position: absolute;
+  right: 25px; top: 25px;
+  margin-top: -15px;
+  font-size: 40px;
+  transform: rotate(45deg); 
+  -webkit-transform: rotate(45deg); 
+  font-family: "FuturaStdBold";
+  color: #FFF;
+  cursor: pointer;
+}
+
+#range_products .popup2 .bloc .title, #range_products .popup .bloc .title{
+  padding-left: 45px;
+  font-size: 40px;
+  line-height: 100px;
+  font-family: "flora-bold";
+  color: #FFF;
+  text-align: center;
+}
+
+#range_products .popup2 .bloc .content, #range_products .popup .bloc .content {
+  position: absolute;
+  left: 0; top: 100px; 
+  width: 100%;
+  height: 380px;
+  background-color: #fff;
+  border-radius: 0 0 0 50px;
+}
+
+#range_products .popup .bloc .content ul {
+  width: 300px;
+  position: absolute;
+  left: 80px; top: 0;
+  list-style: none;
+  font-family: "FuturaStdBook";
+  font-size: 16px;
+  color: #7c959d;
+}
+
+#range_products .popup .bloc .content ul li {
+  position: relative;
+  margin-bottom: 25px;
+  z-index: 2;
+}
+
+#range_products .popup .bloc .content ul li:before {
+  content: "";
+  position: absolute;
+  left: -30px; top: -2px;
+  width: 23px; height: 23px;
+  background: url('img/puce.png');
+  background-size: 23px;
+}
+
+#range_products .popup2, #range_products .popup .bloc .picture{
+	position: absolute;
+}
+
+#range_products .popup .bloc .text {
+  width: 365px;
+  margin: 70px 0 0 260px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+#range_products .popup .bloc .text .textgrey { text-align: center; font-size: 18px; color: #7c959d; }
+#range_products .popup .bloc .text .grey { color: #666; }
+#range_products .popup .bloc .text table {
+  margin: 20px 0 15px;
+  display: inline-block;
+  text-align: left;
+  font-size: 11px;
+  color: #000;
+  border-collapse: collapse;
+}
+#range_products .popup .bloc .text table tr:nth-child(odd) td { background: #e1e1e1; }
+#range_products .popup .bloc .text table tr:nth-child(even) td { background: #f3f3f3; }
+#range_products .popup .bloc .text table tr:first-child td { background: #c2e4ff !important; }
+#range_products .popup .bloc .text table td:first-child {
+  width: 32%;
+}
+#range_products .popup .bloc .text table td {
+  width: 50%;
+  padding: 12px;
+}
+#range_products .popup .bloc .text b {
+  font-family: "FuturaStdHeavy";
+}
+#range_products .popup .bloc .text .blue {
+  color: #0072cf;
+  font-size: 16px;
+  text-align: center;
+}
+
+/*
+===========
+*/
+
+#range_products .popup .bloc.clavaseptin .picture{
+  background: url('img/clavaseptin_product.png') no-repeat;
+  width: 248px; height: 352px;
+  left: 5px; top: -15px;
+}
+#range_products .popup .bloc.clavaseptin .content:after{
+  content: "";
+  position: absolute;
+  top: 0px; right: 0px;
+  background: url('img/easyToGive.png') no-repeat;
+  width: 124px; height: 59px;
+}
+#range_products .popup .bloc.clavaseptin .text table tr:nth-child(odd) td { background: #f9f9f9; }
+#range_products .popup .bloc.clavaseptin .text table tr:nth-child(even) td { background: #fcfcfc; }
+
+
+#range_products .popup .bloc.clindaseptin .picture{
+  background: url('img/clindaseptin_product.png') no-repeat;
+  width: 282px; height: 378px;
+  left: 25px; top: -20px;
+}
+
+
+#range_products .popup .bloc.oridermyl .picture{
+  background: url('img/oridermyl_product.png') no-repeat;
+  width: 271px; height: 98px;
+  left: 30px; top: 130px;
+}
+
+
+#range_products .popup .bloc.marbocyl .picture{
+	background: url('img/marbocyl_product.jpg') no-repeat;
+	width: 375px; height: 356px;
+  left: 40px; top: 10px;
+}
+#range_products .popup .bloc.marbocyl .text .bluebulle {
+  position: absolute;
+  top: -50px; right: -20px;
+  color: #fff;
+  background: #0072cf;
+  padding: 30px 10px;
+  border-radius: 60px;
+  font-family: "FuturaStdHeavy";
+}
+#range_products .popup .bloc.marbocyl .text table { margin-top: 40px; }
+#range_products .popup .bloc.marbocyl .text table tr:first-child td { background: #0072cf !important; color: #fff; }
+
+
+#range_products .popup .bloc.fluidixine .picture{
+  background: url('img/fluidixine_product.png') no-repeat;
+  width: 244px; height: 391px;
+  left: 30px; top: -55px;
+}
+#range_products .popup .bloc.fluidixine table {
+  width: 490px;
+  position: absolute;
+  top: 180px; left: -80px;
+}
+#range_products .popup .bloc.fluidixine table td { padding: 10px 0; }
+#range_products .popup .bloc.fluidixine table td:first-child { padding-left: 10px; }
+#range_products .popup .bloc.fluidixine table td:last-child { padding-right: 10px; }
+#range_products .popup .bloc.fluidixine table td:nth-child(1) { width: 29%; }
+#range_products .popup .bloc.fluidixine table td:nth-child(2) { width: 21%; }
+#range_products .popup .bloc.fluidixine table td:nth-child(3) { width: 24%; }
+#range_products .popup .bloc.fluidixine table td:nth-child(4) { width: 30%; }
+#range_products .popup .bloc.fluidixine .content ul { top: -20px; }
+
+
+#range_products .popup .bloc.aurizon .picture{
+	background: url('img/aurizon_product.png') no-repeat;
+  width: 241px; height: 231px;
+  left: 30px; top: 70px;
+}
+
+
+#range_products .popup .bloc.cefaseptin .picture{
+  background: url('img/cefaseptin_product.png') no-repeat;
+  width: 223px; height: 364px;
+  left: 20px; top: -20px;
+}
+
+
+#range_products .popup .bloc.septotryl .picture{
+  background: url('img/septotryl_product.png') no-repeat;
+  width: 191px; height: 312px;
+  left: 20px; top: -15px;
+}
+#range_products .popup .bloc.septotryl .content ul{
+ width: 380px;
+ top: -50px; left: -10px;
+}
+#range_products .popup .bloc.septotryl .content ul li{
+  margin-bottom: 10px;
+}
+#range_products .popup .bloc.septotryl .content table {
+  width: 630px;
+  left: -240px; top: 200px;
+  position: absolute;
+}
+#range_products .popup .bloc.septotryl .content table td { padding: 5px; }
+#range_products .popup .bloc.septotryl .content table td:nth-child(1) { width: 12%; }
+#range_products .popup .bloc.septotryl .content table td:nth-child(2) { width: 10%; }
+#range_products .popup .bloc.septotryl .content table td:nth-child(3) { width: 10%; }
+#range_products .popup .bloc.septotryl .content table td:nth-child(4) { width: 10%; }
+
+
+#range_products .popup .bloc.predniderm .picture{
+  background: url('img/predniderm_product.png') no-repeat;
+  width: 244px; height: 391px;
+  left: 20px; top: -55px;
+}
+
+/*
+===========
+*/
+
+#range_products .popup .rangeArrow {
+  position: absolute;
+  top: 50%; margin-top: -37px;
+  background-color: #0072cf;
+  width: 74px; height: 74px;
+  border-radius: 74px;
+  cursor: pointer;
+}
+
+#range_products .popup .rangeArrow:after {
+  content: "";
+  position: absolute;
+  top: 50%; left: 50%;
+  margin: -10px 0 0 -15px;
+  border: 10px solid #FFF;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#range_products .popup .rangeArrow.nextBtn { right: 50px; }
+#range_products .popup .rangeArrow.prevBtn { left: 50px; }
+#range_products .popup .rangeArrow.prevBtn:after { -webkit-transform: rotate(225deg); transform: rotate(225deg); margin-left: -5px;}
+
+
+#range_products .popup2 .bloc {
+  width: 900px; height: 580px;
+  margin: -290px 0 0 -450px;
+}
+#range_products .popup2 .bloc .content {
+  height: 480px;
+}
+#range_products .popup2 .picture {
+  background: url('img/popup2.jpg') no-repeat;
+  width: 256px; height: 289px;
+  right: 70px; bottom: 15px;
+  position: absolute;
+}
+#range_products .popup2 .text {
+  padding: 45px;
+}
+#range_products .popup2 .text .col {
+  float: left;
+}
+#range_products .popup2 .text .col:first-child {
+  width: 490px;
+}
+#range_products .popup2 .text .col b {
+  font-family: "FuturaStdHeavy";
+}
+#range_products .popup2 .text .col .subtitle,
+#range_products .popup2 .text .col .blue {
+  font-size: 18px;
+  color: #0072cf;
+}
+#range_products .popup2 .text .col .subtitle {
+  position: relative;
+  font-family: "FuturaStdHeavy";
+}
+#range_products .popup2 .text .col .subtitle:before {
+  content: "";
+  position: absolute;
+  left: -30px; top: -2px;
+  width: 23px; height: 23px;
+  background: url('img/puce.png');
+  background-size: 23px;
+}
+#range_products .popup2 .text .col ul {
+  margin-top: 20px;
+  font-size: 14px;
+}
+#range_products .popup2 .text .col ul li {
+  margin-bottom: 12px;
+  list-style: none;
+}
+
+#range_products .popBtn {
+    text-align: center;
+    line-height: 20px;
+    width: 24px;
+    height: 24px;
+    background-color: #06984c;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "times";
+    font-style: italic;
+    color: #fff;
+    border: 3px solid #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 3px rgba(0,0,0,.5);
+    top: -2px; left: 9px;
+    display: inline-block;
+    position: relative;
+}

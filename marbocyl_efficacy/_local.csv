@@ -1,0 +1,80 @@
+key;value
+title;The best way for the cure
+list;100% bioavailability [infos[(1)]]
+list;Rapid peak concentration [infos[(1)]]
+list;Efficient against numerous bacteria [infos[(2)]]
+list;Supported by REQUEST [infos[(3)]]
+list;Wide range of indications
+tableleft_dog;Skin and soft tissue infections
+tableleft_dog;Urinary tract infections, associated or not with prostatitis
+tableleft_dog;Repiratory tract infection
+tableleft_cat;Infected wounds and abscesses
+tableleft_cat;Upper respiratory tract infections
+tableright_dog;Infected wounds and abscesses
+tableright_dog;Urinary tract infections
+tableright_dog;Prevention of surgical infections
+tableright_cat;Infected wounds and abscesses
+tableright_cat;Prevention of surgical infections
+popin1_title;A unique kinetic curve
+popin1_leftlegend;Concentration (μg/ml)
+popin1_rightlegend;MIC[sub[90]] for marbofloxacin against<br><i>S. Pseudintermedius</i> (0.5 μg/ml)
+popin1_botlegend;Time (h)
+popin2_title;Bacterial sensitivities to Marbocyl®
+popin2_table_titleX;BACTERIAL SPECIES
+popin2_table_titleX;PATHOLOGIES
+popin2_table_titleX;PERCENTAGE OF SENSITIVITY<br>(NUMBER OF STRAINS)
+popin2_table_titleY;Gram negative
+popin2_table_titleY;Gram positive
+popin2_table_line1;Pasteurella multocida
+popin2_table_line1;Respiratory infections<br>Dermatological infections
+popin2_table_line1;-<br>99.17% (120)
+popin2_table_line2;Escherichia coli
+popin2_table_line2;Urinary infections
+popin2_table_line2;90.88% (307)
+popin2_table_line3;Proteus mirabilis
+popin2_table_line3;Urinary infections
+popin2_table_line3;97.01% (67)
+popin2_table_line4;Pseudomonas aeruginosa
+popin2_table_line4;Otitis<br>Dermatological infections
+popin2_table_line4;73.56% (329)<br>88.37% (43)
+popin2_table_line5;Staphylococcus<br>pseudintermedius
+popin2_table_line5;Otitis<br>Dermatological infections
+popin2_table_line5;96.98% (199)<br>99.39% (164)
+popin2_table_line6;Staphylococcus aureus
+popin2_table_line6;Otitis<br>Dermatological infections
+popin2_table_line6;96.67% (30)<br>92.98% (57)
+popin3_title;REQUEST guidelines[subtitle[(REassessing fluoroQUinolones European STandards)]]
+popin3_question1;What?
+popin3_question1;• A multinational and multidisciplinary<br>independant group of experts.
+popin3_question2;Who?
+popin3_question3;Why?
+popin3_question3;• Based on current literature, achieve a consensus on when and how to use fluoroquinolones among companion animals.
+popin3_question4;What was created?
+popin3_question4;• Index for grading when use is appropriate, encompassing:
+popin3_question4_sub1;- Pharmacokinetic data
+popin3_question4_sub1;- Susceptibility data
+popin3_question4_sub1;- Clinical data
+popin3_question4;• Index for ranking available medications, encompassing:
+popin3_question4_sub2;- Efficacy data
+popin3_question4_sub2;- Safety data
+popin3_question4_sub2;- Convenience data
+popin3_question4_sub2;- Compliance data
+popin3_button;Further information on www.request-guidelines.org
+popin3a_title;REQUEST members
+popin3a_members1;Pr. JP Cotard
+popin3a_members1;Pr. HJ Boulouis
+popin3a_members1;Dr. S Caney
+popin3a_members1;Pr. G Dupré
+popin3a_members1;Pr. AM Farca
+popin3a_members1;Dr. J Fontaine
+popin3a_members1;Pr. M Kietzmann
+popin3a_members1;Pr. R Lechowski
+popin3b_title;REQUEST grading table
+popin3b_table_titre;GRADE
+popin3b_table_titre;SIGNIFICANCE
+popin3b_table_list;High quality evidence with coherence between pharmacokinetic, pharmacodynamic and clinical data that make this kind of recommendation a mandatory proper usage of Fluoroquinolones among companion animals or specific species.
+popin3b_table_list;High or good quality evidence with coherence between pharmacokinetic, pharmacodynamic and clinical data despite the fact that some data are missing that make this kind of recommendation a relevant proper usage of Fluoroquinolones among companion animals or specific species until additional data are available.
+popin3b_table_list;High or good quality evidence with possible discrepancy between pharmacokinetic, pharmacodynamic and clinical data (whether missing or not) that make this kind of recommendation a current possible usage of Fluoroquinolones among companion animals or specific species until additional data are available.
+popin3b_table_list;Insufficient or poor quality evidence despite consensus among experts that make this kind of recommendation a cautious usage of Fluoroquinolones among companion animals or specific species. Requires that veterinary schools, and/or pharmaceutical companies, conduct specific research and publish related results in order to reassess the recommendation as soon as possible.
+popin3b_table_list;High or good quality evidence with possible discrepancy between pharmacokinetic, pharmacodynamic and clinical data (whether missing or not) that recommend not to use Fluoroquinolones among companion animals or specific species until additional data are available.
+popin3b_table_list;Absence of evidence to use Fluoroquinolones among companion animals or specific species. Requires that veterinary schools, and/or pharmaceutical companies, conduct specific research and publish related results in order to reassess the recommendation as soon as possible.

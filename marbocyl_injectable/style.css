@@ -1,0 +1,28 @@
+li { list-style: none; }
+.pageTitle h1 { background: #0B2892; }
+
+#marbocyl_injectable img {
+	position: absolute;
+	top: 170px;
+	right: 60px;
+}
+#marbocyl_injectable .content {
+	margin: 200px 125px;
+	font-size: 26px;
+	line-height: 38px;
+}
+#marbocyl_injectable ul li {
+	margin-bottom: 34px;
+	color: #749096;
+	position: relative;
+}
+#marbocyl_injectable ul li:before {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: -35px;
+	width: 30px;
+	height: 30px;
+	background: url('img/puce.png');
+	background-size: 30px;
+}

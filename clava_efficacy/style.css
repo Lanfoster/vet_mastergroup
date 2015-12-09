@@ -1,0 +1,198 @@
+#clava_efficacy {
+}
+
+#clava_efficacy .pageTitle h1 {
+	background-color: #d70073;
+}
+
+#clava_efficacy .cat {
+	position: absolute;
+	width: 254px; height: 504px;
+	background: url('img/cat.png');
+	top: 154px; right: 77px;
+}
+
+#clava_efficacy ul.intro {
+	position: absolute;
+	width: 450px; 
+	top: 200px; left: 150px;
+	list-style: none;
+	color:#d70073;
+	font-size: 28px;
+	line-height: 32px;
+}
+
+#clava_efficacy ul.intro li {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+#clava_efficacy ul.intro li sup{
+	font-size: 14px;
+}
+
+#clava_efficacy ul.intro li .popBtn{
+	position: absolute;
+	right: -30px;
+	top: 50%;
+	margin-top: -12px;
+	text-align: center;
+	line-height: 22px;
+	width: 24px; height: 24px;
+	background-color: #06984c;
+	border-radius: 20px;
+	font-size: 20px;
+	font-family: "times";
+	font-style: italic;
+	color: #fff;
+	border: 2px solid #fff;
+	cursor: pointer;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5);
+}
+
+/*
+* POPUP
+*/
+
+#clava_efficacy .popup {
+	display: none;
+	position: absolute;
+	z-index: 10;
+	width: 100%; height: 668px;
+	background-color: rgba( 0, 0, 0, .7);
+}
+
+#clava_efficacy .popup .bloc {
+	display: none;
+	position: absolute;
+	left: 50%; top: 50%;
+	margin: -240px 0 0 -335px;
+	width: 670px; height: 480px;
+	background-color: #d70073;
+	border-radius: 0 50px 0 50px;
+
+}
+
+#clava_efficacy .popup .bloc .title{
+  padding-top: 20px;
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFF;
+  text-align: center;
+}
+
+#clava_efficacy .popup .bloc .close{
+  position: absolute;
+  right: 25px; top: 25px;
+  margin-top: -15px;
+  font-size: 40px;
+  transform: rotate(45deg); 
+  -webkit-transform: rotate(45deg); 
+  font-family: "FuturaStdBold";
+  color: #FFF;
+  cursor: pointer;
+}
+
+#clava_efficacy .popup .bloc .content {
+  position: absolute;
+  left: 0; top: 100px; 
+  width: 100%;
+  height: 380px;
+  background-color: #fff;
+  border-radius: 0 0 0 50px;
+}
+
+#clava_efficacy .popup .bloc .content ul {
+	position: absolute;
+	list-style: none;
+	font-size: 20px;
+	line-height: 22px;
+	color: #7c959d;
+}
+
+#clava_efficacy .popup .bloc .content ul li{
+	position: relative;
+}
+
+#clava_efficacy .popup .bloc .content ul li:before{
+	content: "";
+	position: absolute;
+	top: 2px; left: -23px;
+	width: 18px; height: 18px;
+	border-radius: 20px;
+	background-color: #cf136a;
+}
+
+#clava_efficacy .popup .bloc .content ul li:after{
+	content: "";
+	position: absolute;
+	top: 8px; left: -19px;
+	border: 3px solid #FFF;
+	border-left-color: transparent;
+	border-top-color: transparent;
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+/**/
+
+#clava_efficacy .popup .bloc.treatments .content ul {
+	left: 40px; top: 40px;
+	width: 230px;
+}
+
+#clava_efficacy .popup .bloc.treatments .content ul li{
+	margin-bottom: 30px;
+}
+
+#clava_efficacy .popup .bloc.treatments .picture{
+	position: absolute;
+  	background: url('img/treatments.jpg');
+  	width: 393px; height: 259px;
+  	top: 60px; right: 10px;
+}
+
+/**/
+
+#clava_efficacy .popup .bloc.cats .title{
+  padding-top: 40px;
+}
+
+
+#clava_efficacy .popup .bloc.cats .content ul {
+	left: 60px; top: 220px;
+}
+
+#clava_efficacy .popup .bloc.cats .content ul li{
+	margin-bottom: 15px;
+}
+
+#clava_efficacy .popup .bloc.cats .picture{
+	position: absolute;
+  	background: url('img/cats.jpg');
+  	width: 631px; height: 170px;
+  	top: 30px; left: 20px;
+}
+
+/**/
+
+#clava_efficacy .popup .bloc.picturePop .picture{
+	position: absolute;
+  	background: url('img/doc.jpg');
+  	width: 544px; height: 386px;
+  	top: 60px; left: 60px;
+}
+
+#clava_efficacy .popup .bloc.picturePop .zoom{
+  position: absolute;
+  background: url('img/loupe.png');
+  width: 42px; height: 42px;
+  top: 15px; right: 15px;
+  background-size: 42px;
+  cursor: pointer;
+}
+
+
+

@@ -1,0 +1,132 @@
+	#clava_convenience {
+}
+
+#clava_convenience .pageTitle h1 {
+	background-color: #d70073;
+}
+
+#clava_convenience .easy {
+	position: absolute;
+	top: 565px;
+	left: 775px;
+	width: 168px; height: 76px;
+	box-shadow: 0 0 10px #FFF;
+	background: url('img/easy.png') #FFF;
+}
+
+#clava_convenience .pillsPack {
+	position: absolute;
+	top: 350px;
+	left: 855px;
+	width: 72px; height: 179px;
+	background: url('img/pillsPack.png');
+}
+#clava_convenience .pillsPack .text{
+	position: absolute;
+	left: -70px; width: 300px;
+	text-align: center;
+	top: 50%;
+	color: #7c959d;
+	font-size: 11px;
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+#clava_convenience .tableTitle {
+	position: absolute;
+	top: 145px;
+	left: 245px;
+	font-size: 34px;
+	color: #d70073;
+}
+
+#clava_convenience ul {
+	position: absolute;
+	top: 535px; left: 180px;
+	list-style: none;
+	font-size: 23px;
+	line-height: 23px;
+	color: #7c959d;
+	width: 300px;
+}
+
+#clava_convenience ul li:before{
+	content: "";
+	position: absolute;
+	top: 2px; left: -23px;
+	width: 18px; height: 18px;
+	border-radius: 20px;
+	background-color: #cf136a;
+}
+
+#clava_convenience ul li:after{
+	content: "";
+	position: absolute;
+	top: 8px; left: -19px;
+	border: 3px solid #FFF;
+	border-left-color: transparent;
+	border-top-color: transparent;
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+#clava_convenience ul.right { left: 530px; }
+
+#clava_convenience ul li { position: relative; margin-bottom: 10px; }
+
+#clava_convenience .table {
+	position: absolute;
+	top: 255px;
+	left: 180px;
+}
+
+#clava_convenience .table tr td {
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#clava_convenience .table tr td.white {
+	color: #fff;
+}
+#clava_convenience .table tr:nth-child(1) td{vertical-align: bottom; padding-bottom: 2px;}
+#clava_convenience .table tr:nth-child(1) td:nth-child(n+2):after {
+	content:"";
+	position: absolute;
+	width: 74px; height: 74px;
+	left: 50%; margin-left: -37px;
+	top: -64px;
+}
+
+#clava_convenience .table tr:nth-child(1) td:nth-child(2):after { background: url('img/pastille1.png'); }
+#clava_convenience .table tr:nth-child(1) td:nth-child(3):after { background: url('img/pastille2.png'); }
+#clava_convenience .table tr:nth-child(1) td:nth-child(4):after { background: url('img/pastille3.png'); }
+#clava_convenience .table tr:nth-child(1) td:nth-child(5):after { background: url('img/pastille4.png'); }
+
+#clava_convenience .table tr td.pills:after {
+	content: "";
+	position: absolute;
+	left: 50%; margin-left: -37px;
+	top: 50%; margin-top: -18px;
+	width: 73px; height: 35px;
+	background: url('img/pills.png');
+}
+#clava_convenience .table tr td.pills15:after {
+	content: "";
+	position: absolute;
+	left: 50%; margin-left: -50px;
+	top: 50%; margin-top: -18px;
+	width: 100px; height: 35px;
+	background: url('img/pills15.png');
+}
+#clava_convenience .table tr td.pills05:after {
+	content: "";
+	position: absolute;
+	left: 50%; margin-left: -25px;
+	top: 50%; margin-top: -18px;
+	width: 50px; height: 35px;
+	background: url('img/pills05.png');
+}

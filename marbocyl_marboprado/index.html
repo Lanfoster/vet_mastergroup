@@ -1,0 +1,139 @@
+<link rel="stylesheet" href="app/pages/marbocyl_marboprado/style.css">
+
+<div class="pageTitle">
+	<h1><%= title %></h1>
+</div>
+
+<ul class="content">
+	<% for(var i in list) { %>
+		<li><%= list[i] %><span class="popBtn" data-popin="popin<%= (parseInt(i)+1) %>">i</span></li>
+	<% } %>
+</ul>
+
+<div id="popin">
+
+	<div class="pop popin1">
+		<span class="close">+</span>
+		<h2><%= popin1.title %></h2>
+		<table>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><img src="app/pages/marbocyl_marboprado/img/marbo.gif"></td>
+				<td><img src="app/pages/marbocyl_marboprado/img/prado.gif"></td>
+			</tr>
+			<tr>
+				<td rowspan="6"><img src="app/pages/marbocyl_marboprado/img/dog.png" width="50px"></td>
+				<td><%= popin1.table.line1 %></td>
+				<td><%= popin1.table.yes %></td>
+				<td><%= popin1.table.yes %></td>
+			</tr>
+			<tr>
+				<td><%= popin1.table.line2 %></td>
+				<td><%= popin1.table.yes %></td>
+				<td><%= popin1.table.yes %></td>
+			</tr>
+			<tr>
+				<td><%= popin1.table.line3 %></td>
+				<td><%= popin1.table.yes %></td>
+				<td><%= popin1.table.yes %></td>
+			</tr>
+			<tr>
+				<td><%= popin1.table.line4 %></td>
+				<td><%= popin1.table.yes %></td>
+				<td class="red"><%= popin1.table.no %></td>
+			</tr>
+			<tr>
+				<td><%= popin1.table.line5 %></td>
+				<td class="red"><%= popin1.table.no %></td>
+				<td><%= popin1.table.yes %></td>
+			</tr>
+			<tr>
+				<td><%= popin1.table.line6 %></td>
+				<td><%= popin1.table.yes %></td>
+				<td class="red"><%= popin1.table.no %></td>
+			</tr>
+			<tr>
+				<td rowspan="3"><img src="app/pages/marbocyl_marboprado/img/cat.png" width="50px"></td>
+				<td><%= popin1.table.line7 %></td>
+				<td><%= popin1.table.yes %></td>
+				<td><%= popin1.table.yes %></td>
+			</tr>
+			<tr>
+				<td><%= popin1.table.line8 %></td>
+				<td><%= popin1.table.yes %></td>
+				<td><%= popin1.table.yes %></td>
+			</tr>
+			<tr>
+				<td><%= popin1.table.line9 %></td>
+				<td><%= popin1.table.yes %></td>
+				<td class="red"><%= popin1.table.no %></td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="pop popin2">
+		<span class="close">+</span>
+		<h2><%= popin2.title %></h2>
+		<ul>
+			<% for(var i in popin2.list) { %>
+				<li><%= popin2.list[i] %></li>
+			<% } %>
+		</ul>
+	</div>
+
+	<div class="pop popin3">
+		<span class="close">+</span>
+		<h2><%= popin3.title %></h2>
+
+		<table>
+			<tr>
+				<td><%= popin3.table.titleleft[0] %></td>
+				<td><img src="app/pages/marbocyl_marboprado/img/marbo2.gif"></td>
+				<td><img src="app/pages/marbocyl_marboprado/img/prado2.gif"></td>
+			</tr>
+			<tr>
+				<td colspan="3"><%= popin3.table.titleleft[1] %></td>
+			</tr>
+			<tr>
+				<td><%= popin3.table.titleleft[2] %></td>
+				<td><%= popin3.table.value.l1[0] %></td>
+				<td><%= popin3.table.value.l1[1] %></td>
+			</tr>
+			<tr>
+				<td><%= popin3.table.titleleft[3] %></td>
+				<td><%= popin3.table.value.l2[0] %></td>
+				<td><%= popin3.table.value.l2[1] %></td>
+			</tr>
+			<tr>
+				<td><%= popin3.table.titleleft[4] %></td>
+				<td><%= popin3.table.value.l3[0] %></td>
+				<td><%= popin3.table.value.l3[1] %></td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="pop popin4">
+		<span class="close">+</span>
+		<h2><%= popin4.title %></h2>
+
+		<table>
+			<tr>
+				<td></td>
+				<td><img src="app/pages/marbocyl_marboprado/img/marbo2.gif"></td>
+				<td><img src="app/pages/marbocyl_marboprado/img/prado2.gif"></td>
+			</tr>
+			<tr>
+				<td><img width="45px" src="app/pages/marbocyl_marboprado/img/dog.png"> <span><%= popin4.table.title[0] %></span></td>
+				<td><%= popin4.table.percent[0] %></td>
+				<td><%= popin4.table.percent[1] %></td>
+			</tr>
+			<tr>
+				<td><img width="45px" src="app/pages/marbocyl_marboprado/img/cat.png"> <span><%= popin4.table.title[1] %></span></td>
+				<td><%= popin4.table.percent[2] %></td>
+				<td><%= popin4.table.percent[3] %></td>
+			</tr>
+		</table>
+	</div>
+
+</div>

@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="app/pages/marbocyl_tolerance/style.css">
+
+<div class="pageTitle">
+	<h1><%= title %></h1>
+</div>
+
+<div class="content">
+	<ul>
+		<li><%= list[0] %><span class="popBtn" data-popin="popin1">i</span></li>
+		<li><%= list[1] %></li>
+		<li><%= list[2] %></li>
+	</ul>
+</div>
+
+<div id="popin">
+
+	<div class="pop popin1">
+		<span class="close">+</span>
+		<h2><%= popin.title %></h2>
+		
+		<div class="graph">
+			<span class="abs titre1"><%= popin.graph.left.title %></span>
+			<span class="abs titre2"><%= popin.graph.right.title %></span>
+			<div class="abs blocs">
+				<span class="bl"><%= popin.graph.legend.blocblue %></span>
+				<span class="or"><%= popin.graph.legend.blocorange %></span>
+			</div>
+			<span class="abs leftlegend"><%= popin.graph.legend.vertical %></span>
+			<span class="abs legendright1"><%= popin.graph.legend.blocblue %></span>
+			<span class="abs legendright2"><%= popin.graph.legend.blocorange %></span>
+			<span class="abs legendbot"><%= popin.graph.legend.bottom %></span>
+			<img class="imggraph" src="app/pages/marbocyl_tolerance/img/graph.png" width="620">
+			<img class="patch" src="app/pages/marbocyl_tolerance/img/patch.png" width="95">
+		</div>
+	
+		<ul>
+			<li><%= popin.list[0] %></li>
+			<li><%= popin.list[1] %></li>
+		</ul>
+
+	</div>
+
+</div>

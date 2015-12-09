@@ -1,0 +1,43 @@
+key;value
+title;Choose the best<br>fluoroquinolone
+list;[blue[Marbocyl®]] is registered in more indications<br>than pradofloxacin
+list;[blue[Marbocyl®]] provides you with an injectable solution
+list;[blue[Marbocyl®]] shows a lower mutant selection window<br>compared to pradofloxacin[sub[(8)]]
+list;Bacteria remain sensitive to [blue[Marbocyl®]] over time.<br>First publications on sensitivity to pradofloxacin<br>show resistance levels similar to marbofloxacin ones[sub[(9)]]
+popin1_title;Comparative registered indications<br>of Marbocyl® and Veraflox
+popin1_table_yes;Yes
+popin1_table_no;No
+popin1_table_line1;Wound infections
+popin1_table_line2;Superficial / deep pyoderma
+popin1_table_line3;Urinary tract infections
+popin1_table_line4;Respiratory tract infections
+popin1_table_line5;Dental surgery
+popin1_table_line6;Prevention of post surgical infections
+popin1_table_line7;Upper respiratory tract infections
+popin1_table_line8;Wound infections
+popin1_table_line9;Prevention of post surgical infections
+popin2_title;Injectable, to act fast<br>and increase compliance
+popin2_list;The only one registered IV on the market
+popin2_list;SC and IV routes
+popin2_list;2 mg/kg once daily or 4 mg/kg 3 times<br>every 4 days in UTIs in dogs
+popin2_list;Indicated in SSTIs, UTIs and surgery
+popin2_list;Storage at room temperature
+popin3_title;Mutant Selection Window: example of <i>E. coli</i>
+popin3_table_titleleft;Strains
+popin3_table_titleleft;E. coli ATCC8739
+popin3_table_titleleft;MIC[sub[90]] (μg/ml)
+popin3_table_titleleft;MPC (μg/ml)
+popin3_table_titleleft;Mutant Selection Window<br>(MPC/MIC)
+popin3_table_value_l1;0.03
+popin3_table_value_l1;0.015-0.03
+popin3_table_value_l2;0.25-0.3
+popin3_table_value_l2;0.2-0.25
+popin3_table_value_l3;9.2
+popin3_table_value_l3;9.4
+popin4_title;Percentage of resistance of <i>S. pseudintermedius</i><br>to marbofloxacin and pradofloxacin in dogs<br>and cats suffering from dermatological infections
+popin4_table_title;Dogs
+popin4_table_title;Cats
+popin4_table_percent;5.6%
+popin4_table_percent;4.3%
+popin4_table_percent;10.2%
+popin4_table_percent;8.2%

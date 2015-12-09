@@ -1,0 +1,51 @@
+
+<link rel="stylesheet" href="app/pages/range_products/style.css">
+<div class="pageTitle">
+	<h1><%= title %></h1>
+</div>
+
+<div class="products">
+	<% _.each( product, function( item ){ %>
+		<div class="introBloc <%= item.name %>" data-link="<%= item.name %>"><%= item.title %></div>
+	<% }); %>
+</div>
+
+<div class="popup">
+	<div class="rangeArrow prevBtn"></div>
+	<div class="rangeArrow nextBtn"></div>
+	<% _.each( popItems, function( item ){ %>
+		<div class="bloc <%= item.id %>" id="<%= item.id %>" >
+			<div class="title"><%= item.title %></div>
+			<div class="close">+</div>
+			<div class="content">
+				<div class="picture"></div>
+				<div class="text">
+					<% if(item.list){ %><ul><% _.each( item.list, function(arg) { %><li><%= arg %></li><% }) %></ul><% } %>
+					<% _.each( item.span, function(arg) { %><%= arg %><% }) %>
+				</div>
+			</div>
+		</div>
+	<% }); %>
+</div>
+
+<div class="popup2">
+	<div class="bloc guide" id="guide">
+		<div class="title"><%= popItems2.guide.title %></div>
+		<div class="close">+</div>
+		<div class="content">
+			<div class="picture"></div>
+			<div class="text">
+				<% _.each( popItems2.guide.text, function(arg) { %>
+					<div class="col">
+						<div class="subtitle"><%= arg.title %></div>
+						<ul>
+							<% _.each( arg.list, function(arg2) { %>
+								<li><%= arg2 %></li>
+							<% }) %>
+						</ul>
+					</div>
+				<% }) %>
+			</div>
+		</div>
+	</div>
+</div>

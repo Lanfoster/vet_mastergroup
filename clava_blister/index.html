@@ -1,0 +1,19 @@
+
+<link rel="stylesheet" href="app/pages/clava_blister/style.css">
+<div class="pageTitle">
+	<h1><%= title %></h1>
+</div>
+
+<div class="part qualitative"><b><%= qualitative.title %></b><%= qualitative.part1 %><span class="part2"><%= qualitative.part2 %></span></div>
+<div class="part optimized"><b><%= optimized.title %></b><%= optimized.part1 %><span class="part2"><%= optimized.part2 %></span></div>
+<div class="optimizedPic">
+	<div class="arrow particles"><%= optimized.particles %></div>
+	<div class="arrow alluminium"><%= optimized.alluminium %></div>
+</div>
+<div class="part practical"><b><%= practical.title %></b><%= practical.part1 %></div>
+<div class="part clearness">
+	<b><%= clearness.title %></b>
+	<ul><% _.each( clearness.list, function(item) { %><li><%= item %></li><% }) %></ul>
+</div>
+<div class="packBack2"></div>
+<div class="packBack"></div>

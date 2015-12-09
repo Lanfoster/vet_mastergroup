@@ -1,0 +1,47 @@
+key;ref;value;
+title;Choose the best<br>fluoroquinolone;Choisissez la meilleure<br>fluoroquinolone
+list;[blue[Marbocyl®]] has the longest half-life<br>compared to enrofloxacin [sub[(7)]];[blue[Marbocyl®]] a une demi-vie plus longue<br>que l'enrofloxacine [sub[(7)]]
+list;[blue[Marbocyl®]] shows higher sensitivity levels [sub[(2)]];[blue[Marbocyl®]] montre des niveaux de sensibilité supérieurs [sub[(2)]]
+list;[blue[Marbocyl®]] is safer than enrofloxacin;[blue[Marbocyl®]] est mieux toléré que l'enrofloxacine
+popin1_title;Comparative kinetics<br>of Marbocyl® and enrofloxacin;Pharmacocinétiques comparées<br>de Marbocyl® et de l'enrofloxacine
+popin1_leftlegend;Concentration (ug/ml);Concentration (Î¼g/ml)
+popin1_botlegend;Time (Hours);Temps (heures)
+popin1_legend;Arithmetic plots of the mean plasma  concentrations (Î¼g.ml) of enrofloxacin,<br>[legendgrey[and its metabolite (ciprofloxacin)]] [legendpoint[and marbofloxacin]] [legendpink[<i>versus</i> time (h)]],<br>after a single oral administration of enrofloxacin or marbofloxacin at the nominal dose of 5 and 2 mg Kg, respectively.;Courbes arithmétiques des concentrations plasmatiques moyennes (Î¼g/ml) de l'enrofloxacine,<br>[legendgrey[et de son métabolite (ciprofloxacine)]] [legendpoint[et de la marbofloxacine]] [legendpink[en fonction du temps (h)]],<br>après une seule administration orale d'enrofloxacine ou de marbofloxacine à la dose nominale respective de 5 et 2 mg/Kg.
+popin2_title;Percentages of susceptibility of bacteria<br>to various antibiotics used<br>in the treatment of cats and dogs infections in Europe;Pourcentages de sensibilité des bactéries<br>à différents antibiotiques utilisés<br>dans le traitement des infections canines et félines en Europe 
+popin2_paragraph;Based on CSLI registered breakpoints, over the 2002-2009 period.;D'après les seuils définis par le CSLI, sur la période 2002-2009.
+popin2_legend;Percentages have not been calculated when breakpoints are not registered by CSLI.;Les pourcentages n'ont pas été calculés en l'absence de seuils définis par le CSLI.
+popin2_table_title;BACTERIAL SPECIES;ESPECES BACTERIENNES
+popin2_table_title;PATHOLOGIES;AFFECTIONS
+popin2_table_title;PERCENTAGE OF SUSCEPTIBILITY<br>(number of strains) TO ANTIBIOTICS;POURCENTAGE DE SENSIBILITE<br>(nombre de souches) AUX ANTIBIOTIQUES
+popin2_table_title;ENR;ENR
+popin2_table_title;MAR;MAR
+popin2_table_titleY;Gram negative;Gram négatif
+popin2_table_titleY;Gram positive;Gram positif
+popin2_table_line1;Pasteurella multocida;<i>Pasteurella multocida</i>
+popin2_table_line1;Respiratory infections<br>Dermatological infections;Infections respiratoires<br>Infections dermatologiques
+popin2_table_line1;96.89% (257)<br>95.83% (120);96,89 % (257)<br>95,83 % (120)
+popin2_table_line1;-<br>99.17% (120);-<br>99,17 % (120)
+popin2_table_line2;Escherichia coli;<i>Escherichia coli</i>
+popin2_table_line2;Urinary infections;Infections urinaires
+popin2_table_line2;87.95% (307);87,95 % (307)
+popin2_table_line2;90.88% (307);90,88 % (307)
+popin2_table_line3;Proteus mirabilis;<i>Proteus mirabilis</i>
+popin2_table_line3;Urinary infections;Infections urinaires
+popin2_table_line3;82.09% (67);82,09 % (67)
+popin2_table_line3;97.01% (67);97,01 % (67)
+popin2_table_line4;Pseudomonas aeruginosa;<i>Pseudomonas aeruginosa</i>
+popin2_table_line4;Otitis<br>Dermatological infections;Otites<br>Infections dermatologiques
+popin2_table_line4;17.02% (329)<br>4.65% (43);17,02 % (329)<br>4,65 % (43)
+popin2_table_line4;73.56% (329)<br>88.37% (43);73,56 % (329)<br>88,37 % (43)
+popin2_table_line5;Staphylococcus pseudintermedius;<i>Staphylococcus pseudintermedius</i>
+popin2_table_line5;Otitis<br>Dermatological infections;Otites<br>Infections dermatologiques
+popin2_table_line5;96.48% (199)<br>98.78% (164);96,48 % (199)<br>98,78 % (164)
+popin2_table_line5;96.98% (199)<br>99.39% (164);96,98 % (199)<br>99,39 % (164)
+popin2_table_line6;Staphylococcus aureus;<i>Staphylococcus aureus</i>
+popin2_table_line6;Otitis<br>Dermatological infections;Otites<br>Infections dermatologiques
+popin2_table_line6;96.55% (29)<br>89.47% (57);96,55 % (29)<br>89,47 % (57)
+popin2_table_line6;96.67% (30)<br>92.98% (57);96,67 % (30)<br>92,98 % (57)
+popin3_title;To prescribe in confidence;Pour prescrire en toute confiance
+popin3_list;<b>Well tolerated,</b> even in dogs with renal failure [sub[(4)]];<b>Bien toléré,</b> même chez les chiens insuffisants rénaux [sub[(4)]]
+popin3_list;<b>No cartilage abnormality</b> reported after the use of [blue[Marbocyl®]] [sub[(5)]];<b>Aucune anomalie cartilagineuse</b> rapportée après l'utilisation de [blue[Marbocyl®]] [sub[(5)]]
+popin3_list;<b>No link with cases of retinal toxicity</b> in cats [sub[(6)]];<b>Aucun lien avec les cas de toxicité rétinienne</b> chez le chat [sub[(6)]]
