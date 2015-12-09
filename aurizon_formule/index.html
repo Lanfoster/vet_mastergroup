@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="app/pages/aurizon_formule/style.css">
+
+<div class="pageTitle">
+	<h1><%= title %></h1>
+</div>
+
+<div class="content">
+	
+	<div class="item">
+		<%= item1 %>
+	</div>
+
+	<div class="item">
+		<%= item2 %>
+		<ul>
+			<% for(var i in item2Puce) { %>
+				<li><%= item2Puce[i] %></li>
+			<% } %>
+		</ul>
+	</div>
+
+	<div class="item">
+		<%= item3 %>
+		<ul>
+			<li><%= item3Puce %></li>
+		</ul>
+	</div>
+
+	<div class="conclusion">
+		<%= conclusion %>
+	</div>
+
+</div>
+
+<div class="pack"></div>	

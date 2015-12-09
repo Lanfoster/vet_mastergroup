@@ -1,0 +1,84 @@
+<link rel="stylesheet" href="app/pages/aurizon_eficacy/style.css">
+
+<div class="pageTitle">
+	<h1><%= title %></h1><span class="popBtn">i</span>
+</div>
+
+<div class="content">
+	
+	<div class="item">
+		<%= item1 %>
+		<ul>
+			<li><%= item1Puce %></li>
+		</ul>
+	</div>
+
+	<div class="item">
+		<%= item2 %>
+		<ul>
+			<li><%= item2Puce %></li>
+		</ul>
+	</div>
+
+	<div class="item">
+		<%= item3 %><span class="popBtn">i</span>
+		<ul>
+			<% for(var i in item3Puce) { %>
+				<li><%= item3Puce[i] %></li>
+			<% } %>
+		</ul>
+	</div>
+
+	<div class="visu visu1"><%= visu1 %></div>
+	<div class="visu visu2"><%= visu2 %></div>
+
+</div>
+
+<div class="popin popin1">
+	<div class="bloc">
+		<span class="close">+</span>
+		<h2><%= popin1.title %></h2>
+		<div class="intro"><%= popin1.intro %></div>
+		<div class="graphs">
+			<div class="graph1">
+				<span class="legend"><%= popin1.leftlegend %></span>
+				<div class="graph"></div>
+			</div>
+			<div class="graph2">
+				<span class="legend"><%= popin1.rightlegend %></span>
+				<div class="graph"></div>
+			</div>	
+		</div>
+		<div class="conclusion"><%= popin1.conclusion %></div>
+	</div>
+</div>
+
+<div class="popin popin2">
+	<div class="popArrow prevBtn"></div>
+	<div class="popArrow nextBtn"></div>
+	<div class="bloc bloc1">
+		<span class="close">+</span>
+		<h2><%= popin2.title %></h2>
+		<div class="intro"><%= popin2.intro %></div>
+		<div class="graph">
+			<div class="graphtitle"><%= popin2.graphtitle %></div>
+			<div class="disc"><%= popin2.disc %></div>
+			<div class="legends">
+				<div class="ongraph"><%= popin2.legendOnGraph %></div>
+				<div class="legend"><%= popin2.legend %></div>
+				<div class="legend"><%= popin2.legend %></div>
+			</div>
+		</div>
+		<div class="conclusion"><%= popin2.conclusion %></div>
+	</div>
+	<div class="bloc bloc2">
+		<span class="close">+</span>
+		<h2><%= popin3.title %></h2>
+		<div class="intro"><%= popin3.intro %></div>
+		<div class="graph">
+			<div class="graphtitle"><%= popin3.graphtitle %></div>
+			<div class="disc"><%= popin3.disc %></div>
+		</div>
+		<div class="conclusion"><%= popin3.conclusion %></div>
+	</div>
+</div>

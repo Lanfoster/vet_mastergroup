@@ -1,0 +1,345 @@
+li { list-style: none; }
+
+#aurizon_eficacy {
+	/*background: url('img/ref.jpg');*/
+}
+
+#aurizon_eficacy .pageTitle h1 { background: #0B2892; }
+
+#aurizon_eficacy .content {
+	font-size: 28px;
+	margin: 215px 80px;
+	color: #749096;
+	font-family: "FuturaStdBook";
+	width: 630px;
+}
+
+#aurizon_eficacy .content b {
+	font-family: "FuturaStdHeavy";
+}
+
+#aurizon_eficacy .item {
+	position: relative;
+	margin-bottom: 23px;
+	margin-left: 30px;
+}
+
+#aurizon_eficacy .item:before {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: -30px;
+	width: 23px;
+	height: 23px;
+	background: url('img/puce.png');
+	background-size: 23px;
+}
+
+#aurizon_eficacy ul { 
+	margin-left: 55px; 
+	margin-top: 10px; 
+	width: 440px;
+}
+
+#aurizon_eficacy ul li {
+	position: relative;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+#aurizon_eficacy ul li:before {
+	content: "";
+	position: absolute;
+	left: -25px;
+	width: 20px; height: 20px;
+	background: url('img/arrow.png');
+}
+
+#aurizon_eficacy .visu {
+	position: absolute;
+	right: 25px;
+	width: 272px; height: 256px;
+	background: url('img/visu_bg.png');
+	padding-top: 168px;
+	padding-left: 33px;
+	padding-right: 60px;
+	font-size: 14px;
+	color: #0B2892;
+}
+
+#aurizon_eficacy .visu:before {
+	content: "•";
+	position: absolute;
+	left: 20px;
+}
+
+#aurizon_eficacy .visu1 { top: 170px; }
+#aurizon_eficacy .visu2 { top: 410px; }
+
+#aurizon_eficacy .visu:after {
+	content: "";
+	position: absolute;
+	left: 19px; top:7px;
+	width: 206px; height: 153px;
+}
+
+#aurizon_eficacy .visu1:after {background: url('img/visu1.png');}
+#aurizon_eficacy .visu2:after {background: url('img/visu2.png');}
+
+#aurizon_eficacy .popBtn {
+	text-align: center;
+	line-height: 22px;
+	width: 28px;
+	height: 28px;
+	background-color: #06984c;
+	border-radius: 20px;
+	font-size: 20px;
+	font-family: "times";
+	font-style: italic;
+	color: #fff;
+	border: 3px solid #fff;
+	cursor: pointer;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5);
+	top: -4px;
+	display: inline-block;
+	position: relative;
+}
+
+#aurizon_eficacy .pageTitle .popBtn { margin-left: -50px; }
+
+#aurizon_eficacy .item .popBtn { margin-left: 10px; }
+
+
+
+#aurizon_eficacy .popin {
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	width: 100%; height: 668px;
+	background-color: rgba( 0, 0, 0, .7);
+}
+
+#aurizon_eficacy .popin .bloc{
+	background: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	border-radius: 0 50px;
+	overflow: hidden;
+	box-shadow: 0 0 20px 10px;
+}
+
+#aurizon_eficacy .popin .close {
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	margin-top: -15px;
+	font-size: 40px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	font-family: "FuturaStdBold";
+	color: #FFF;
+	cursor: pointer;
+}
+
+#aurizon_eficacy .popin .intro {
+	position: relative;
+	font-size: 16px;
+	color: #002596;
+	font-family: "FuturaStdBold";
+	padding: 0 10px 0 60px;
+	margin-top: 35px;
+}
+
+#aurizon_eficacy .popin .intro:before {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: 25px;
+	width: 23px;
+	height: 23px;
+	background: url('img/puce.png');
+	background-size: 23px;
+}
+
+#aurizon_eficacy .popin .conclusion {
+	position: absolute;
+	bottom: 20px;
+	color: #366;
+	padding: 0 60px;
+	font-size: 12px;
+	font-family: "FuturaStdBook";
+	font-style: italic;
+
+}
+
+#aurizon_eficacy .popin  h2 {
+	background: #002596;
+	height: 100px;
+	line-height: 100px;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+#aurizon_eficacy .popin1 .bloc {
+	width: 840px; height: 580px; 
+	margin-left: -420px; margin-top: -290px;
+} 
+
+
+#aurizon_eficacy .popin1 .bloc {
+	width: 840px; height: 580px; 
+	margin-left: -420px; margin-top: -290px;
+} 
+
+#aurizon_eficacy .popin1 .graphs {
+	margin-top: 35px;
+	margin-left: 30px;
+	vertical-align: top;
+}
+
+#aurizon_eficacy .popin1 .graphs .graph1,
+#aurizon_eficacy .popin1 .graphs .graph2 {
+	display: inline-block;
+	text-align: center;
+	color: #699;
+	font-size: 16px; 
+	line-height: 16px;
+	font-family: "FuturaStdBook";
+	vertical-align: top;
+} 
+
+#aurizon_eficacy .popin1 .graphs .graph1 { width: 430px;}
+#aurizon_eficacy .popin1 .graphs .graph1 .graph{ 
+	width: 430px; height: 220px;
+	display: inline-block;
+	background: url('img/popin1_left.png');
+	margin-top: 20px;
+}
+
+#aurizon_eficacy .popin1 .graphs .graph2 { width: 320px;}
+#aurizon_eficacy .popin1 .graphs .graph2 .graph{ 
+	width: 200px; height: 220px;
+	display: inline-block;
+	background: url('img/popin1_right.png');
+	margin-top: 10px;
+}
+
+#aurizon_eficacy .popin2 .bloc {
+	width: 600px; height: 580px; 
+	margin-left: -300px; margin-top: -290px;
+} 
+
+#aurizon_eficacy .popin2 .bloc1 .graph {
+	position: relative;
+	width: 598px; height: 330px; 
+	margin-left: 1px; margin-top: 15px;
+	background: url('img/popin2.jpg');
+} 
+
+#aurizon_eficacy .popin2 .bloc2 .graph {
+	position: relative;
+	width: 598px; height: 330px; 
+	margin-left: 1px; margin-top: 15px;
+	background: url('img/popin3.jpg');
+} 
+
+#aurizon_eficacy .popin2 .graph .disc{
+	position: absolute;
+	width: 100px; height: 100px;
+	border-radius: 100px; 
+	background-color: #666;
+	right: 90px; top: 5px;
+	color: #FFF;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 18px;
+} 
+
+#aurizon_eficacy .popin2 .graph .disc b{
+	display: block;
+	font-size: 24px;
+	font-family: "FuturaStdBold";
+}
+
+#aurizon_eficacy .popin2 .graph .legend {
+	position: absolute;
+	left: 425px; top: 190px;
+	font-size: 11px;
+	line-height: 20px;
+}
+
+#aurizon_eficacy .popin2 .graph .graphtitle {
+	position: absolute;
+	left: 35px; 
+	width: 200px; margin-left: -100px;
+	top: 50%;
+	text-align: center;
+	font-size: 11px;
+	padding-top: 18px;
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	font-family: "FuturaStdHeavy";
+}
+
+#aurizon_eficacy .popin2 .graph .ongraph{
+	position: absolute;
+	left: 170px; top: 150px;
+	font-size: 9px;
+}
+
+#aurizon_eficacy .popin2 .graph .legend:before,
+#aurizon_eficacy .popin2 .graph .legend:after {
+	position: absolute;
+	content: "";
+	width: 15px; height: 15px; 
+	left: -25px;
+	background-color: #ccc;
+	top: 2px;
+}
+
+#aurizon_eficacy .popin2 .graph .legend:after {
+	top: 22px;
+}
+
+#aurizon_eficacy .popin2 .graph .legend:nth-child(2) { top: 250px; }
+#aurizon_eficacy .popin2 .graph .legend:nth-child(1):before { background-color: #83a7cd; }
+#aurizon_eficacy .popin2 .graph .legend:nth-child(1):after { background-color: #afc5dd; }
+#aurizon_eficacy .popin2 .graph .legend:nth-child(2):before { background-color: #e5c180; }
+#aurizon_eficacy .popin2 .graph .legend:nth-child(2):after { background-color: #eedaaa; }
+
+
+
+#aurizon_eficacy .popin2 .popArrow {
+  position: absolute;
+  top: 50%; margin-top: -37px;
+  background-color: #002596;
+  width: 74px; height: 74px;
+  border-radius: 74px;
+  cursor: pointer;
+}
+
+#aurizon_eficacy .popin2 .popArrow:after {
+  content: "";
+  position: absolute;
+  top: 50%; left: 50%;
+  margin: -10px 0 0 -15px;
+  border: 10px solid #FFF;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#aurizon_eficacy .popin2 .popArrow.nextBtn { right: 50px; }
+#aurizon_eficacy .popin2 .popArrow.prevBtn { left: 50px; }
+#aurizon_eficacy .popin2 .popArrow.prevBtn:after { -webkit-transform: rotate(225deg); transform: rotate(225deg); margin-left: -5px;}
+
+
+
+
+

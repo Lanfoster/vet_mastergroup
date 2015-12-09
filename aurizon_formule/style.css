@@ -1,0 +1,72 @@
+li { list-style: none; }
+
+
+#aurizon_formule .pageTitle h1 { background: #0B2892; }
+
+#aurizon_formule .content {
+	font-size: 28px;
+	margin: 160px 80px;
+	color: #749096;
+	font-family: "FuturaStdBook";
+	width: 780px;
+}
+
+#aurizon_formule .content b {
+	font-family: "FuturaStdHeavy";
+}
+
+#aurizon_formule .item {
+	position: relative;
+	margin-bottom: 40px;
+	margin-left: 30px;
+}
+
+#aurizon_formule .item:nth-child(2) {
+	margin-bottom: 65px;
+}
+
+#aurizon_formule .item:nth-child(3) {
+	margin-bottom: 45px;
+}
+
+#aurizon_formule .item:before {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: -30px;
+	width: 23px;
+	height: 23px;
+	background: url('img/puce.png');
+	background-size: 23px;
+}
+
+#aurizon_formule ul { 
+	margin-left: 220px; 
+	margin-top: 10px; 
+}
+
+#aurizon_formule ul li {
+	font-size: 18px;
+}
+
+#aurizon_formule ul li:before {
+	content: "• ";
+}
+
+#aurizon_formule .conclusion {
+	display: inline-block;
+	font-family: "FuturaStdHeavy";
+	font-size: 32px;
+	color: #0B2892;
+	background: #fff;
+	padding: 7px 10px;
+	border-radius: 15px 0;
+	box-shadow: 0 0 10px 2px #afc1c7;
+}
+
+#aurizon_formule .pack {
+	position: absolute;
+	bottom: 102px; right: 37px;
+	width: 240px; height: 230px;
+	background: url('img/packshot.png');
+}

@@ -1,0 +1,33 @@
+key;ref;value;
+title;--;UNE EFFICACITÉ PROUVÉE 
+item1;--;<b>Efficace</b> même <b>en présence de pus</b> (milieu acide)
+item1Puce;--;Bénéfices vs les aminoglycosides ou la Polymyxine
+item2;--;<b>Diffusion</b> dans les tissus infectés ou inflammés
+item2Puce;--;Concentrations maximales très largement supérieures aux CMI<sub>90</sub> des germes
+item3;--;Action antibiotique <b>homogène et en <br>profondeur</b>
+item3Puce;--;Suspension micronisée pour un recouvrement homogène et une dissolution des corps gras
+item3Puce;--;Diffusion jusqu'au site de l'infection
+visu1;--;Cytologie auriculaire avec bactérie Gram-
+visu2;--;Otite purulente exsudative
+
+popin1_title;--;Une action qui cible l’infection;
+popin1_intro;--;Aurizon® diffuse dans le cérumen<sup>(2)</sup> pour une meilleure atteinte du site d’infection (épithélium auriculaire);
+popin1_leftlegend;--;Diffusion de plusieurs préparations topiques <br>dans le cérumen synthétique canin<sup>(2)</sup>
+popin1_rightlegend;--;Diffusion des topiques auriculaires marqués <br>à l’huile rouge après 24 heures<sup>(2)</sup>
+popin1_conclusion;--;(2) - Stahl J, Mielke S. Kietzmann M. The in vitro diffusion of several antimicrobial otic preparations through canine cerumen, <br>7th World Congress of Veterinary Dermatology 2012, Vancouver;
+
+popin2_title;--;Action antibiotique;
+popin2_intro;--;Amélioration clinique significative à J14 vs Surolan®;
+popin2_disc;--;Sur <b>140</b> chiens;
+popin2_graphtitle;--;Réponse au traitement;
+popin2_legendOnGraph;--;Différence significative<br>(p=0.01);
+popin2_legend;--;amélioration rapide <br>guérison;
+popin2_conclusion;--;1- Rougier S and al. Comparative study of two antimicrobial/anti-inflammatory formulations <br>in the treatment of canine otitis externa, Veterinary Dermatology 2005, 16, 299-307.;
+
+popin3_title;--;Action antidouleur;
+popin3_intro;--;Amélioration de la douleur significative à J14 vs Surolan®;
+popin3_disc;--;Sur <b>140</b> chiens;
+popin3_graphtitle;--;% d'animaux avec un score de douleur;
+popin3_conclusion;--;1- Rougier S and al. Comparative study of two antimicrobial/anti-inflammatory formulations <br>in the treatment of canine otitis externa, Veterinary Dermatology 2005, 16, 299-307.;
+
+
