@@ -1,0 +1,190 @@
+li { list-style: none; }
+
+/*#cefa_efficacy {
+	background: url('img/ref.jpg');
+}*/
+
+#cefa_efficacy .pageTitle h1 { background: #aa4237; padding: 30px 45px;}
+
+#cefa_efficacy .content {
+	font-size: 28px;
+	margin: 145px 80px;
+	color: #749096;
+	font-family: "FuturaStdBook";
+	width: 860px;
+}
+
+#cefa_efficacy .content b {
+	font-family: "FuturaStdHeavy";
+}
+
+
+#cefa_efficacy .intro {
+	position: relative;
+	display: inline-block;
+	font-family: "FuturaStdHeavy";
+	font-size: 32px;
+	color: #aa4237;
+	background: #fff;
+	padding: 7px 20px;
+	border-radius: 15px 0;
+	box-shadow: 0 0 10px 2px #afc1c7;
+	margin-bottom: 25px;
+}
+
+#cefa_efficacy .item {
+	position: relative;
+	margin-bottom: 15px;
+	margin-left: 30px;
+}
+
+#cefa_efficacy .item:before {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: -30px;
+	width: 23px;
+	height: 23px;
+	background: url('img/puce.png');
+	background-size: 23px;
+}
+
+#cefa_efficacy .item ul { 
+	margin-left: 40px; 
+	margin-top: 10px; 
+	width: 600px;
+}
+
+#cefa_efficacy .item ul li {
+	position: relative;
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+
+#cefa_efficacy .item ul li:before {
+	content: "• ";
+}
+
+
+#cefa_efficacy .popBtn {
+	text-align: center;
+	line-height: 22px;
+	width: 28px;
+	height: 28px;
+	background-color: #06984c;
+	border-radius: 20px;
+	font-size: 20px;
+	font-family: "times";
+	font-style: italic;
+	color: #fff;
+	border: 3px solid #fff;
+	cursor: pointer;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5);
+	top: -4px;
+	display: inline-block;
+	position: relative;
+}
+
+#cefa_efficacy .popBtn { position: absolute; right: -50px; top: 50%; margin-top: -14px;}
+
+
+
+#cefa_efficacy .popin {
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	width: 100%; height: 668px;
+	background-color: rgba( 0, 0, 0, .7);
+}
+
+#cefa_efficacy .popin .bloc{
+	background: #fff;
+	width: 840px; margin-left: -420px;
+	height: 580px; margin-top: -290px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	border-radius: 0 50px;
+	overflow: hidden;
+	box-shadow: 0 0 20px 10px;
+}
+
+#cefa_efficacy .popin .close {
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	margin-top: -15px;
+	font-size: 40px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	font-family: "FuturaStdBold";
+	color: #FFF;
+	cursor: pointer;
+}
+
+#cefa_efficacy .popin  h2 {
+	background: #aa4237;
+	height: 100px;
+	padding-top: 15px;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+#cefa_efficacy .popin .col1 {
+	display: inline-block;
+	padding-left: 60px;
+	margin-top: 10px;
+	vertical-align: top;
+	width: 390px;
+}
+
+#cefa_efficacy .popin .col2 {
+	display: inline-block;
+	padding-left: 60px;
+	margin-top: 40px;
+	vertical-align: top;
+}
+
+#cefa_efficacy .popin .sub {
+	position: relative;
+	font-size: 16px;
+	color: #aa4237;
+	font-family: "FuturaStdBold";
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+#cefa_efficacy .popin .sub:before {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: -30px;
+	width: 23px;
+	height: 23px;
+	background: url('img/puce.png');
+	background-size: 23px;
+}
+
+#cefa_efficacy .popin ul li {
+	position: relative;
+	font-size: 12px;
+	color:#7c959d;
+	margin-bottom: 12px;
+}
+
+#cefa_efficacy .popin ul li b {
+	font-family: "FuturaStdHeavy";
+	font-size: 12px;
+	color:#666;
+}
+
+#cefa_efficacy .popin .affiche {
+	position: absolute;
+	width: 256px; height: 289px;
+	background: url('img/popin.png');
+	bottom: 13px;
+    right: 100px;
+}
+
+

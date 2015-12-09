@@ -1,0 +1,62 @@
+<link rel="stylesheet" href="app/pages/cefa_efficacy/style.css">
+
+<div class="pageTitle">
+	<h1><%= title %></h1>
+</div>
+
+<div class="content">
+	<div class="intro"><%= intro %><span class="popBtn">i</span></div>
+	
+	<div class="item">
+		<%= item1 %>
+		<ul>
+			<% for(var i in item1Puce) { %>
+				<li><%= item1Puce[i] %></li>
+			<% } %>
+		</ul>
+	</div>
+
+	<div class="item">
+		<%= item2 %>
+		<ul>
+			<% for(var i in item2Puce) { %>
+				<li><%= item2Puce[i] %></li>
+			<% } %>
+		</ul>
+	</div>
+
+	<div class="item">
+		<%= item3 %>		
+	</div>
+	<div class="item">
+		<%= item4 %>
+	</div>
+
+</div>
+
+<div class="popin popin1">
+	<div class="bloc">
+		<span class="close">+</span>
+		<h2><%= popin1.title %></h2>
+		<div class="col1">
+			<div class="sub"><%= popin1.item1 %></div>
+				<ul>
+				<% for(var i in popin1.item1puce1) { %>
+					<li><%= popin1.item1puce1[i] %></li>
+				<% } %>
+			</ul>
+		</div>
+		<div class="col2">
+			<ul>
+			<% for(var i in popin1.item1puce2) { %>
+				<li><%= popin1.item1puce2[i] %></li>
+			<% } %>
+			</ul>
+			<div class="sub"><%= popin1.item2 %></div>
+			<ul>
+				<li><%= popin1.item2puce %></li>
+			</ul>
+			<div class="affiche"></div>
+		</div>
+	</div>
+</div>

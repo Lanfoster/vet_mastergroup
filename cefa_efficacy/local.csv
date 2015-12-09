@@ -1,0 +1,32 @@
+key;ref;value;
+title;--;BONNES PRATIQUES DE PRESCRIPTION POUR <br>LES INFECTIONS CUTANÉES ET URINAIRES
+intro;--;Céfalexine : 15 mg/kg 2 fois par jour 
+item1;--;Traitement des <b>infections cutanées</b>
+item1Puce;--;Incluant les pyodermites superficielles et profondes
+item1Puce;--;Pendant au moins 15 jours en cas de pyodermite superficielle
+item1Puce;--;Pendant au moins 28 jours en cas de pyodermite profonde
+item2;--;Traitement des <b>infections du tractus urinaire</b>
+item2Puce;--;Incluant néphrites et cystites
+item2Puce;--;14 jours
+item3;--;Sous certaines conditions, sauf en cas d’insuffisance rénale connue, <br><b>la dose peut être doublée</b>.
+item4;--;Le comprimé peut être écrasé ou mélangé à la nourriture <br>si nécessaire.
+
+popin1_title;--;Guide de bonnes pratiques <br>ANSES/AFVAC
+popin1_item1;--;Céfalexine préconisée<br>En 1ère intention pour :
+popin1_item1puce1;--;<b>Pyodermites superficielles et profondes</b> chez le chien
+popin1_item1puce1;--;<b>Maladie parodontale</b> chez le chien et le chat
+popin1_item1puce1;--;<b>Otites moyennes</b> chez le chien et le chat
+popin1_item1puce1;--;<b>Pancréatites</b> chez le chien et le chat
+popin1_item1puce1;--;<b>Bronchopneumonies</b> chez le chien et le chat
+popin1_item1puce1;--;<b>Rhinopneumonies infectieuses</b> chez le lapin de compagnie
+popin1_item1puce1;--;<b>Mammites bactériennes</b> chez le chien et le chat à pH > 7,4
+popin1_item1puce1;--;<b>Pyomètre</b> chez la chienne et la chatte
+popin1_item1puce1;--;<b>Métrite infectieuse aigue</b> chez la chienne et la chatte
+popin1_item1puce1;--;<b>Vaginite bactérienne</b> chez la chienne et la chatte
+popin1_item1puce1;--;<b>Orchites et épididymites bactériennes</b> chez le chien et le chat
+popin1_item1puce1;--;<b>Antibiothérapie</b> chez le chien et le chat nouveau né
+popin1_item1puce1;--;<b>Antibiothérapie</b> chez la femelle gravide ou allaitante
+popin1_item1puce2;--;<b>Infections du tractus urinaire bas</b> chez le chien
+popin1_item1puce2;--;<b>Cancérologie</b>, traitement adjuvant des animaux sous chimiothérapie <br>grade 3 et 4
+popin1_item2;--;En 2ème intention pour :;
+popin1_item2puce;--;<b>Prostatite chronique</b> du chien

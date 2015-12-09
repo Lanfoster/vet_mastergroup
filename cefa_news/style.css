@@ -1,0 +1,78 @@
+li { list-style: none; }
+
+#cefa_news {
+	/*background: url('img/ref.jpg');*/
+}
+
+#cefa_news .pageTitle h1 { background: #aa4237; padding: 30px 45px;}
+
+#cefa_news .content {
+	font-size: 28px;
+	margin: 235px 80px;
+	color: #749096;
+	font-family: "FuturaStdBook";
+	width: 860px;
+}
+
+#cefa_news .content b {
+	font-family: "FuturaStdHeavy";
+}
+
+
+#cefa_news .intro {
+	position: relative;
+	display: inline-block;
+	font-family: "FuturaStdHeavy";
+	font-size: 32px;
+	color: #aa4237;
+	background: #fff;
+	padding: 7px 20px;
+	border-radius: 15px 0;
+	box-shadow: 0 0 10px 2px #afc1c7;
+	margin-bottom: 25px;
+}
+
+#cefa_news .item {
+	position: relative;
+	margin-bottom: 20px;
+	margin-left: 30px;
+}
+
+#cefa_news .item:before {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: -30px;
+	width: 23px;
+	height: 23px;
+	background: url('img/puce.png');
+	background-size: 23px;
+}
+
+#cefa_news ul { 
+	margin-left: 40px; 
+	margin-top: 10px; 
+	width: 600px;
+}
+
+#cefa_news ul li {
+	position: relative;
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+
+#cefa_news ul li:before {
+	content: "• ";
+}
+
+#cefa_news .pills {
+	content: '';
+	position: absolute;
+	top: 265px;
+	right: 0px;
+	width: 410px;
+	height: 363px;
+	background: url('img/pills.png');
+}
+
+

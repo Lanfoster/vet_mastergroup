@@ -1,0 +1,37 @@
+li { list-style: none; }
+
+/*#cefa_presentation2 {
+	background: url('img/ref.jpg');
+}
+*/
+#cefa_presentation2 .pageTitle h1 { background: #aa4237; }
+
+#cefa_presentation2 .content {
+	font-size: 28px;
+	margin: 215px 80px;
+	color: #749096;
+	font-family: "FuturaStdBook";
+	width: 860px;
+}
+
+#cefa_presentation2 .content b {
+	font-family: "FuturaStdHeavy";
+}
+
+#cefa_presentation2 .item {
+	position: relative;
+	margin-bottom: 23px;
+	margin-left: 30px;
+}
+
+#cefa_presentation2 .item:before {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: -30px;
+	width: 23px;
+	height: 23px;
+	background: url('img/puce.png');
+	background-size: 23px;
+}
+
