@@ -1,0 +1,41 @@
+#oryd_presentation .content h2 {
+	font-size: 38px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 0 6px rgba(0,0,0,.5);
+}
+
+
+#oryd_presentation .bloc {
+	position: absolute;
+	right: 50px; top: 40px;
+	background: rgba(255,255,255,.7);
+	padding: 30px;
+	border-radius: 40px 0;
+	width: 460px;
+}
+
+#oryd_presentation .bloc .logo {
+	margin: 20px auto;
+	width: 340px; height: 70px;
+	background: url('img/logo.png');
+}
+#oryd_presentation .bloc p {
+	color: #000;
+	font-family: "FuturaStdHeavy";
+	font-size: 26px;
+}
+#oryd_presentation .listeplay li {
+	margin-bottom: 5px;
+	position: relative;
+}
+#oryd_presentation .listeplay li:before {
+	content: "";
+	position: absolute;
+	top: 4px;
+	left: -30px;
+	width: 23px;
+	height: 23px;
+	background: url('img/puce.png');
+	background-size: 23px;
+}

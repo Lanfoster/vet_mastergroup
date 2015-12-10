@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="app/pages/oryd_formule/style.css">
+
+<div class="pageTitle">
+	<h1><%= title %></h1>
+</div>
+
+<div class="pack"></div>
+<div class="buble"></div>
+<div class="table">
+	<table cellspacing="0" cellspadding="0" width="600" >
+		<tr height="50">
+			<td width="240"><%= composant %></td>
+			<td><%= properties %></td>
+		</tr>
+		<% _.each( table, function( item ){ %>
+		<tr height="50">
+			<td><%= item.name %></td>
+			<td><%= item.desc %></td>
+		</tr>
+		<% }); %>
+	</table>
+</div>

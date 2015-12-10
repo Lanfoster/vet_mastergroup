@@ -1,0 +1,29 @@
+key;ref;value;
+title;--;UNE EFFICACITÉ PROUVÉE CONTRE LES ACARIENS
+item1;--;<b>Une application par jour</b> pendant 3 semaines
+item2;--;<b>Traitement des otites externes</b> chez le chien et le chat
+item3;--;<b>Traitement de l’otacariose</b> du chat
+
+popin1_title;--;Etude randomisée en aveugle comparant l’efficacité<br>d’Oridermyl pommade auriculaire avec Stronghold 
+popin1_text;--; 24 chats adultes présentant une otacariose et secondairement une infection bactérienne et/ou fongique ont été séparés en 2 lots :
+popin1_dot;--; Lot 1 : Oridermyl® 0,3 ml 1X / jour pendant 12 jours
+popin1_dot;--;Lot 2 : Stronghold® à J<sub>0</sub> sur la peau entre omoplates
+
+popin2_title;--;Résultats cytologiques
+popin2_table_head;--;Nombre de microorganismes
+popin2_table_time;--;Temps
+popin2_table_grp;--;Groupe
+popin2_table_bac;--;Bactéries
+popin2_table_levure;--;LEVURES
+popin2_table_day;--;Jour
+popin2_mentions;--;<span class="green">Amélioration significative </span>pour les bactéries et les levures entre J<sub>0</sub> & J<sub>10</sub> dans le groupe Oridermyl® seulement.<br><b>A J<sub>10</sub> différence significativement supérieure en faveur du groupe Oridermyl®</b> versus le groupe Stronghold® pour les bactéries & les levures.
+
+popin3_title;--;Résultats cliniques<sup>(1)</sup>
+popin3_text;--;<span class="green">Amélioration significative </span><b>versus J<sub>0</sub> et dans le groupe Oridermyl®  dès le 2<sup>ème</sup></b> jour de traitement (à J<sub>4</sub> seulement pour le groupe Stronghold®).<br>Dès J<sub>2</sub> différence significativement supérieure en faveur du groupe Oridermyl® versus le groupe Stronghold®.
+popin3_graphtitle;--;Score otoscopique total
+popin3_graphLegend;--;Scoring otoscopique = <br>nombre d’acariens+ scoring des signes cliniques
+
+popin4_title;--;Résultats parasitologiques<sup>(1)</sup>
+popin4_text;--;Aucun parasite d’Octodectes n’est observé après 10 jours de traitement dans les 2 groupes.
+popin4_text2;--;Oridermyl permet donc <b>une meilleure prise en charge d’otite dans sa globalité</b> (acariens, levures, bactéries & inflammation)<sup>(1)</sup>
+popin4_mentions;--;(1) - Roy J., Bédard C, Moreau M et coll. Comparative short-term efficacy of Oridermyl auricular ointment and Stronghlod selamectin spot-on against feline Otodectes cynotis and its associated secondary otitis externa. Can Vet J. 2012;53(7):762-766.

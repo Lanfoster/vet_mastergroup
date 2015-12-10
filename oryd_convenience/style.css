@@ -1,0 +1,33 @@
+li { list-style: none; }
+
+#oryd_convenience .pageTitle h1 { background: #8e8e8e; }
+
+#oryd_convenience .content {
+	font-size: 28px;
+	margin: 185px auto;
+	color: #749096;
+	font-family: "FuturaStdBook";
+	width: 600px;
+}
+
+#oryd_convenience .content b {
+	font-family: "FuturaStdHeavy";
+}
+
+#oryd_convenience .item {
+	position: relative;
+	margin-bottom: 35px;
+	margin-left: 30px;
+}
+
+#oryd_convenience .item:before {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: -30px;
+	width: 23px;
+	height: 23px;
+	background: url('img/puce.png');
+	background-size: 23px;
+}
+

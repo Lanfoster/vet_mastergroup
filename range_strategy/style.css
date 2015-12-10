@@ -139,9 +139,14 @@
   overflow: hidden;
   background: #eaeaea;
 }
-#range_strategy .graph .lines .bars div { height:100%; position: absolute; left: 0; top: 0; }
+#range_strategy .graph .lines .bars div { height:100%; position: absolute; left: 0; top: 0; -webkit-transform-origin: 0 0;
+-moz-transform-origin: 0 0;
+-ms-transform-origin: 0 0;
+-o-transform-origin: 0 0;
+transform-origin: 0 0;}
 #range_strategy .graph .lines .bars .bar1 { background: #a3c6e2; }
 #range_strategy .graph .lines .bars .bar2 { background: #0072cf; }
+#range_strategy .graph .lines .bars .med { width: 1px; background: #fff; }
 
 #range_strategy .graph .lines li .txt {
   position: absolute;
@@ -149,6 +154,7 @@
   text-transform: uppercase;
   z-index: 1;
 }
+
 #range_strategy .graph .lines li:nth-child(7) { color: #009a54; font-size: 18px; }
 #range_strategy .graph .lines li:nth-child(7) .legend { top: -5px; }
 #range_strategy .graph .lines li:nth-child(7) .bars { margin-left: -1px; }
@@ -160,28 +166,37 @@
 
 #range_strategy .graph .lines li:nth-child(1) .bars .bar1 { width: 730px; left: 76px; }
 #range_strategy .graph .lines li:nth-child(1) .bars .bar2 { width: 207px; left: 243px; }
+#range_strategy .graph .lines li:nth-child(1) .bars .med { left: 312px; }
 
 #range_strategy .graph .lines li:nth-child(2) .bars .bar1 { width: 769px; left: 7px; }
 #range_strategy .graph .lines li:nth-child(2) .bars .bar2 { width: 115px; left: 239px; }
+#range_strategy .graph .lines li:nth-child(2) .bars .med { left: 250px; }
 
 #range_strategy .graph .lines li:nth-child(3) .bars .bar1 { width: 272px; left: 135px; }
 #range_strategy .graph .lines li:nth-child(3) .bars .bar2 { width: 72px; left: 237px; }
+#range_strategy .graph .lines li:nth-child(3) .bars .med { left: 243px; }
 
 #range_strategy .graph .lines li:nth-child(4) .bars .bar1 { width: 693px; left: 2px; }
 #range_strategy .graph .lines li:nth-child(4) .bars .bar2 { width: 8px; left: 237px; }
+#range_strategy .graph .lines li:nth-child(4) .bars .med { left: 238px; }
 
 #range_strategy .graph .lines li:nth-child(5) .bars .bar1 { width: 759px; left: 5px; }
 #range_strategy .graph .lines li:nth-child(5) .bars .bar2 { width: 25px; left: 237px; }
+#range_strategy .graph .lines li:nth-child(5) .bars .med { left: 242px; }
 
 #range_strategy .graph .lines li:nth-child(6) .bars .bar1 { width: 784px; left: 7px; }
 #range_strategy .graph .lines li:nth-child(6) .bars .bar2 { width: 7px; left: 237px; }
+#range_strategy .graph .lines li:nth-child(6) .bars .med { left: 240px; }
 
 #range_strategy .graph .lines li:nth-child(7) .bars .bar1 { width: 709px; left: 1px; }
 #range_strategy .graph .lines li:nth-child(7) .bars .bar2 { width: 23px; left: 237px; }
+#range_strategy .graph .lines li:nth-child(7) .bars .med { left: 243px; }
 
 #range_strategy .graph .lines li:nth-child(8) .bars .bar1 { width: 759px; left: 0; }
 #range_strategy .graph .lines li:nth-child(8) .bars .bar2 { width: 15px; left: 237px; }
+#range_strategy .graph .lines li:nth-child(8) .bars .med { left: 240px; }
 
 #range_strategy .graph .lines li:nth-child(9) .bars .bar1 { width: 803px; left: 0; }
 #range_strategy .graph .lines li:nth-child(9) .bars .bar2 { width: 15px; left: 236px; }
+#range_strategy .graph .lines li:nth-child(9) .bars .med { left: 239px; }
 

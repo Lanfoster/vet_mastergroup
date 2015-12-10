@@ -1,0 +1,109 @@
+<link rel="stylesheet" href="app/pages/oryd_efficacy/style.css">
+
+<div class="pageTitle">
+	<h1><%= title %><span class="popBtn">i</span></h1>
+</div>
+
+<div class="content">
+	
+	<div class="item">
+		<%= item1 %>
+	</div>
+	<div class="item">
+		<%= item2 %>
+	</div>
+	<div class="item">
+		<%= item3 %>
+	</div>
+</div>
+
+
+<div class="popins">
+	<div class="popArrow prevBtn"></div>
+	<div class="popArrow nextBtn"></div>
+
+	<div class="bloc bloc1">
+		<span class="close">+</span>
+		<div class="popTitle"><%= popin1.title %></div>
+		<div class="text">
+			<div><%= popin1.text %></div>
+			<ul>
+				<% _.each( popin1.dot, function( dot ){ %>
+				<li><%= dot %></li>
+				<% }); %>
+			</ul>
+		</div>
+	</div>
+
+	<div class="bloc bloc2">
+		<span class="close">+</span>
+		<div class="popTitle"><%= popin2.title %></div>
+		<div class="table">
+			<table cellspacing="0" cellspadding="0" width="512" >
+			<tr height="40">
+				<td colspan="2"></td>
+				<td colspan="2"><%= popin2.table.head%></td>
+			</tr>
+			<tr height="40">
+				<td width="82"><%= popin2.table.time%></td>
+				<td width="170"><%= popin2.table.grp%></td>
+				<td width="130"><%= popin2.table.bac%></td>
+				<td width="130"><%= popin2.table.levure%></td>
+			</tr>
+			<tr height="80">
+				<td><%= popin2.table.day%> 0</td>
+				<td>Oridermyl®<br>StrongHold®</td>
+				<td>
+					<table cellspacing="0" cellspadding="0">
+						<tr height="40"><td width="65">68</td><td width="65">25</td></tr>
+						<tr height="40"><td width="65">82</td><td width="65">22</td></tr>
+					</table>
+				</td>
+				<td>
+					<table cellspacing="0" cellspadding="0">
+						<tr height="40"><td width="65">47</td><td width="65">24</td></tr>
+						<tr height="40"><td width="65">45</td><td width="65">34</td></tr>
+					</table>
+				</td>
+			</tr>
+			<tr height="80">
+				<td><%= popin2.table.day%> 10</td>
+				<td>Oridermyl®<br>StrongHold®</td>
+				<td>
+					<table cellspacing="0" cellspadding="0">
+						<tr height="40"><td width="65">1</td><td width="65">1*</td></tr>
+						<tr height="40"><td width="65">94</td><td width="65">12</td></tr>
+					</table>
+				</td>
+				<td>
+					<table cellspacing="0" cellspadding="0">
+						<tr height="40"><td width="65">1</td><td width="65">1*</td></tr>
+						<tr height="40"><td width="65">38</td><td width="65">32</td></tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</div>
+		<div class="mentions"><%= popin2.mentions %></div>
+	</div>
+
+	<div class="bloc bloc3">
+		<span class="close">+</span>
+		<div class="popTitle"><%= popin3.title %></div>
+		<div class="graph"></div>
+		<div class="mentions"><%= popin3.text %></div>
+		<div class="text"><%= popin3.graphLegend %></div>
+		<div class="graphtitle"><%= popin3.graphtitle %></div>
+	</div>
+
+	<div class="bloc bloc4">
+		<span class="close">+</span>
+		<div class="popTitle"><%= popin4.title %></div>
+		<div class="mentions"><%= popin4.mentions %></div>
+		<div class="text">
+			<%= popin4.text %><br><br><span><%= popin4.text2 %></span>
+		</div>
+	</div>
+
+
+</div>
