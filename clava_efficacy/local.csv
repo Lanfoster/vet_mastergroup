@@ -14,3 +14,34 @@ cats_title;Cats;Chats
 cats_list;CNS = Coagulase negative <i>Staphylococcus</i> spp.  ;SCN = <i>Staphylococcus</i> spp. à coagulase négative
 cats_list;R % = Percentage of resistance;R % = pourcentage de résistances
 cats_list;MIC in mg/L;CMI en mg/l
+
+popup_title;;Guide de bonnes pratiques<br>ANSES/AFVAC
+
+popup_col1;;[pinkline[Association antibiotique préconisée<br>En 1ère intention pour :]]
+popup_col1;;<b>Pyodermites superficielles et profondes </b>chez le chien
+popup_col1;;<b>Otites moyennes </b>chez le chien et le chat
+popup_col1;;<b>Maladie parodontale </b>chez le chien et le chat
+popup_col1;;<b>Entérites aigues </b>chez le chien et le chat
+popup_col1;;<b>Affections hépatobiliaires </b>chez le chien et le chat
+popup_col1;;<b>Pancréatites </b>chez le chien et le chat
+popup_col1;;<b>Rhinites chroniques </b>chez le chien et le chat
+popup_col1;;<b>Bronchopneumonies </b>chez le chien et le chat
+popup_col1;;<b>Affections pleurales bactériennes </b>chez le chien et le chat
+popup_col1;;<b>Mammites bactériennes </b>chez le chien et le chat à pH > 7,4
+popup_col1;;<b>Pyomètre </b>chez la chienne et la chatte
+popup_col1;;<b>Métrite infectieuse aigue </b>chez la chienne et la chatte
+popup_col1;;<b>Vaginite bactérienne </b>chez la chienne et la chatte
+popup_col2;;<b>Orchites et épididymite bactériennes </b>chez le chien et le chat
+popup_col2;;<b>Antibiothérapie </b>chez le chien et le chat nouveau né
+popup_col2;;<b>Antibiothérapie </b>chez la femelle gravide ou allaitante
+popup_col2;;<b>Sepsis et choc septique </b>chez le chien et le chat
+popup_col2;;<b>Infections nosocomiales des sites opératoires </b>en réanimation
+popup_col2;;<b>Infections nosocomiales liées aux cathéters IV </b>en réanimation
+popup_col2;;<b>Infections du tractus urinaire bas </b>chez le chien et le chat
+popup_col2;;<b>Cancérologie, </b>traitement adjuvant des animaux sous chimiothérapie<br>grade 3 et 4
+popup_col2;;
+popup_col2;;
+popup_col2;;[pinkline[En 2ème intention pour :]]
+popup_col2;;<b>Chirurgie et infections orales </b>chez le chien et le chat
+popup_col2;;<b>Pulpite </b>chez le chien et le chat
+popup_col2;;<b>Prostatite chronique </b>du chien

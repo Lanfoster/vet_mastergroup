@@ -114,6 +114,7 @@
 	position: relative;
 }
 
+#clava_efficacy .popup .bloc.picturePop .pinkline:before,
 #clava_efficacy .popup .bloc .content ul li:before{
 	content: "";
 	position: absolute;
@@ -123,6 +124,7 @@
 	background-color: #cf136a;
 }
 
+#clava_efficacy .popup .bloc.picturePop .pinkline:after,
 #clava_efficacy .popup .bloc .content ul li:after{
 	content: "";
 	position: absolute;
@@ -178,7 +180,7 @@
 
 /**/
 
-#clava_efficacy .popup .bloc.picturePop .picture{
+/*#clava_efficacy .popup .bloc.picturePop .picture{
 	position: absolute;
   	background: url('img/doc.jpg');
   	width: 544px; height: 386px;
@@ -192,7 +194,32 @@
   top: 15px; right: 15px;
   background-size: 42px;
   cursor: pointer;
+}*/
+
+
+#clava_efficacy .popup .bloc.picturePop {
+	width: 840px; height: 580px;
+	margin: -290px 0 0 -420px;
 }
-
-
-
+#clava_efficacy .popup .bloc.picturePop .content {
+	height: 480px;
+	padding: 40px 60px;
+}
+#clava_efficacy .popup .bloc.picturePop .col {
+	width: 50%;
+	position: relative;
+	float: left;
+	font-size: 12px;
+}
+#clava_efficacy .popup .bloc.picturePop .col li { margin-bottom: 5px; min-height: 15px; }
+#clava_efficacy .popup .bloc.picturePop .col li:after,
+#clava_efficacy .popup .bloc.picturePop .col li:before { content: none }
+#clava_efficacy .popup .bloc.picturePop .pinkline {
+	margin-bottom: 10px;
+	display: inline-block;
+	font-family: "FuturaStdHeavy";
+	font-size: 18px;
+	color: #d70073;
+}
+#clava_efficacy .popup .bloc.picturePop .pinkline:before { top: 0; }
+#clava_efficacy .popup .bloc.picturePop .pinkline:after { top: 6px; }
