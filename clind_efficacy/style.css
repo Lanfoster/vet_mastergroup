@@ -1,24 +1,24 @@
-.pageTitle h1 {
+#clind_efficacy .pageTitle h1 {
 	background-color: #fed905
 }
 
-.content {
-	margin: 160px 0 0 130px
+#clind_efficacy .contain {
+	margin: 160px 0 0 120px
 }
 
-.content h2 {
+#clind_efficacy .contain h2 {
 	background: #fff;
 	border-radius: 10px 0;
 	display: table;
 	padding: 10px;
 	font-weight: bold;
-	margin-top: 50px;
+	margin-top: 40px;
 	color: #fed905;
 	box-shadow: 0 0 20px #c4d5db;
 	font-size: 28px
 }
 
-.listeplay {
+#clind_efficacy .listeplay {
 	color: #7c959d;
 	list-style: none;
 	font-family: "FuturaStdBook";
@@ -26,11 +26,11 @@
 	padding: 10px 0 0 30px;
 	font-size: 22px
 }
-.listeplay li {
+#clind_efficacy .listeplay li {
 	margin-bottom: 5px;
 	position: relative;
 }
-.listeplay li:before {
+#clind_efficacy .listeplay li:before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -42,9 +42,117 @@
 }
 
 
-.supshow {
+#clind_efficacy .supshow {
 	top: 135px;
 	position: absolute;
-	right: 50px;
+	right: 12px;
 	z-index: -1
+}
+
+#clind_efficacy .popBtn {
+    width: 24px; height: 24px;
+    position: absolute;
+    text-align: center;
+    line-height: 20px;
+    background-color: #06984c;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "times";
+    font-style: italic;
+    color: #fff;
+    border: 3px solid #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 3px rgba(0,0,0,.5);
+    display: inline-block;
+    z-index: 10;
+}
+#clind_efficacy .infos1 { top: 360px; left: 240px }
+#clind_efficacy .infos2 { top: 560px; left: 450px }
+
+
+
+#clind_efficacy .popup {
+  display: none;
+  position: absolute;
+  top: 0; left: 0;
+  z-index: 10;
+  width: 100%; height: 668px;
+  background-color: rgba( 0, 0, 0, .7);
+}
+
+#clind_efficacy .popup .bloc {
+  position: absolute;
+  left: 50%; top: 50%;
+  margin: -290px 0 0 -370px;
+  width: 740px; height: 580px;
+  background-color: #f3c200;
+  border-radius: 0 50px 0 50px;
+}
+
+#clind_efficacy .popup .bloc .close {
+  position: absolute;
+  right: 25px; top: 25px;
+  margin-top: -15px;
+  font-size: 40px;
+  transform: rotate(45deg); 
+  -webkit-transform: rotate(45deg); 
+  font-family: "FuturaStdBold";
+  color: #FFF;
+  cursor: pointer;
+}
+
+#clind_efficacy .popup .bloc .title {
+  padding: 20px;
+  font-size: 29px;
+  font-family: "FuturaStdHeavy";
+  color: #FFF;
+  text-align: center;
+}
+
+#clind_efficacy .popup .bloc .content {
+  position: absolute;
+  left: 0; top: 100px; 
+  width: 100%;
+  height: 480px;
+  background-color: #fff;
+  border-radius: 0 0 0 50px;
+  padding: 40px 60px;
+}
+
+#clind_efficacy .popup .bloc .content ul {
+  list-style: none;
+  font-family: "FuturaStdBook";
+  font-size: 12px;
+  color: #7c959d;
+}
+
+#clind_efficacy .popup .bloc .content ul li {
+  position: relative;
+  margin-bottom: 14px;
+  min-height: 5px;
+}
+#clind_efficacy .popup .bloc .content ul b {
+  font-family: "FuturaStdHeavy";
+}
+
+#clind_efficacy .popup .bloc .content ul li:nth-child(1),
+#clind_efficacy .popup .bloc .content ul li:nth-child(11) {
+	color: #f3c200;
+	font-size: 18px;
+}
+#clind_efficacy .popup .bloc .content ul li:nth-child(1):before,
+#clind_efficacy .popup .bloc .content ul li:nth-child(11):before {
+  content: "";
+  position: absolute;
+  left: -30px; top: -2px;
+  width: 23px; height: 23px;
+  background: url('img/puce.png');
+  background-size: 23px;
+}
+
+#clind_efficacy .popup .bloc .content .picture {
+	width: 256px; height: 289px;
+	position: absolute;
+	right: 60px; top: 80px;
+	background: url('img/pop1.jpg') no-repeat;
 }

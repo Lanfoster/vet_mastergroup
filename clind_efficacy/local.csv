@@ -9,3 +9,17 @@ bloc2_list;Dental infections;Infections bucco-dentaires
 bloc3_title;Good antibiotic prescription:;Gamme large
 bloc3_list;Accurate dosage;Comprimés de 75 et 150 mg
 bloc3_list;A 22 ml vial treats a 5 kg animal for 10 days;Flacon de 22 ml dosé à 20 mg/ml
+
+popup_title;;Guide de bonnes pratiques<br>ANSES/AFVAC
+popup_list;;[yellowline[Clindamycine préconisée<br>En 1ère intention pour :]]
+popup_list;;<b>Pyodermites superficielles et profondes </b>chez le chien
+popup_list;;<b>Maladie parodontale </b>chez le chien et le chat
+popup_list;;<b>Pulpite </b>chez le chien et le chat
+popup_list;;<b>Bronchopneumonies </b>chez le chien et le chat
+popup_list;;<b>Prostatite chronique </b>du chien
+popup_list;;<b>Antibiothérapie </b>chez le chien et le chat nouveau né
+popup_list;;<b>Antibiothérapie </b>chez la femelle gravide ou allaitante
+popup_list;;
+popup_list;;
+popup_list;;[yellowline[En 2ème intention pour :]]
+popup_list;;<b>Mammites bactériennes </b>chez le chien et le chat à pH < 7,4 et Gram + 

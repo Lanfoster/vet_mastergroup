@@ -5,11 +5,12 @@
 	<h1><%= title %></h1>
 </div>
 
-<div class="content">
+<div class="contain">
 
 	<h2><%= bloc1.title %></h2>
 
 	<h2><%= bloc2.title %></h2>
+	<div class="popBtn infos1" data-popin="popin1">i</div>
 	<ul class="listeplay">
 		<% for(var i in bloc2.list) { %>
 
@@ -19,6 +20,7 @@
 	</ul>
 
 	<h2><%= bloc3.title %></h2>
+	<div class="popBtn infos2" data-popin="popin2">i</div>
 	<ul class="listeplay">
 		<% for(var i in bloc3.list) { %>
 
@@ -29,4 +31,20 @@
 
 	<img class="supshow" src="app/pages/clind_efficacy/img/background.png">
 
+</div>
+
+<div class="popup">
+	<div class="bloc popin1">
+		<div class="title"><%= popup.title %><div class="close">+</div></div>
+		<div class="content">
+			<div class="picture"></div>
+			<div class="text">
+				<ul>
+					<% _.each( popup.list, function(arg) { %>
+						<li><%= arg %></li>
+					<% }) %>
+				</ul>
+			</div>
+		</div>
+	</div>
 </div>
