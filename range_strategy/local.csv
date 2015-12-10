@@ -3,3 +3,16 @@ key;ref;value;
 title;;Un partenaire responsable<br>pour un prix juste
 subtitle;;Médiane et quartile des taux de marge appliqués aux ATB par les vétérinaires* canins depuis le 1er janvier 2015
 bottitle;;[legend[* Echantillon représentatif de 300 vétérinaires]]Pas de banalisation du médicament<br>Valorisation de l’image de votre profession
+
+redarrow;;Des écarts très significatifs sur le prix d’achat propriétaire
+redrect;;Une plus grande variabilité des marges
+
+graph_title;;Axience
+graph_title;;Bayer
+graph_title;;Ceva santé animale
+graph_title;;Merial
+graph_title;;Sepval-Sogeval
+graph_title;;TVM
+graph_title;;Vetoquinol||homogénéité du prix de revente
+graph_title;;Virbac
+graph_title;;Zoetis

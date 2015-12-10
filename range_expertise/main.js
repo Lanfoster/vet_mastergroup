@@ -28,14 +28,17 @@ define(['jquery', 'Backbone','underscore', 'transit', 'snap' ], function( $, Bac
         container.find( ".part.Leadership .title" ).transition( { opacity : 1, x:0, delay:1600 }, 700, 'ease');
         container.find( ".part.Leadership .desc" ).transition( { opacity : 1, x:0, delay:1700 }, 700, 'ease');
 
-        container.find( ".part.solutions .title" ).transition( { opacity : 1, x:0, delay:2600 }, 700, 'ease');
+        container.find( ".part.production .title" ).transition( { opacity : 1, x:0, delay:2600 }, 700, 'ease');
+        container.find( ".part.production .desc" ).transition( { opacity : 1, x:0, delay:2700 }, 700, 'ease');
+
+        container.find( ".part.solutions .title" ).transition( { opacity : 1, x:0, delay:3600 }, 700, 'ease');
         container.find( ".part li").each( function(index, item) { 
-          var delay = 2800+ index*100;
+          var delay = 3800+ index*100;
           $(item).transition( { opacity : 1, x:0, delay:delay }, 700, 'ease');
         });
 
-         container.find( ".blocLeft" ).transition( { opacity : 1, y:0, delay:4200 }, 700, 'ease');
-         container.find( ".blocRight" ).transition( { opacity : 1, y:0, delay:4000 }, 700, 'ease');
+         container.find( ".blocLeft" ).transition( { opacity : 1, y:0, delay:5200 }, 700, 'ease');
+         container.find( ".blocRight" ).transition( { opacity : 1, y:0, delay:5000 }, 700, 'ease');
 
 
       }

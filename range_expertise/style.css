@@ -6,8 +6,8 @@
 #range_expertise .content {
 	display: inline-block;
 	text-align: left;
-	margin-top: 130px;
-	width: 750px;
+	margin-top: 170px;
+	width: 840px;
 }
 
 #range_expertise .content .part{
@@ -16,12 +16,12 @@
 }
 
 #range_expertise .content .title{
-	font-size: 34px;
+	font-size: 30px;
 	color: #0072cf;
 }
 
 #range_expertise .content .desc{
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 28px;
 	color: #7c959d;
 }
@@ -30,7 +30,7 @@
 	font-family: "FuturaStdHeavy";
 	color: #0072cf;
 	position: relative;
-	padding: 0 10px;
+	padding: 0 10px 0 5px;
 }
 
 #range_expertise .content .desc b:before{
@@ -48,7 +48,7 @@
 #range_expertise .content ul {
   list-style: none;
   font-family: "FuturaStdBook";
-  font-size: 22px;
+  font-size: 20px;
   color: #7c959d;
   padding-right: 10px;
 }
