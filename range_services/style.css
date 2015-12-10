@@ -113,8 +113,8 @@
 #range_services .popup .bloc {
   position: absolute;
   left: 50%; top: 50%;
-  margin: -240px 0 0 -335px;
-  width: 670px; height: 480px;
+  margin: -290px 0 0 -370px;
+  width: 740px; height: 580px;
   background-color: #0072cf;
   border-radius: 0 50px 0 50px;
 }
@@ -132,19 +132,26 @@
 }
 
 #range_services .popup .bloc .title {
-  padding-left: 45px;
-  font-size: 40px;
-  line-height: 100px;
-  font-family: "flora-bold";
+  padding: 20px;
+  font-size: 29px;
+  font-family: "FuturaStdHeavy";
   color: #FFF;
   text-align: center;
+}
+#range_services .popup .bloc .title .logofont {
+  font-family: "flora-bold";
+  font-size: 40px;
+}
+#range_services .popup .bloc .title .oneline {
+  margin-top: 10px;
+  display: inline-block;
 }
 
 #range_services .popup .bloc .content {
   position: absolute;
   left: 0; top: 100px; 
   width: 100%;
-  height: 380px;
+  height: 480px;
   background-color: #fff;
   border-radius: 0 0 0 50px;
 }
@@ -174,7 +181,194 @@
   background-size: 23px;
 }
 
+
 #range_services .popup .bloc .picture {
+  width: 100%; height: 100%;
   position: absolute;
 }
+#range_services .popup .bloc.education-0 .picture { background: url('img/pop5.jpg') no-repeat 60px 95px; }
+#range_services .popup .bloc.education-1 .picture { background: url('img/pop4.jpg') no-repeat center; }
+#range_services .popup .bloc.education-2 .picture { background: url('img/pop3.jpg') no-repeat 60px 225px; }
+#range_services .popup .bloc.services-1 .picture { background: url('img/pop2.png') no-repeat; left: 30px; top: 10px; height: 110%; }
+#range_services .popup .bloc.services-2 .picture { background: url('img/pop1.jpg') no-repeat center 10px; }
+#range_services .popup .bloc.slide1 .picture { background: url('img/pop6.png') no-repeat; top: -10px; left: 10px; }
+#range_services .popup .bloc.slide2 .picture { background: url('img/pop7.jpg') no-repeat; left: 10px; }
+#range_services .popup .bloc.slide3 .picture { background: url('img/pop8.png') no-repeat; top: -50px; left: 20px; height: 110%; }
+#range_services .popup .bloc.prescription-1 .picture { background: url('img/doc_fr.jpg') no-repeat center; }
+
+#range_services b {
+  font-family: "FuturaStdHeavy" !important;
+}
+#range_services .popup .bloc.services-2 .content ul {
+  width: 100%;
+  color: #156dd9;
+  font-family: "FuturaStdBold";
+  top: initial;
+  bottom: 20px; left: 0;
+  text-align: center;
+  font-size: 14px;
+}
+#range_services .popup .bloc.services-2 .content ul li { display: inline-block; }
+#range_services .popup .bloc.services-2 .content ul li:nth-child(2) { margin: 0 60px; }
+#range_services .popup .bloc.services-2 .content ul li:before { top: -4px; }
+
+
+#range_services .popup .bloc.prescription-1 { width: 660px; height: 480px; margin: -240px 0 0 -330px; }
+#range_services .popup .bloc.prescription-1 .content { height: 380px }
+#range_services .popup .bloc.prescription-1 .picture { top: -50px; left: -30px; }
+#range_services .popup .bloc.prescription-1 .loupe {
+  display: inline-block;
+  width: 50px; height: 50px;
+  position: absolute;
+  right: 20px; top: 30px;
+  background: url('img/loupe.png') no-repeat center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+
+#range_services .popup .bloc.services-1 .content ul {
+  width: 480px;
+  top: 40px;
+  color: #016fd1;
+}
+#range_services .popup .bloc.services-1 .content ul li { margin-bottom: 10px; }
+#range_services .popup .bloc.services-1 .content .drnames {
+  position: absolute;
+  bottom: 80px; left: 56px;
+  font-family: "FuturaStdHeavy";
+  color: #016fd1;
+  font-size: 15px;
+}
+#range_services .popup .bloc.services-1 .content .drnames:nth-of-type(2) { left: 212px }
+#range_services .popup .bloc.services-1 .content .drnames:nth-of-type(3) { left: 390px }
+
+
+#range_services .popup .bloc.education-2 .content ul { width: 640px; top:40px; color: #016fd1; }
+#range_services .popup .bloc.education-2 .content ul li { margin-bottom: 10px; }
+#range_services .popup .bloc.education-2 .content .drnames {
+  position: absolute;
+  top: 380px; left: 74px;
+  font-size: 12px;
+  color: #016fd1;
+  font-family: "FuturaStdHeavy";
+}
+#range_services .popup .bloc.education-2 .content .drnames:nth-of-type(2) { left: 280px }
+#range_services .popup .bloc.education-2 .content .drnames:nth-of-type(3) { left: 515px }
+#range_services .popup .bloc.education-2 .content .drnames .sub {
+  display: block;
+  color: #405054;
+  font-family: "FuturaStdHeavyOblique";
+}
+
+
+#range_services .popup .bloc.education-0 .content ul { width: 360px; top:40px; color: #016fd1; }
+#range_services .popup .bloc.education-0 .content ul .sub { display: block; color: #666; margin: 5px 0 }
+#range_services .popup .bloc.education-0 .content .drnames {
+  position: absolute;
+  top: 380px; left: 62px;
+  font-size: 12px;
+  color: #016fd1;
+  font-family: "FuturaStdHeavy";
+}
+#range_services .popup .bloc.education-0 .content .drnames:nth-of-type(2) { left: 290px }
+#range_services .popup .bloc.education-0 .content .drnames:nth-of-type(3) { left: 515px }
+#range_services .popup .bloc.education-0 .content .drnames .sub {
+  display: block;
+  color: #405054;
+  font-family: "FuturaStdHeavyOblique";
+}
+#range_services .popup .bloc.education-0 .content .part {
+  position: absolute;
+  right: 110px; top: 70px;
+  font-size: 18px;
+  font-family: "FuturaStdHeavy";
+  color: #016fd1;
+}
+
+
+#range_services .popup .prescription-3 {
+  width: 670px; height: 490px;
+  margin: -245px 0 0 -335px;
+}
+#range_services .popup .prescription-3 .content {
+  height: 390px;
+}
+#range_services .popup .prescription-3 .content .text {
+  position: relative;
+  top: 10px;
+}
+#range_services .popup .prescription-3 .content ul li {
+  margin: 0 0 10px 30px;
+}
+#range_services .popup .prescription-3 .nav {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin-top: -37px;
+}
+#range_services .popup .prescription-3 .nav span {
+  width: 74px; height: 74px;
+  position: absolute;
+  top: 50%;
+  margin-top: -37px;
+  background-color: #0072cf;
+  border-radius: 74px;
+  cursor: pointer;
+}
+#range_services .popup .prescription-3 .nav .navleft { left: -125px; }
+#range_services .popup .prescription-3 .nav .navright { right: -125px; }
+#range_services .popup .prescription-3 .nav span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10px 0 0 -15px;
+    border: 10px solid #FFF;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#range_services .popup .prescription-3 .nav .navleft:after {
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg);
+    margin-left: -5px;
+}
+
+
+#range_services .popup .slide1 .content ul { width: 340px }
+#range_services .popup .slide1 .content .text { left: 190px }
+#range_services .popup .slide1 .content ul li:nth-child(1),
+#range_services .popup .slide1 .content ul li:nth-child(7),
+#range_services .popup .slide1 .content ul li:nth-child(8) { font-family: "FuturaStdHeavy"; font-size: 18px; margin: 20px 0; }
+#range_services .popup .slide1 .content ul li:nth-child(1):before,
+#range_services .popup .slide1 .content ul li:nth-child(7):before,
+#range_services .popup .slide1 .content ul li:nth-child(8):before { content: none; }
+#range_services .popup .slide1 .content ul li:nth-child(8) { color: #000; text-align: center; margin-top: 40px; }
+
+
+#range_services .popup .slide2 .content ul { width: 430px }
+#range_services .popup .slide2 .content .text { left: 150px }
+#range_services .popup .slide2 .content ul li:nth-child(1),
+#range_services .popup .slide2 .content ul li:nth-child(6),
+#range_services .popup .slide2 .content ul li:nth-child(7) { font-family: "FuturaStdHeavy"; font-size: 18px; margin: 20px 0; }
+#range_services .popup .slide2 .content ul li:nth-child(1):before,
+#range_services .popup .slide2 .content ul li:nth-child(6):before,
+#range_services .popup .slide2 .content ul li:nth-child(7):before { content: none; }
+#range_services .popup .slide2 .content ul li:nth-child(6) { font-family: "FuturaStdBook"; margin-top: 50px; }
+#range_services .popup .slide2 .content ul li:nth-child(7) { color: #000; text-align: center; margin-top: 40px; }
+
+
+#range_services .popup .slide3 .content ul { width: 430px }
+#range_services .popup .slide3 .content .text { left: 150px; top: 40px; }
+#range_services .popup .slide3 .prescription-3 .content ul li { margin-left: 0; }
+#range_services .popup .slide3 .content ul li:nth-child(3),
+#range_services .popup .slide3 .content ul li:nth-child(6) { font-family: "FuturaStdHeavy"; font-size: 18px; margin: 30px 0; text-align: center; }
+#range_services .popup .slide3 .content ul li:nth-child(3):before,
+#range_services .popup .slide3 .content ul li:nth-child(6):before { content: none; }
+#range_services .popup .slide3 .content ul li:nth-child(4):before,
+#range_services .popup .slide3 .content ul li:nth-child(5):before {  background: url('img/puce_green.png'); background-size: 23px; }
+#range_services .popup .slide3 .content ul li:nth-child(3) { color: #00a144 }
+#range_services .popup .slide3 .content ul li:nth-child(6) { color: #000; }
 

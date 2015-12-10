@@ -1,0 +1,32 @@
+#range_strategy .subtitle,
+#range_strategy .bottitle {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  font-family: "FuturaStdHeavy";
+  text-align: center;
+}
+#range_strategy .subtitle {
+  font-size: 16px;
+  color: #000;
+  top: 160px;
+}
+#range_strategy .bottitle {
+  font-size: 20px;
+  color: #0150b5;
+  bottom: 140px;
+}
+#range_strategy .bottitle .legend {
+  margin-bottom: 30px;
+  font-size: 12px;
+  color: #000;
+  display: block;
+}
+
+#range_strategy .logo {
+  width: 103px; height: 68px;
+  background: url('img/logo.png') no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 140px; right: 30px;
+}

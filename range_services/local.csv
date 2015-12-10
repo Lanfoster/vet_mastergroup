@@ -23,46 +23,47 @@ services_list;Sanitary audit;Audit sanitaire
 services_list;;Outils de sensibilisation des propriétaires
 
 popup_pop1_title;;Outils de sensibilisation des propriétaires
-popup_pop1_id;;
+popup_pop1_id;;services-2
 popup_pop1_list;;Affiche de salle d’attente
 popup_pop1_list;;Blocs de prescription
 popup_pop1_list;;Brochures propriétaires
 
 popup_pop2_title;;Audit des politiques de prévention<br>des infections nosocomiales
-popup_pop2_id;;
+popup_pop2_id;;services-1
 popup_pop2_list;;Par un <b>spécialiste</b> en microbiologie
 popup_pop2_list;;Sur une ½ journée
 popup_pop2_list;;Déjeuner ludique <b>en équipe</b> : “lavage des mains” 
 popup_pop2_list;;<b>Feedback</b> 1 à 2 semaines après : recommandations d'amélioration
 popup_pop2_list;;Mise à disposition <b>d’outils d’information</b>
-popup_pop2_other;;Dr Stéphanie Beurlet
-popup_pop2_other;;Dr Isabelle Goy-Thollot
-popup_pop2_other;;Dr H-J Boulouis
+popup_pop2_other;;[drnames[Dr Stéphanie Beurlet]]
+popup_pop2_other;;[drnames[Dr Isabelle Goy-Thollot]]
+popup_pop2_other;;[drnames[Dr H-J Boulouis]]
 
-popup_pop3_title;;EPU « cartes blanches »
-popup_pop3_id;;
+popup_pop3_title;;[oneline[EPU « cartes blanches »]]
+popup_pop3_id;;education-2
 popup_pop3_list;;Actualités diagnostiques et thérapeutiques des principales dermatoses du chien et du chat
 popup_pop3_list;;<b>Réunions interactives</b> en petits groupes de 12 personnes
 popup_pop3_list;;<b>Format court</b> (demi-journée) dans votre région
 popup_pop3_list;;Traitements de <b>cas cliniques</b> personnels 
 popup_pop3_list;;<b>Expertise des intervenants</b>
-popup_pop3_other;;Dr William Bordeau,[sub[Cabinet Vetderm,<br>Exercice exclusif en<br>dermatologie vétérinaire]]
-popup_pop3_other;;Dr Marie-Christine Cadiergues,[sub[Dipl. ECVD, PhD<br>Ecole vétérinaire de Toulouse]]
-popup_pop3_other;;Prof Didier Pin,[sub[Unité de Dermatologie<br>Vetagro Sup]]
+popup_pop3_other;;[drnames[Dr William Bordeau,[sub[Cabinet Vetderm,<br>Exercice exclusif en<br>dermatologie vétérinaire]]]]
+popup_pop3_other;;[drnames[Dr Marie-Christine Cadiergues,[sub[Dipl. ECVD, PhD<br>Ecole vétérinaire de Toulouse]]]]
+popup_pop3_other;;[drnames[Prof Didier Pin,[sub[Unité de Dermatologie<br>Vetagro Sup]]]]
 
-popup_pop4_title;;Fiches techniques
+popup_pop4_title;;[oneline[Fiches techniques]]
 popup_pop4_id;;education-1
 
-popup_pop5_title;;Cycles de webinaires scientifiques
-popup_pop5_id;;
-popup_pop5_list;;Adapté à votre activité[sub[• Format court (1h)]][sub[• Entre <b>13 et 14h</b>]]
-popup_pop5_list;;600 vétérinaires formés en 2015[sub[• Possibilité de poser <b>vos questions en direct</b>]][sub[• <b>Expertise des intervenants</b>]]
-popup_pop5_other;;Dr Kristine Kamosi,[sub[Responsable de la communication<br>et de la formation scientifique<br>pour IDEXX]]
-popup_pop5_other;;Dr Christelle Maurey,[sub[MSC, PHD, Maître de<br>conférences en médecine<br>interne à l’ENVA]]
-popup_pop5_other;;Prof Didier Pin,[sub[Unité de Dermatologie<br>Vetagro Sup]]
+popup_pop5_title;;[oneline[Cycles de webinaires scientifiques]]
+popup_pop5_id;;education-0
+popup_pop5_list;;<b>Adapté à votre activité</b>[sub[• Format court (1h)]][sub[• Entre <b>13 et 14h</b>]]
+popup_pop5_list;;<b>600 vétérinaires formés en 2015</b>[sub[• Possibilité de poser <b>vos questions en direct</b>]][sub[• <b>Expertise des intervenants</b>]]
+popup_pop5_other;;[drnames[Dr Kristine Kamosi,[sub[Responsable de la communication<br>et de la formation scientifique<br>pour IDEXX]]]]
+popup_pop5_other;;[drnames[Dr Christelle Maurey,[sub[MSC, PHD, Maître de<br>conférences en médecine<br>interne à l’ENVA]]]]
+popup_pop5_other;;[drnames[Prof Didier Pin,[sub[Unité de Dermatologie<br>Vetagro Sup]]]]
+popup_pop5_other;;[part[Partenariat]]]]
 
-popup_pop6_title;;Cothivet®
-popup_pop6_id;;prescription-3
+popup_pop6_title;;[logofont[Cothivet®]]
+popup_pop6_id;;prescription-3 slide1
 popup_pop6_list;;COTHIVET, le pouvoir des plantes
 popup_pop6_list;;Non toxique
 popup_pop6_list;;Agent cicatrisant
@@ -71,9 +72,10 @@ popup_pop6_list;;Anti-infectieux
 popup_pop6_list;;Anti-inflammatoire / anti-oedémateux
 popup_pop6_list;;Plaies de toutes natures, toutes étendues, toute localisation, toutes espèces
 popup_pop6_list;;Participe à la réduction<br>de l’usage des antibiotiques
+popup_pop6_other;;[nav[[navleft[]][navright[]]]]
 
-popup_pop7_title;;Vetedine®
-popup_pop7_id;;prescription-3
+popup_pop7_title;;[logofont[Vetedine®]]
+popup_pop7_id;;prescription-3 slide2
 popup_pop7_list;;Povidone iodée
 popup_pop7_list;;Activité bactéricide et rapide sur Gram + et Gram -
 popup_pop7_list;;Action fongicide
@@ -81,12 +83,19 @@ popup_pop7_list;;Efficacité en présence de pus, sang et tissus nécrosés
 popup_pop7_list;;Indicateur visuel de son activité germicide: sa couleur
 popup_pop7_list;;<b>Savon :</b> Nettoyage et désinfection de la peau<br><b>Solution :</b> Antisepsie et irrigation
 popup_pop7_list;;Participe à la réduction<br>de l’usage des antibiotiques
+popup_pop7_other;;[nav[[navleft[]][navright[]]]]
 
-popup_pop8_title;;ENISYL®
-popup_pop8_id;;prescription-3
+popup_pop8_title;;[logofont[ENISYL®]]
+popup_pop8_id;;prescription-3 slide3
 popup_pop8_list;;L-lysine sous forme de pâte appétente
 popup_pop8_list;;Pompe doseuse adaptée pour un traitement d’1 mois chez le chat
 popup_pop8_list;;Le supplément nutritionnel vétérinaire de référence dans la lutte contre l’herpesvirose féline
 popup_pop8_list;;Réduction de 80% de la réplication virale des F-HV1*
 popup_pop8_list;;Réduction de la fréquence et de l’intensité des rechutes
 popup_pop8_list;;Participe à la réduction<br>de l’usage des antibiotiques
+popup_pop8_other;;[nav[[navleft[]][navright[]]]]
+
+popup_pop9_title;;
+popup_pop9_id;;prescription-1
+popup_pop9_other;;[loupe[]]
+
