@@ -11,11 +11,19 @@ li { list-style: none; }
 	font-size: 32px;
 	line-height: 35px;
 }
+#marbocyl_marboenro .content b {
+	font-family: "FuturaStdHeavy";
+    background: #fff;
+    padding: 7px 20px;
+    border-radius: 15px 0;
+    box-shadow: 0 0 10px 2px #afc1c7;
+}
 #marbocyl_marboenro .content li {
 	width: 650px;
 	margin-bottom: 18px;
 	color: #749096;
 	position: relative;
+	line-height: 45px;
 }
 #marbocyl_marboenro .content li:before {
 	content: '';
@@ -37,7 +45,6 @@ li { list-style: none; }
 }
 #marbocyl_marboenro .blue {
 	color: #0B2892;
-	font-family: FuturaStdHeavy;
 }
 
 
@@ -185,7 +192,7 @@ li { list-style: none; }
 #popin .popin2 p {
 	color: #7b959d;
 	font-size: 20px;
-	margin: 20px 34px 0px;
+	margin: 15px 34px 0px;
 }
 #popin .popin2 .legend {
 	font-size: 10px;
@@ -225,7 +232,7 @@ li { list-style: none; }
 	width: 86px;
 	padding: 6px;
 }
-#popin .popin2 table .littletitle { font-size: 10px; line-height: 12px; display: inline-block; }
+#popin .popin2 table .littletitle { font-size: 12px; line-height: 15px; display: inline-block; }
 #popin .popin2 table #multicol { display: block; border-top: 1px solid #fff; padding-top: 3px; margin: 2px 6px 0; }
 #popin .popin2 table #multicol span { text-align: center; width: 46%; display: inline-block; }
 #popin .popin2 table #multicol span:last-child { border-left: 1px solid #fff; width: 49%; }

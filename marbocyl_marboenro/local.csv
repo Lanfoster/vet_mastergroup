@@ -1,18 +1,18 @@
 key;ref;value;
 title;Choose the best<br>fluoroquinolone;Choisissez la meilleure<br>fluoroquinolone
-list;[blue[Marbocyl®]] has the longest half-life<br>compared to enrofloxacin [sub[(7)]];[blue[Marbocyl®]] a une demi-vie plus longue<br>que l'enrofloxacine [sub[(7)]]
-list;[blue[Marbocyl®]] shows higher sensitivity levels [sub[(2)]];[blue[Marbocyl®]] montre des niveaux de sensibilité supérieurs [sub[(2)]]
-list;[blue[Marbocyl®]] is safer than enrofloxacin;[blue[Marbocyl®]] est mieux toléré que l'enrofloxacine
+list;[blue[Marbocyl®]] has the longest half-life<br>compared to enrofloxacin [sub[(7)]];[blue[Marbocyl®]] a <b>une demi-vie plus longue</b><br>que l'enrofloxacine [sub[(7)]]
+list;[blue[Marbocyl®]] shows higher sensitivity levels [sub[(2)]];[blue[Marbocyl®]] montre des<br><b>niveaux de sensibilité supérieurs [sub[(2)]]</b>
+list;[blue[Marbocyl®]] is safer than enrofloxacin;[blue[Marbocyl®]] est <b>mieux toléré</b> que l'enrofloxacine
 popin1_title;Comparative kinetics<br>of Marbocyl® and enrofloxacin;Pharmacocinétiques comparées<br>de Marbocyl® et de l'enrofloxacine
 popin1_leftlegend;Concentration (ug/ml);Concentration (Î¼g/ml)
 popin1_botlegend;Time (Hours);Temps (heures)
 popin1_legend;Arithmetic plots of the mean plasma  concentrations (Î¼g.ml) of enrofloxacin,<br>[legendgrey[and its metabolite (ciprofloxacin)]] [legendpoint[and marbofloxacin]] [legendpink[<i>versus</i> time (h)]],<br>after a single oral administration of enrofloxacin or marbofloxacin at the nominal dose of 5 and 2 mg Kg, respectively.;Courbes arithmétiques des concentrations plasmatiques moyennes (Î¼g/ml) de l'enrofloxacine,<br>[legendgrey[et de son métabolite (ciprofloxacine)]] [legendpoint[et de la marbofloxacine]] [legendpink[en fonction du temps (h)]],<br>après une seule administration orale d'enrofloxacine ou de marbofloxacine à la dose nominale respective de 5 et 2 mg/Kg.
-popin2_title;Percentages of susceptibility of bacteria<br>to various antibiotics used<br>in the treatment of cats and dogs infections in Europe;Pourcentages de sensibilité des bactéries<br>à différents antibiotiques utilisés<br>dans le traitement des infections canines et félines en Europe 
+popin2_title;Percentages of susceptibility of bacteria<br>to various antibiotics used<br>in the treatment of cats and dogs infections in Europe;Pourcentages de sensibilité des bactéries<br>à différents antibiotiques utilisés<br>dans le traitement des infections canines et félines<br>en Europe 
 popin2_paragraph;Based on CSLI registered breakpoints, over the 2002-2009 period.;D'après les seuils définis par le CSLI, sur la période 2002-2009.
 popin2_legend;Percentages have not been calculated when breakpoints are not registered by CSLI.;Les pourcentages n'ont pas été calculés en l'absence de seuils définis par le CSLI.
 popin2_table_title;BACTERIAL SPECIES;ESPECES BACTERIENNES
 popin2_table_title;PATHOLOGIES;AFFECTIONS
-popin2_table_title;PERCENTAGE OF SUSCEPTIBILITY<br>(number of strains) TO ANTIBIOTICS;POURCENTAGE DE SENSIBILITE<br>(nombre de souches) AUX ANTIBIOTIQUES
+popin2_table_title;PERCENTAGE OF SUSCEPTIBILITY<br>(number of strains) TO ANTIBIOTICS;POURCENTAGE DE SENSIBILITE<br>(nombre de souches)<br>AUX ANTIBIOTIQUES
 popin2_table_title;ENR;ENR
 popin2_table_title;MAR;MAR
 popin2_table_titleY;Gram negative;Gram négatif

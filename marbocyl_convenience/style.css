@@ -4,6 +4,13 @@ li { list-style: none; }
 
 #marbocyl_convenience .blue { color: #0B2892 }
 #marbocyl_convenience .content .title { font-size: 32px; font-family: FuturaStdHeavy; }
+#marbocyl_convenience .content b {
+	font-family: "FuturaStdHeavy";
+    background: #fff;
+    padding: 7px 20px;
+    border-radius: 15px 0;
+    box-shadow: 0 0 10px 2px #afc1c7;
+}
 #marbocyl_convenience .blocs { text-align: center; width: 710px }
 #marbocyl_convenience .blocs li {
 	display: inline-block;

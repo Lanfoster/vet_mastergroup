@@ -1,8 +1,8 @@
 key;ref;value;
 title;fast cure <br>and satisfied customers;guérison rapide<br>et clients satisfaits
-URTD;A-CA or doxycyclin orally more<br>effective than cefovecin single<br>SC in treating cats with clinical<br>signs of URTD<sup>(1)</sup>.;Association A-AC PO plus efficace<br>que la céfovécine en 1  injection SC<br>pour le traitement des chats avec<br>signes respiratoires supérieurs<sup>(1)</sup>.
-resistance;Less resistance with A-CA<sup>(2)</sup>.;Moins de résistances avec l'association A-AC<sup>(2)</sup>.
-first;First line in most diseases. ;Première intention pour la majorité des affections.
+URTD;A-CA or doxycyclin orally more<br>effective than cefovecin single<br>SC in treating cats with clinical<br>signs of URTD<sup>(1)</sup>.;<b>Association A-AC PO plus efficace</b><br>que la céfovécine en 1  injection SC<br>pour le traitement des chats avec<br>signes respiratoires supérieurs<sup>(1)</sup>.
+resistance;Less resistance with A-CA<sup>(2)</sup>.;<b>Moins de résistances</b> avec l'association A-AC<sup>(2)</sup>.
+first;First line in most diseases. ;<b>Première intention</b> pour la majorité des affections.
 ;;
 treatments_title;In a trial comparing 3 treatments <br>(A-CA, doxycyclin & cefovecin):;Dans une étude comparant 3 traitements<br>(A-AC, doxycycline & céfovécine) :
 treatments_list;Significant decrease of oculonasal secretions;Réduction significative des sécrétions oculonasales

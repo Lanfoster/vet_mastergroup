@@ -16,6 +16,10 @@ li { list-style: none; }
 
 #cefa_efficacy .content b {
 	font-family: "FuturaStdHeavy";
+    background: #fff;
+    padding: 7px 20px;
+    border-radius: 15px 0;
+    box-shadow: 0 0 10px 2px #afc1c7;
 }
 
 

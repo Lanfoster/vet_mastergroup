@@ -6,9 +6,15 @@ li { list-style: none; }
 	font-size: 28px;
 	line-height: 32px;
 }
+#marbocyl_marboprado .content b {
+	font-family: "FuturaStdHeavy";
+    background: #fff;
+    padding: 7px 20px;
+    border-radius: 15px 0;
+    box-shadow: 0 0 10px 2px #afc1c7;
+}
 #marbocyl_marboprado .content .blue {
 	color: #0B2892;
-	font-family: FuturaStdHeavy;
 }
 #marbocyl_marboprado .content .sub {
 	position: relative;
@@ -17,6 +23,7 @@ li { list-style: none; }
 }
 #marbocyl_marboprado li {
 	margin-bottom: 35px;
+	line-height: 35px;
 	color: #7b959d;
 	position: relative;
 }

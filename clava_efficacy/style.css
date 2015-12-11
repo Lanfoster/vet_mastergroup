@@ -12,14 +12,22 @@
 	top: 154px; right: 77px;
 }
 
+#clava_efficacy .intro b {
+	font-family: "FuturaStdHeavy";
+    background: #fff;
+    padding: 7px 20px;
+    border-radius: 15px 0;
+    box-shadow: 0 0 10px 2px #afc1c7;
+}
+
 #clava_efficacy ul.intro {
 	position: absolute;
-	width: 450px; 
+	width: 460px; 
 	top: 200px; left: 150px;
 	list-style: none;
 	color:#d70073;
 	font-size: 28px;
-	line-height: 32px;
+	line-height: 38px;
 }
 
 #clava_efficacy ul.intro li {

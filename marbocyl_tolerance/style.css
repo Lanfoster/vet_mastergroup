@@ -22,6 +22,7 @@ li { list-style: none; }
 	background: url('img/puce.png');
 	background-size: 30px;
 }
+#marbocyl_tolerance .content ul li:nth-child(2) { margin-top: 50px }
 #marbocyl_tolerance .content ul li .sub {
 	position: relative;
 	top: -12px;
