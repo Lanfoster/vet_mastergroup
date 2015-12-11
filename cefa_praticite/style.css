@@ -16,6 +16,10 @@ li { list-style: none; }
 
 #cefa_praticite .content b {
 	font-family: "FuturaStdHeavy";
+    background: #fff;
+    padding: 7px 20px;
+    border-radius: 15px 0;
+    box-shadow: 0 0 10px 2px #afc1c7;
 }
 
 
@@ -34,7 +38,7 @@ li { list-style: none; }
 
 #cefa_praticite .item {
 	position: relative;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	margin-left: 30px;
 }
 

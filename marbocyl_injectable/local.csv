@@ -2,9 +2,9 @@ key;ref;value;
 title;The injectable, to act fast<br>and increase compliance;L'injectable, pour agir vite<br>et assurer l'observance
 list;The only one registered IV<br>on the market;Le seul injectable administrable en IV<br>sur le marché
 list;SC and IV routes;Voies SC et IV
-list;2 mg/kg once daily or 4 mg/kg<br>3 times every 4 days in UTIs in dogs;2 mg/kg une fois par jour ou 4 mg/kg<br>3 fois tous les 4 jours lors d'infection urinaire chez le chien
-list;Indicated in SSTIs, UTIs and surgery;Indiqué pour les infections de la peau et des tissus mous, les infections urinaires et avant une chirurgie contaminée<div class="popBtn" data-link="itu">i</div>
+list;2 mg/kg once daily or 4 mg/kg<br>3 times every 4 days in UTIs in dogs;2 mg/kg une fois par jour ou 4 mg/kg<br>3 fois tous les 4 jours lors d'infection urinaire chez le chien<div class="popBtn" data-link="itu">i</div>
+list;Indicated in SSTIs, UTIs and surgery;Indiqué pour les infections de la peau et des tissus mous, les infections urinaires et avant une chirurgie contaminée
 list;Storage at room temperature;Conservation à température ambiante
 
 popup1_title;;Marbocyl®
-popup1_texte;;[subtitle[ITU BASSE]]Due à Escherichia coli et Proteus mirabilis. Chez le chien.<br><b>4 mg/kg = 2 ml/5 kg</b>
+popup1_texte;;[subtitle[ITU BASSE]]Due à <i>Escherichia coli </i>et <i>Proteus mirabilis</i>. Chez le chien.<br><b>4 mg/kg = 2 ml/5 kg</b>

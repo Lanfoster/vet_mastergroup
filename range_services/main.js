@@ -20,7 +20,11 @@ define(['jquery', 'Backbone','underscore', 'transit', 'snap' ], function( $, Bac
           container.find(".popup .bloc").transition({ opacity:0, scale:.9 }, function(){ container.find(".popup, .popup .bloc").fadeOut() });
         })
 
-         container.find( ".popup .loupe").click( function() {
+        container.find( ".bloc.prescription-1.slide1 .loupe").click( function() {
+          window.location.hash = window.location.hash + "/viewer/diag";
+        })
+
+        container.find( ".bloc.prescription-1.slide2 .loupe").click( function() {
           window.location.hash = window.location.hash + "/viewer/protect";
         })
 
@@ -33,8 +37,24 @@ define(['jquery', 'Backbone','underscore', 'transit', 'snap' ], function( $, Bac
         function slider(t)
         {
           slide = slide > 3 ? 1 : slide < 1 ? 3 : slide;
-          $(t).parents('.bloc').transition({ opacity:0, scale:.9 }, 200, function(){ $(this).fadeOut(); container.find('.slide'+slide).show().transition({ opacity:1, scale:1 }); });
+          $(t).parents('.bloc').transition({ opacity:0, scale:.9 }, 200, function(){ $(this).fadeOut(); container.find('.bloc.prescription-3.slide'+slide).show().transition({ opacity:1, scale:1 }); });
         }
+
+        //*****///
+
+        container.find('.navVisuright').click(function(){  
+          $(this).parents('.bloc').transition({ opacity:0, scale:.9 }, 200, function(){ 
+            $(this).fadeOut(); 
+            container.find('.bloc.prescription-1.slide2').show().transition({ opacity:1, scale:1 });
+          });
+        });
+
+        container.find('.navVisuleft').click(function(){  
+          $(this).parents('.bloc').transition({ opacity:0, scale:.9 }, 200, function(){ 
+            $(this).fadeOut(); 
+            container.find('.bloc.prescription-1.slide1').show().transition({ opacity:1, scale:1 });
+          });
+        });
 
         //****///
 

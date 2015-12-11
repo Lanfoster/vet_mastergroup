@@ -12,7 +12,7 @@ data_list;Regular epidemiological data;Revues épidémiologiques régulières
 data_list;;Réseau d'épidémiosurveillance interne validée par l'OMS : [sub[données recueillies depuis 20 ans dans 8 pays européens (1500 à 2000 souches étudiées chaque année)]]
 data_list;;Membre RESAPATH
 
-education_title;Continuing education;Formation continue
+education_title;Continuing education;Formation continue :
 education_list;;Webconférences
 education_list;;Fiches techniques
 education_list;;EPU "carte blanche" avec des spécialistes
@@ -96,6 +96,12 @@ popup_pop8_list;;Participe à la réduction<br>de l’usage des antibiotiques
 popup_pop8_other;;[nav[[navleft[]][navright[]]]]
 
 popup_pop9_title;;
-popup_pop9_id;;prescription-1
+popup_pop9_id;;prescription-1 slide1
 popup_pop9_other;;[loupe[]]
+popup_pop9_other;;[navVisu[[navVisuright[]]]
+
+popup_pop10_title;;
+popup_pop10_id;;prescription-1 slide2
+popup_pop10_other;;[loupe[]]
+popup_pop10_other;;[navVisu[[navVisuleft[]]]]	
 

@@ -26,9 +26,14 @@ define(['jquery', 'Backbone','underscore', 'transit', 'snap' ], function( $, Bac
             container.find('.bloc.cats').show();
         })
 
-        container.find('.first .popBtn').click( function() {
+        container.find('.first .popBtn.pop1').click( function() {
             popup.show();
             container.find('.bloc.picturePop').show();
+        })
+
+        container.find('.first .popBtn.pop2').click( function() {
+            popup.show();
+            container.find('.bloc.AFVAC').show();
         })
 
         container.find( ".bloc.picturePop .zoom").click( function() {

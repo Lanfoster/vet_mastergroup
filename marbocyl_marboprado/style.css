@@ -129,7 +129,7 @@ li { list-style: none; }
 
 
 #popin .popin2 ul { margin: 35px 0 0 100px; font-size: 22px }
-#popin .popin2 ul li { margin-bottom: 25px }
+#popin .popin2 ul li { margin-bottom: 15px }
 #popin .popin2 ul li:before { top: 0 }
 
 #popin .popin3 h2 { padding: 32px; font-size: 28px; }

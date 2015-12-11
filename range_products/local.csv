@@ -110,7 +110,7 @@ popItems_predniderm_id;predniderm;predniderm
 popItems_predniderm_list;;Association antibiotique <b>large spectre</b> et <b>anti-inflammatoire</b> : néomycine + acétate de prednisolone
 popItems_predniderm_list;;Observance facilitée par la <b>texture fluide</b> plébiscitée par les propriétaires
 popItems_predniderm_list;;Lotion à appliquer 2 à 3 fois par jour en <b>léger massage</b>
-popItems_predniderm_list;;Flacons de 60 ou 120 ml pour toutes les durées de traitement et tailles de lésions
+popItems_predniderm_list;;<b>Flacons de 60 ou 120 ml</b> pour toutes les durées de traitement et tailles de lésions
 ;;
 popItems2_guide_title;;Guide de bonnes pratiques<br>ANSES/AFVAC
 ;;

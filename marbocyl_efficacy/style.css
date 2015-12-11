@@ -306,3 +306,95 @@ table td[rowspan], table .tstyle {
 	font-weight: bold;
 	text-align: center;
 }
+
+
+
+#popin .popin4 {
+	background: #fff;
+	width: 840px; margin-left: -420px;
+	height: 580px; margin-top: -290px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	border-radius: 0 50px;
+	overflow: hidden;
+	box-shadow: 0 0 20px 10px;
+}
+
+#popin .popin4 .close {
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	margin-top: -15px;
+	font-size: 40px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	font-family: "FuturaStdBold";
+	color: #FFF;
+	cursor: pointer;
+}
+
+#popin .popin4  h2 {
+	background: #002596;
+	height: 100px;
+	padding-top: 15px;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+#popin .popin4 .col1 {
+	display: inline-block;
+	padding-left: 60px;
+	margin-top: 10px;
+	vertical-align: top;
+	width: 390px;
+}
+
+#popin .popin4 .col2 {
+	display: inline-block;
+	padding-left: 60px;
+	margin-top: 10px;
+	vertical-align: top;
+}
+
+#popin .popin4 .sub {
+	position: relative;
+	font-size: 16px;
+	color: #002596;
+	font-family: "FuturaStdBold";
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+#popin .popin4 .sub:before {
+	content: '';
+	position: absolute;
+	top: -4px;
+	left: -30px;
+	width: 23px;
+	height: 23px;
+	background: url('img/puce.png');
+	background-size: 23px;
+}
+
+#popin .popin4 ul li {
+	position: relative;
+	font-size: 12px;
+	color:#7c959d;
+	margin-bottom: 12px;
+}
+
+#popin .popin4 ul li b {
+	font-family: "FuturaStdHeavy";
+	font-size: 12px;
+	color:#666;
+}
+
+#popin .popin4 .affiche {
+	position: absolute;
+	width: 220px; height: 220px;
+	background: url('img/popin.png');
+	bottom: 13px;
+    left: 100px;
+}

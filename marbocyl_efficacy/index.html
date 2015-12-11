@@ -251,5 +251,28 @@
 		</table>
 	</div>
 
+	<div class="pop popin4">
+		<span class="close">+</span>
+		<h2><%= popin4.title %></h2>
+		<div class="col1">
+			<div class="sub"><%= popin4.item1 %></div>
+				<ul>
+				<% for(var i in popin4.item1puce) { %>
+					<li><%= popin4.item1puce[i] %></li>
+				<% } %>
+			</ul>
+			<div class="affiche"></div>
+		</div>
+		<div class="col2">
+			<div class="sub"><%= popin4.item2 %></div>
+				<ul>
+				<% for(var i in popin4.item2puce) { %>
+					<li><%= popin4.item2puce[i] %></li>
+				<% } %>
+			</ul>
+			
+		</div>
+	</div>
+
 </div>
 

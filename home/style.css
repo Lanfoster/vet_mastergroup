@@ -93,7 +93,7 @@
 	cursor: pointer;
 }
 #home .aurizon .bigdot { left: 242px; top: 184px; border-color: #00338e;}
-#home .cefaseptin .bigdot { left: 1px; top: 78px; border-color: #ac27a9;}
+#home .cefaseptin .bigdot { left: 1px; top: 78px; border-color: #aa4237;}
 #home .clavaseptin .bigdot { left: 5px; top: 2px; border-color: #cc1b7e;}
 #home .clindaseptin .bigdot { left: 9px; top: 180px; border-color: #ffda00;}
 #home .marbocyl .bigdot { left: 6px; top: 8px; border-color: #002596;}
@@ -115,7 +115,7 @@
 #home .cefaseptin .text { 
 	left: 55px;
 	top: 45px;
-	color: #ac27a9;
+	color: #aa4237;
 	-webkit-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
@@ -130,6 +130,7 @@
 	left: 166px;
 	top: 55px;
 	color: #ffda00;
+	text-shadow: 1px 1px 3px rgba(0,0,0,.3);
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	-o-transform: rotate(45deg);

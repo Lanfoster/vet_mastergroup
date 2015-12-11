@@ -5,15 +5,13 @@ define(['jquery', 'Backbone','underscore', 'transit', 'snap' ], function( $, Bac
   {
     vars: {},
 
-    init: function( container )
-    {
+    init: function( container ) {
       container.find('h1').css( { opacity : 0, y : -50 } );
       container.find('.item, ul li, .conclusion').css( { opacity : 0, y : 40 } );
       container.find('.pack').css( { opacity : 0, x : 50 } );
     },
 
-    show: function( container )
-    {
+    show: function( container ){
       var pause = 0, next = [];
 
       container.find('h1').each(function(){ next.push([this, 1]) });

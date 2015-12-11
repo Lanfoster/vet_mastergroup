@@ -9,12 +9,12 @@ define(['jquery', 'Backbone','underscore', 'transit', 'snap' ], function( $, Bac
     {
       container.find("img").css( { opacity : 0 } );
 
-      /*container.find( ".img").click( function() {
+      container.find( ".img").click( function() {
         container.find( ".popup").fadeIn();
       });
       container.find( ".popup .close").click( function() {
         container.find( ".popup").fadeOut();
-      });*/
+      });
     },
 
     show: function( container )

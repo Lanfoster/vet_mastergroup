@@ -1,0 +1,16 @@
+#range_presentationbis img {
+	position: absolute;
+	left: 0; top: 0;
+	display: block;
+	cursor: pointer;
+}
+
+#range_presentationbis .content {
+	position: absolute;
+	background: url('img/table.jpg');
+	background-size: 100%;
+	width: 800px; height: 503px;
+	top: 50%; left: 50%;
+	margin-left: -400px;
+	margin-top: -300px;
+}

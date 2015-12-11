@@ -77,3 +77,27 @@ popin3b_table_list;High or good quality evidence with possible discrepancy betwe
 popin3b_table_list;Insufficient or poor quality evidence despite consensus among experts that make this kind of recommendation a cautious usage of Fluoroquinolones among companion animals or specific species. Requires that veterinary schools, and/or pharmaceutical companies, conduct specific research and publish related results in order to reassess the recommendation as soon as possible.;Niveau de preuve insuffisant ou mauvais malgré l'existence d'un consensus parmi les experts qui conduit à une recommandation d'usage prudent des fluoroquinolones chez les animaux de compagnie ou certaines espèces spécifiques. Il est nécessaire que les écoles vétérinaires, et/ou les laboratoires pharmaceutiques, réalisent des études spécifiques et publient leurs résultats pour réévaluer la recommandation dès que possible.
 popin3b_table_list;High or good quality evidence with possible discrepancy between pharmacokinetic, pharmacodynamic and clinical data (whether missing or not) that recommend not to use Fluoroquinolones among companion animals or specific species until additional data are available.;Haut ou bon niveau de preuve avec divergences possibles entre les données pharmacocinétiques, pharmacodynamiques et cliniques (manquantes ou non), qui conduit à déconseiller l'usage des fluoroquinolones chez les animaux de compagnie ou certaines espèces spécifiques jusqu'à la publication de données supplémentaires.
 popin3b_table_list;Absence of evidence to use Fluoroquinolones among companion animals or specific species. Requires that veterinary schools, and/or pharmaceutical companies, conduct specific research and publish related results in order to reassess the recommendation as soon as possible.;Absence de preuve pour l'usage des fluoroquinolones chez les animaux de compagnie ou certaines espèces spécifiques. Il est nécessaire que les écoles vétérinaires, et/ou les laboratoires pharmaceutiques, réalisent des études spécifiques et publient leurs résultats pour réévaluer la recommandation dès que possible.
+
+popin4_title;--;Guide de bonnes pratiques <br>ANSES/AFVAC
+popin4_item1;--;Marbofloxacine préconisée<br>En 1ère intention pour :
+popin4_item1puce;--;<b>Bronchopneumonies à Gram- </b>chez le chien et le chat
+popin4_item1puce;--;<b>Affections pleurales bactériennes à Gram- </b>chez le chien et le chat
+popin4_item1puce;--;<b>Sepsis et choc septique </b>chez le chien et le chat
+popin4_item1puce;--;<b>Infections nosocomiales ITU </b>en réanimation
+popin4_item1puce;--;<b>Pyélonéphrites </b>chez le chien et le chat
+popin4_item2;--;En 2ème intention pour :;
+popin4_item2puce;--;<b>Pyodermites superficielles et profondes </b>chez le chien
+popin4_item2puce;--;<b>Otites moyennes </b>chez le chien et le chat
+popin4_item2puce;--;<b>Ulcère perforé de la cornée  </b>chez le chien et le chat
+popin4_item2puce;--;<b>Entérites aigues </b>chez le chien et le chat
+popin4_item2puce;--;<b>Affections hépatobiliaires </b>chez le chien et le chat
+popin4_item2puce;--;<b>Pancréatites </b>chez le chien et le chat
+popin4_item2puce;--;<b>Rhinopneumonies infectieuses </b>chez le lapin de compagnie
+popin4_item2puce;--;<b>Bronchopneumonies </b>chez le chien et le chat
+popin4_item2puce;--;<b>Mammites bactériennes </b>chez le chien et le chat à pH <  7,4 et gram-
+popin4_item2puce;--;<b>Métrite infectieuse aigue </b>chez la chienne et la chatte
+popin4_item2puce;--;<b>Métrite infectieuse chronique brucellique </b>chez la chienne et la chatte
+popin4_item2puce;--;<b>Vaginite bactérienne brucellique </b>chez la chienne et la chatte
+popin4_item2puce;--;<b>Prostatite chronique </b>du chien
+popin4_item2puce;--;<b>Orchites et épididymite bactériennes </b>chez le chien et le chat
+

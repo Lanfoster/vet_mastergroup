@@ -1,8 +1,8 @@
 li { list-style: none; }
 
-#aurizon_convenance .pageTitle h1 { background: #0B2892; }
+#aurizon_convenience .pageTitle h1 { background: #0B2892; }
 
-#aurizon_convenance .content {
+#aurizon_convenience .content {
 	font-size: 28px;
 	margin: 185px 160px;
 	color: #749096;
@@ -10,17 +10,17 @@ li { list-style: none; }
 	width: 700px;
 }
 
-#aurizon_convenance .content b {
+#aurizon_convenience .content b {
 	font-family: "FuturaStdHeavy";
 }
 
-#aurizon_convenance .item {
+#aurizon_convenience .item {
 	position: relative;
 	margin-bottom: 23px;
 	margin-left: 30px;
 }
 
-#aurizon_convenance .item:before {
+#aurizon_convenience .item:before {
 	content: '';
 	position: absolute;
 	top: 4px;
@@ -32,7 +32,7 @@ li { list-style: none; }
 }
 
 
-#aurizon_convenance .visu {
+#aurizon_convenience .visu {
 	position: absolute;
 	top:390px;
 	width: 272px; height: 216px;
@@ -44,15 +44,15 @@ li { list-style: none; }
 	color: #0B2892;
 }
 
-#aurizon_convenance .visu1 { left: 250px; }
-#aurizon_convenance .visu2 { left: 530px; }
+#aurizon_convenience .visu1 { left: 250px; }
+#aurizon_convenience .visu2 { left: 530px; }
 
-#aurizon_convenance .visu:after {
+#aurizon_convenience .visu:after {
 	content: "";
 	position: absolute;
 	left: 19px; top:7px;
 	width: 206px; height: 153px;
 }
 
-#aurizon_convenance .visu1:after {background: url('img/visu1.png');}
-#aurizon_convenance .visu2:after {background: url('img/visu2.png');}
+#aurizon_convenience .visu1:after {background: url('img/visu1.png');}
+#aurizon_convenience .visu2:after {background: url('img/visu2.png');}

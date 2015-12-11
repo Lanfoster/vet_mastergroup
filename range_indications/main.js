@@ -48,7 +48,10 @@ define(['jquery', 'Backbone','underscore', 'transit', 'snap' ], function( $, Bac
         container.find( ".content" ).transition( { opacity : 1, delay:300 }, 700, 'ease');
         container.find( ".puce").each( function(index, item) { 
           var delay = 800+ index*100;
-          $(item).transition( { opacity : 1, scale:1, delay:delay }, 500, 'easeOutBack');
+          $(item).transition( { opacity : 1, scale:1, delay:delay }, 500, 'easeOutBack', function() {
+            $(this).click();  
+          });
+          
         });
       }
 

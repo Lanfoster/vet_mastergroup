@@ -10,9 +10,9 @@ popin1_legend;Arithmetic plots of the mean plasma  concentrations (Î¼g.ml) of 
 popin2_title;Percentages of susceptibility of bacteria<br>to various antibiotics used<br>in the treatment of cats and dogs infections in Europe;Pourcentages de sensibilité des bactéries<br>à différents antibiotiques utilisés<br>dans le traitement des infections canines et félines<br>en Europe 
 popin2_paragraph;Based on CSLI registered breakpoints, over the 2002-2009 period.;D'après les seuils définis par le CSLI, sur la période 2002-2009.
 popin2_legend;Percentages have not been calculated when breakpoints are not registered by CSLI.;Les pourcentages n'ont pas été calculés en l'absence de seuils définis par le CSLI.
-popin2_table_title;BACTERIAL SPECIES;ESPECES BACTERIENNES
-popin2_table_title;PATHOLOGIES;AFFECTIONS
-popin2_table_title;PERCENTAGE OF SUSCEPTIBILITY<br>(number of strains) TO ANTIBIOTICS;POURCENTAGE DE SENSIBILITE<br>(nombre de souches)<br>AUX ANTIBIOTIQUES
+popin2_table_title;BACTERIAL SPECIES;especes bacteriennes
+popin2_table_title;PATHOLOGIES;affections
+popin2_table_title;percentage of susceptibility<br>(number of strains) to antibiotics;pourcentage de sensibilite<br>(nombre de souches)<br>aux antibiotiques
 popin2_table_title;ENR;ENR
 popin2_table_title;MAR;MAR
 popin2_table_titleY;Gram negative;Gram négatif
@@ -43,5 +43,5 @@ popin2_table_line6;96.55% (29)<br>89.47% (57);96,55 % (29)<br>89,47 % (57)
 popin2_table_line6;96.67% (30)<br>92.98% (57);96,67 % (30)<br>92,98 % (57)
 popin3_title;To prescribe in confidence;Pour prescrire en toute confiance
 popin3_list;<b>Well tolerated,</b> even in dogs with renal failure [sub[(4)]];<b>Bien toléré,</b> même chez les chiens insuffisants rénaux [sub[(4)]]
-popin3_list;<b>No cartilage abnormality</b> reported after the use of [blue[Marbocyl®]] [sub[(5)]];<b>Aucune anomalie cartilagineuse</b> rapportée après l'utilisation de [blue[Marbocyl®]] [sub[(5)]]
+popin3_list;<b>No cartilage abnormality</b> reported after the use of [blue[Marbocyl®]] [sub[(5)]];<b>Chiens de grandes races en croissance</b> : rares lésions de vacuolisation du cartilage articulaire, réversible[sub[(5)]]
 popin3_list;<b>No link with cases of retinal toxicity</b> in cats [sub[(6)]];<b>Aucun lien avec les cas de toxicité rétinienne</b> chez le chat [sub[(6)]]
