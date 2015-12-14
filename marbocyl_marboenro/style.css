@@ -27,13 +27,11 @@ li { list-style: none; }
 }
 #marbocyl_marboenro .content li:before {
 	content: '';
+	width: 20px; height: 20px;
 	position: absolute;
-	top: 10px;
-	left: -35px;
-	width: 30px;
-	height: 30px;
-	background: url('img/puce.png');
-	background-size: 30px;
+	top: 20px; left: -30px;
+	background: #0B2892;
+	border-radius: 22px;
 }
 
 #marbocyl_marboenro .content .sub {

@@ -115,12 +115,12 @@
 }
 
 #range_products .popup .bloc .content ul li:before {
-  content: "";
+  content: '';
+  width: 20px; height: 20px;
   position: absolute;
-  left: -30px; top: -2px;
-  width: 23px; height: 23px;
-  background: url('img/puce.png');
-  background-size: 23px;
+  top: -2px; left: -30px;
+  background: #0072cf;
+  border-radius: 22px;
 }
 
 #range_products .popup2, #range_products .popup .bloc .picture{

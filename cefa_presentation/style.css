@@ -30,12 +30,10 @@
 	position: relative;
 }
 #cefa_presentation .listeplay li:before {
-	content: "";
+	content: '';
+	width: 20px; height: 20px;
 	position: absolute;
-	top: 4px;
-	left: -30px;
-	width: 23px;
-	height: 23px;
-	background: url('img/puce.png');
-	background-size: 23px;
+	top: 5px; left: -30px;
+	background: #aa4237;
+	border-radius: 22px;
 }

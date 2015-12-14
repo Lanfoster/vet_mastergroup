@@ -54,12 +54,12 @@
 }
 
 #range_services .introBloc ul li:before {
-  content: "";
+  content: '';
+  width: 20px; height: 20px;
   position: absolute;
-  top: -3px; left: -30px;
-  width: 23px; height: 23px;
-  background: url('img/puce.png');
-  background-size: 23px;
+  top: -2px; left: -30px;
+  background: #0072cf;
+  border-radius: 22px;
 }
 
 #range_services .introBloc.prescription ul li:nth-child(2):after,

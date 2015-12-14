@@ -31,14 +31,12 @@
 	position: relative;
 }
 #clind_efficacy .listeplay li:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: -30px;
-	width: 23px;
-	height: 23px;
-	background: url('img/puce.png');
-	background-size: 23px;
+  content: '';
+  width: 20px; height: 20px;
+  position: absolute;
+  top: 2px; left: -30px;
+  background: #fed905;
+  border-radius: 22px;
 }
 
 

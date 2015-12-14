@@ -116,13 +116,11 @@ li { list-style: none; }
 }
 #marbocyl_convenience .subbloc:before {
 	content: '';
+	width: 20px; height: 20px;
 	position: absolute;
-	top: 2px;
-	left: -28px;
-	width: 22px;
-	height: 22px;
-	background: url('img/puce.png');
-	background-size: 22px;
+	top: 2px; left: -30px;
+	background: #0B2892;
+	border-radius: 22px;
 }
 #marbocyl_convenience .subbloc ul { margin: 5px 0 0 20px; }
 #marbocyl_convenience .subbloc ul li { position: relative; }

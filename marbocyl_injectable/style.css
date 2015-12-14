@@ -22,13 +22,11 @@ li { list-style: none; }
 }
 #marbocyl_injectable ul li:before {
 	content: '';
+	width: 20px; height: 20px;
 	position: absolute;
-	top: 2px;
-	left: -35px;
-	width: 30px;
-	height: 30px;
-	background: url('img/puce.png');
-	background-size: 30px;
+	top: 5px; left: -30px;
+	background: #0B2892;
+	border-radius: 22px;
 }
 
 #marbocyl_injectable .popBtn {
