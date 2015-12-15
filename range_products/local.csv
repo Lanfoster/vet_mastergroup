@@ -97,8 +97,9 @@ popItems_septotryl_id;septotryl;septotryl
 popItems_septotryl_list;;<b class="grey">Sulfaméthoxypyridazine-triméthroprime</b><br>en comprimés enrobés
 popItems_septotryl_list;;<b class="grey">Association bactéricide de 1ère intention au spectre large</b> : Infections respiratoires, digestives, urinaires, septicémies<div class="popBtn" data-popin="popin1">i</div>
 popItems_septotryl_list;;Indication sur les <b class="grey">SARM</b> (hors AMM) <b class="grey">en dermatologie</b>
-popItems_septotryl_list;;<b class="grey">Traitement économique</b> pression de<br>sélection plus faible
+popItems_septotryl_list;;<b class="grey">Traitement économique</b>
 popItems_septotryl_list;;<b class="grey">Observance facilitée</b> grâce à une prise par jour
+popItems_septotryl_list;;pression de sélection plus faible
 popItems_septotryl_span;;<table>
 popItems_septotryl_span;;<tr><td>SEPTOTRYL CHAT - CHIEN NAIN</td><td>Boîte de 20 cp</td><td>1 cp pour 2 kg</td><td>10 jours de traitement pour un chat de 4 kg</td></tr>
 popItems_septotryl_span;;<tr><td>SEPTOTRYL CHIEN</td><td>Boîte de 16 cp</td><td>1 cp pour 10 kg</td><td>10 jours de traitement pour un chat de 4 kg</td></tr>
