@@ -12,6 +12,15 @@
 	line-height: 25px;
 	color: #7c959d;
 }
+#clava_blister .part:before {
+	content: '';
+	width: 20px; height: 20px;
+	position: absolute;
+	top: 2px; left: -30px;
+	background: #d70073;
+	border-radius: 22px;
+}
+
 
 #clava_blister .part b{
 	color: #d70073;
@@ -91,19 +100,6 @@
 	width: 18px; height: 18px;
 	border-radius: 20px;
 	background-color: #cf136a;
-}
-
-#clava_blister .clearness ul li:after{
-	content: "";
-	position: absolute;
-	top: 8px; left: -18px;
-	border: 3px solid #FFF;
-	border-left-color: transparent;
-	border-top-color: transparent;
-	-webkit-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
 }
 /**/
 #clava_blister .packBack{

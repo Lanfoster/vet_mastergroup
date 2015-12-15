@@ -14,7 +14,7 @@ define(['jquery', 'Backbone','underscore','transit'], function( $, Backbone, _ )
             container.find( ".picture" ).css( { opacity : 0, scale: .8  } );
 
             
-            var list = ["range","oridermyl","aurizon","sonotix","clindaseptin","cefaseptin","clavaseptin","marbocyl"];
+            var list = ["range","oridermyl","aurizon"/*,"sonotix"*/,"clindaseptin","cefaseptin","clavaseptin","marbocyl"];
             list.forEach( function( item ) {
                 container.find( "."+item+" .bigdot" ).click( function(e){
                     window.location.hash = item.toUpperCase(); 

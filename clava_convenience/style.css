@@ -61,18 +61,6 @@
 	background-color: #cf136a;
 }
 
-#clava_convenience ul li:after{
-	content: "";
-	position: absolute;
-	top: 8px; left: -19px;
-	border: 3px solid #FFF;
-	border-left-color: transparent;
-	border-top-color: transparent;
-	-webkit-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-}
 #clava_convenience ul.right { left: 440px; width: 370px; }
 
 #clava_convenience ul li { position: relative; margin-bottom: 10px; }

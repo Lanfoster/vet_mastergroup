@@ -97,9 +97,8 @@ popItems_septotryl_id;septotryl;septotryl
 popItems_septotryl_list;;<b class="grey">Sulfaméthoxypyridazine-triméthroprime</b><br>en comprimés enrobés
 popItems_septotryl_list;;<b class="grey">Association bactéricide de 1ère intention au spectre large</b> : Infections respiratoires, digestives, urinaires, septicémies<div class="popBtn" data-popin="popin1">i</div>
 popItems_septotryl_list;;Indication sur les <b class="grey">SARM</b> (hors AMM) <b class="grey">en dermatologie</b>
-popItems_septotryl_list;;<b class="grey">Traitement économique</b> pour une pression de<br>sélection plus faible
+popItems_septotryl_list;;<b class="grey">Traitement économique</b> pression de<br>sélection plus faible
 popItems_septotryl_list;;<b class="grey">Observance facilitée</b> grâce à une prise par jour
-popItems_septotryl_list;;<b class="grey">Taux de résistance en baisse</b>
 popItems_septotryl_span;;<table>
 popItems_septotryl_span;;<tr><td>SEPTOTRYL CHAT - CHIEN NAIN</td><td>Boîte de 20 cp</td><td>1 cp pour 2 kg</td><td>10 jours de traitement pour un chat de 4 kg</td></tr>
 popItems_septotryl_span;;<tr><td>SEPTOTRYL CHIEN</td><td>Boîte de 16 cp</td><td>1 cp pour 10 kg</td><td>10 jours de traitement pour un chat de 4 kg</td></tr>
@@ -118,7 +117,7 @@ popItems2_guide_text_col1_title;;Association antibiotique préconisée<br>en 1è
 popItems2_guide_text_col1_list;;<b>Pyodermites superficielles et profondes</b> chez le chien
 popItems2_guide_text_col1_list;;<b>Bronchopneumonies</b> chez le chien et le chat
 popItems2_guide_text_col1_list;;<b>Affections pleurales bactériennes a coques</b> chez le chien et le chat
-popItems2_guide_text_col1_list;;<b>Mammites bactériennes</b> chez le chien et le chat a pH < 7,4 et gram -
+popItems2_guide_text_col1_list;;<b>Mammites bactériennes</b> chez le chien et le chat à pH < 7,4 et gram -
 popItems2_guide_text_col1_list;;<b>Vaginite bactérienne brucellique</b> chez la chienne et la chatte
 popItems2_guide_text_col1_list;;<b>Prostatite chronique</b> du chien
 popItems2_guide_text_col1_list;;<b>Orchites et épidydimites bactériennes</b> chez le chien et le chat

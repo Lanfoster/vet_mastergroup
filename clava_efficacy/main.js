@@ -12,28 +12,37 @@ define(['jquery', 'Backbone','underscore', 'transit', 'snap' ], function( $, Bac
 
         var popup = container.find('.popup');
         container.find('.popup .close').click( function() {
-            popup.hide();
-            container.find('.bloc').hide();
+            popup.fadeOut();
+            container.find('.bloc').fadeOut();
         })
 
         container.find('.URTD .popBtn').click( function() {
-            popup.show();
-            container.find('.bloc.treatments').show();
+            popup.fadeIn();
+            container.find('.bloc.treatments').fadeIn();
         })
 
         container.find('.resistance .popBtn').click( function() {
-            popup.show();
-            container.find('.bloc.cats').show();
+            popup.fadeIn();
+            container.find('.bloc.cats').fadeIn();
         })
 
         container.find('.first .popBtn.pop1').click( function() {
-            popup.show();
-            container.find('.bloc.picturePop').show();
+            popup.fadeIn();
+            container.find('.bloc.picturePop').fadeIn();
         })
 
         container.find('.first .popBtn.pop2').click( function() {
-            popup.show();
-            container.find('.bloc.AFVAC').show();
+            popup.fadeIn();
+            container.find('.bloc.AFVAC').fadeIn();
+        })
+
+        container.find('.popnav').click( function()
+        {
+            var current = $(this), cible = current.data('link');
+            current.parents('.bloc').fadeOut(function()
+            {
+                container.find('.bloc.'+cible).fadeIn();
+            })
         })
 
         container.find( ".bloc.picturePop .zoom").click( function() {

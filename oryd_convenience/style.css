@@ -12,12 +12,17 @@ li { list-style: none; }
 
 #oryd_convenience .content b {
 	font-family: "FuturaStdHeavy";
+    background: #fff;
+    padding: 7px 20px;
+    border-radius: 15px 0;
+    box-shadow: 0 0 10px 2px #afc1c7;
 }
 
 #oryd_convenience .item {
 	position: relative;
 	margin-bottom: 35px;
 	margin-left: 30px;
+	line-height: 42px;
 }
 
 #oryd_convenience .item:before {

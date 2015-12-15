@@ -34,6 +34,14 @@
 	position: relative;
 	margin-bottom: 30px;
 }
+#clava_efficacy ul.intro li:before {
+	content: '';
+	width: 20px; height: 20px;
+	position: absolute;
+	top: 8px; left: -30px;
+	background: #d70073;
+	border-radius: 22px;
+}
 
 #clava_efficacy ul.intro li sup{
 	font-size: 14px;
@@ -135,20 +143,6 @@
 	background-color: #cf136a;
 }
 
-#clava_efficacy .popup .bloc.picturePop .pinkline:after,
-#clava_efficacy .popup .bloc .content ul li:after{
-	content: "";
-	position: absolute;
-	top: 8px; left: -19px;
-	border: 3px solid #FFF;
-	border-left-color: transparent;
-	border-top-color: transparent;
-	-webkit-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-}
-
 /**/
 
 #clava_efficacy .popup .bloc.treatments .content ul {
@@ -234,3 +228,30 @@
 }
 #clava_efficacy .popup .bloc.AFVAC .pinkline:before { top: 0; }
 #clava_efficacy .popup .bloc.AFVAC .pinkline:after { top: 6px; }
+
+#clava_efficacy .popup .popnav {
+	width: 74px; height: 74px;
+	position: absolute;
+	top: 50%;
+	margin-top: -37px;
+	background-color: #d70073;
+	border-radius: 74px;
+	cursor: pointer;
+}
+#clava_efficacy .popup .popnav.next { right: -120px; }
+#clava_efficacy .popup .popnav.prev {
+	left: -85px;
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+#clava_efficacy .popup .popnav:after {
+    content: "";
+    position: absolute;
+    top: 50%; left: 50%;
+    margin: -10px 0 0 -15px;
+    border: 10px solid #FFF;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

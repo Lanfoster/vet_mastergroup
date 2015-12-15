@@ -173,12 +173,12 @@
 }
 
 #range_services .popup .bloc .content ul li:before {
-  content: "";
+  content: '';
+  width: 20px; height: 20px;
   position: absolute;
-  left: -30px; top: -2px;
-  width: 23px; height: 23px;
-  background: url('img/puce.png');
-  background-size: 23px;
+  top: -2px; left: -30px;
+  background: #0072cf;
+  border-radius: 22px;
 }
 
 
@@ -404,7 +404,7 @@
 #range_services .popup .slide3 .content ul li:nth-child(3):before,
 #range_services .popup .slide3 .content ul li:nth-child(6):before { content: none; }
 #range_services .popup .slide3 .content ul li:nth-child(4):before,
-#range_services .popup .slide3 .content ul li:nth-child(5):before {  background: url('img/puce_green.png'); background-size: 23px; }
+#range_services .popup .slide3 .content ul li:nth-child(5):before {  background: #27BB00; }
 #range_services .popup .slide3 .content ul li:nth-child(3) { color: #00a144 }
 #range_services .popup .slide3 .content ul li:nth-child(6) { color: #000; }
 
