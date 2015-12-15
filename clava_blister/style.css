@@ -25,6 +25,10 @@
 #clava_blister .part b{
 	color: #d70073;
 	font-size: 28px;
+    background: #fff;
+    padding: 7px 20px;
+    border-radius: 15px 0;
+    box-shadow: 0 0 10px 2px #afc1c7;
 }
 #clava_blister .part2 {
 	position: relative;
@@ -93,14 +97,6 @@
 	margin-top: 10px;
 }
 
-#clava_blister .clearness ul li:before{
-	content: "";
-	position: absolute;
-	top: 2px; left: -23px;
-	width: 18px; height: 18px;
-	border-radius: 20px;
-	background-color: #cf136a;
-}
 /**/
 #clava_blister .packBack{
 	position: absolute;
