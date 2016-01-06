@@ -63,7 +63,7 @@
 }
 
 #range_services .introBloc.prescription ul li:nth-child(2):after,
-#range_services .introBloc.prescription ul li:nth-child(4):after,
+#range_services .introBloc.prescription ul li:nth-child(3):after,
 #range_services .introBloc.education ul li:after,
 #range_services .introBloc.services ul li:nth-child(2):after,
 #range_services .introBloc.services ul li:nth-child(3):after {
@@ -323,27 +323,27 @@
 }
 
 
-#range_services .popup .prescription-3 {
+#range_services .popup .prescription-2 {
   width: 670px; height: 490px;
   margin: -245px 0 0 -335px;
 }
-#range_services .popup .prescription-3 .content {
+#range_services .popup .prescription-2 .content {
   height: 390px;
 }
-#range_services .popup .prescription-3 .content .text {
+#range_services .popup .prescription-2 .content .text {
   position: relative;
   top: 10px;
 }
-#range_services .popup .prescription-3 .content ul li {
+#range_services .popup .prescription-2 .content ul li {
   margin: 0 0 10px 30px;
 }
-#range_services .popup .prescription-3 .nav {
+#range_services .popup .prescription-2 .nav {
   position: absolute;
   width: 100%;
   top: 50%;
   margin-top: -37px;
 }
-#range_services .popup .prescription-3 .nav span {
+#range_services .popup .prescription-2 .nav span {
   width: 74px; height: 74px;
   position: absolute;
   top: 50%;
@@ -352,9 +352,9 @@
   border-radius: 74px;
   cursor: pointer;
 }
-#range_services .popup .prescription-3 .nav .navleft { left: -125px; }
-#range_services .popup .prescription-3 .nav .navright { right: -125px; }
-#range_services .popup .prescription-3 .nav span:after {
+#range_services .popup .prescription-2 .nav .navleft { left: -125px; }
+#range_services .popup .prescription-2 .nav .navright { right: -125px; }
+#range_services .popup .prescription-2 .nav span:after {
     content: "";
     position: absolute;
     top: 50%;
@@ -366,7 +366,7 @@
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-#range_services .popup .prescription-3 .nav .navleft:after {
+#range_services .popup .prescription-2 .nav .navleft:after {
     -webkit-transform: rotate(225deg);
     transform: rotate(225deg);
     margin-left: -5px;

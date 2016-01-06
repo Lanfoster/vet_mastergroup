@@ -30,7 +30,7 @@ product_predniderm_title;Predniderm®;Predniderm®
 ;;
 popItems_clavaseptin_title;Clavaseptin®;Clavaseptin®
 popItems_clavaseptin_id;clavaseptin;clavaseptin
-popItems_clavaseptin_span;;<div class="textgrey"><span class="grey">Amoxicilline + Acide clavulanique</span><br>en comprimés <span class="grey">appétents</span>,<br><span class="grey">bisécables</span>, 4 dosages</div>
+popItems_clavaseptin_span;;<div class="textgrey"><span class="grey">Amoxicilline + Acide clavulanique</span><br>en comprimés <span class="grey">appétents</span>,<br><span class="grey">bisécables</span>, 4 dosages<!--<div class="popBtn" data-popin="popup4">i</div>--></div>
 popItems_clavaseptin_span;;<table>
 popItems_clavaseptin_span;;<tr><td>Clavaseptin 50 mg</td><td>100, 250, <b>500 Comprimés</b></td></tr>
 popItems_clavaseptin_span;;<tr><td>Clavaseptin 62,5 mg</td><td>100, 250, <b>500 Comprimés</b></td></tr>
@@ -41,7 +41,7 @@ popItems_clavaseptin_span;;<div class="blue"><b>Nouvelles présentations 2015 :<
 ;;
 popItems_clindaseptin_title;Clindaseptin®;Clindaseptin®
 popItems_clindaseptin_id;clindaseptin;clindaseptin
-popItems_clindaseptin_span;;<div class="textgrey"><b>Clindamycine</b>, en solution buvable<br>ou comprimés sécables</div>
+popItems_clindaseptin_span;;<div class="textgrey"><b>Clindamycine</b>, en solution buvable<br>ou comprimés sécables<!--<div class="popBtn" data-popin="popup6">i</div>--></div>
 popItems_clindaseptin_span;;<table>
 popItems_clindaseptin_span;;<tr><td>Clindaseptin 25 mg</td><td>Flacon de 20 ml de solution buvable</td></tr>
 popItems_clindaseptin_span;;<tr><td>Clindaseptin 75 mg</td><td>Pots de 10 ou 20 comprimés</td></tr>
@@ -58,7 +58,7 @@ popItems_oridermyl_list;;Praticité grâce à <b class="grey">la canule souple<b
 ;;
 popItems_marbocyl_title;Marbocyl®;Marbocyl®
 popItems_marbocyl_id;marbocyl;marbocyl
-popItems_marbocyl_span;;<div class="textgrey"><b class="grey">Marbofloxacine</b><br>en flacon <b class="grey">injectable</b> (IV, SC)<br>ou comprimés <b class="grey">appétents</b> et sécables</div>
+popItems_marbocyl_span;;<div class="textgrey"><b class="grey">Marbofloxacine</b><br>en flacon <b class="grey">injectable</b> (IV, SC)<br>ou comprimés <b class="grey">appétents</b> et sécables<!--<div class="popBtn" data-popin="popup3">i</div>--></div>
 popItems_marbocyl_span;;<table>
 popItems_marbocyl_span;;<tr><td>Marbocyl FD</td><td>Flacon de 20 ml IV ou SC</td></tr>
 popItems_marbocyl_span;;<tr><td>MARBOCYL 5 mg</td><td>10, 100, 250 comprimés</td></tr>
@@ -86,7 +86,7 @@ popItems_aurizon_list;;Praticité grâce à la <b class="grey">canule souple<br>
 ;;
 popItems_cefaseptin_title;Cefaseptin®;Cefaseptin®
 popItems_cefaseptin_id;cefaseptin;cefaseptin
-popItems_cefaseptin_list;;<b class="grey">Céfalexine</b> en comprimés<br><b class="grey">bi ou quadri-sécables</b>
+popItems_cefaseptin_list;;<b class="grey">Céfalexine</b> en comprimés<br><b class="grey">bi ou quadri-sécables</b><!--<div class="popBtn" data-popin="popup5">i</div>-->
 popItems_cefaseptin_list;;Hautement <b class="grey">appétente</b>
 popItems_cefaseptin_list;;3 dosages : 75, 300 et 750 mg
 popItems_cefaseptin_list;;Boîtes de 200 comprimés
@@ -95,11 +95,11 @@ popItems_cefaseptin_list;;Notices et pochettes de fractionnement pour une <b cla
 popItems_septotryl_title;Septotryl®;Septotryl®
 popItems_septotryl_id;septotryl;septotryl
 popItems_septotryl_list;;<b class="grey">Sulfaméthoxypyridazine-triméthroprime</b><br>en comprimés enrobés
-popItems_septotryl_list;;<b class="grey">Association bactéricide de 1ère intention au spectre large</b> : Infections respiratoires, digestives, urinaires, septicémies<div class="popBtn" data-popin="popin1">i</div>
+popItems_septotryl_list;;<b class="grey">Association bactéricide de 1ère intention au spectre large</b> : AMM pour les infections digestives.<!--<div class="popBtn" data-popin="popup2">i</div>-->
 popItems_septotryl_list;;Indication sur les <b class="grey">SARM</b> (hors AMM) <b class="grey">en dermatologie</b>
 popItems_septotryl_list;;<b class="grey">Traitement économique</b>
 popItems_septotryl_list;;<b class="grey">Observance facilitée</b> grâce à une prise par jour
-popItems_septotryl_list;;pression de sélection plus faible
+popItems_septotryl_list;;<b class="grey">Pression de sélection plus faible</b>
 popItems_septotryl_span;;<table>
 popItems_septotryl_span;;<tr><td>SEPTOTRYL CHAT - CHIEN NAIN</td><td>Boîte de 20 cp</td><td>1 cp pour 2 kg</td><td>10 jours de traitement pour un chat de 4 kg</td></tr>
 popItems_septotryl_span;;<tr><td>SEPTOTRYL CHIEN</td><td>Boîte de 16 cp</td><td>1 cp pour 10 kg</td><td>10 jours de traitement pour un chat de 4 kg</td></tr>
@@ -113,7 +113,6 @@ popItems_predniderm_list;;Lotion à appliquer 2 à 3 fois par jour en <b>léger 
 popItems_predniderm_list;;<b>Flacons de 60 ou 120 ml</b> pour toutes les durées de traitement et tailles de lésions
 ;;
 popItems2_guide_title;;Guide de bonnes pratiques<br>ANSES/AFVAC
-;;
 popItems2_guide_text_col1_title;;Association antibiotique préconisée<br>en 1ère intention pour :
 popItems2_guide_text_col1_list;;<b>Pyodermites superficielles et profondes</b> chez le chien
 popItems2_guide_text_col1_list;;<b>Bronchopneumonies</b> chez le chien et le chat
@@ -125,10 +124,93 @@ popItems2_guide_text_col1_list;;<b>Orchites et épidydimites bactériennes</b> c
 popItems2_guide_text_col1_list;;<span class="blue"><b>Sepsis et choc septique</b> chez le chien et le chat</span>
 popItems2_guide_text_col1_list;;<b>Infections urinaires</b> chez le chien et le  chat
 popItems2_guide_text_col1_list;;<b>Cancérologie, ttm adjuvant</b>des animaux sous chimiothérapie grade 1 et 2
-;;
 popItems2_guide_text_col2_title;;En 2ème intention pour :
 popItems2_guide_text_col2_list;;<span class="blue"><b>Entérites aigues</b> chez le chien et le chat</span>
 popItems2_guide_text_col2_list;;Antibiothérapie chez la femelle gravide ou allaitante
 popItems2_guide_text_col2_list;;Pyélonéphrites chez le chien
 
+popItems3_guide_title;--;Guide de bonnes pratiques <br>ANSES/AFVAC
+popItems3_guide_text_col1_title;--;Marbofloxacine préconisée<br>En 1ère intention pour :
+popItems3_guide_text_col1_list;--;<b>Bronchopneumonies à Gram- </b>chez le chien et le chat
+popItems3_guide_text_col1_list;--;<b>Affections pleurales bactériennes à Gram- </b>chez le chien et le chat
+popItems3_guide_text_col1_list;--;<b>Sepsis et choc septique </b>chez le chien et le chat
+popItems3_guide_text_col1_list;--;<b>Infections nosocomiales ITU </b>en réanimation
+popItems3_guide_text_col1_list;--;<b>Pyélonéphrites </b>chez le chien et le chat
+popItems3_guide_text_col2_title;--;En 2ème intention pour :;
+popItems3_guide_text_col2_list;--;<b>Pyodermites superficielles et profondes </b>chez le chien
+popItems3_guide_text_col2_list;--;<b>Otites moyennes </b>chez le chien et le chat
+popItems3_guide_text_col2_list;--;<b>Ulcère perforé de la cornée  </b>chez le chien et le chat
+popItems3_guide_text_col2_list;--;<b>Entérites aigues </b>chez le chien et le chat
+popItems3_guide_text_col2_list;--;<b>Affections hépatobiliaires </b>chez le chien et le chat
+popItems3_guide_text_col2_list;--;<b>Pancréatites </b>chez le chien et le chat
+popItems3_guide_text_col2_list;--;<b>Rhinopneumonies infectieuses </b>chez le lapin de compagnie
+popItems3_guide_text_col2_list;--;<b>Bronchopneumonies </b>chez le chien et le chat
+popItems3_guide_text_col2_list;--;<b>Mammites bactériennes </b>chez le chien et le chat à pH <  7,4 et gram-
+popItems3_guide_text_col2_list;--;<b>Métrite infectieuse aigue </b>chez la chienne et la chatte
+popItems3_guide_text_col2_list;--;<b>Métrite infectieuse chronique brucellique </b>chez la chienne et la chatte
+popItems3_guide_text_col2_list;--;<b>Vaginite bactérienne brucellique </b>chez la chienne et la chatte
+popItems3_guide_text_col2_list;--;<b>Prostatite chronique </b>du chien
+popItems3_guide_text_col2_list;--;<b>Orchites et épididymite bactériennes </b>chez le chien et le chat
 
+popItems4_guide_title;;Guide de bonnes pratiques<br>ANSES/AFVAC
+popItems4_col1;;[pinkline[Association antibiotique préconisée<br>En 1ère intention pour :]]
+popItems4_col1;;<b>Pyodermites superficielles et profondes </b>chez le chien
+popItems4_col1;;<b>Otites moyennes </b>chez le chien et le chat
+popItems4_col1;;<b>Maladie parodontale </b>chez le chien et le chat
+popItems4_col1;;<b>Entérites aigues </b>chez le chien et le chat
+popItems4_col1;;<b>Affections hépatobiliaires </b>chez le chien et le chat
+popItems4_col1;;<b>Pancréatites </b>chez le chien et le chat
+popItems4_col1;;<b>Rhinites chroniques </b>chez le chien et le chat
+popItems4_col1;;<b>Bronchopneumonies </b>chez le chien et le chat
+popItems4_col1;;<b>Affections pleurales bactériennes </b>chez le chien et le chat
+popItems4_col1;;<b>Mammites bactériennes </b>chez le chien et le chat à pH > 7,4
+popItems4_col1;;<b>Pyomètre </b>chez la chienne et la chatte
+popItems4_col1;;<b>Métrite infectieuse aigue </b>chez la chienne et la chatte
+popItems4_col1;;<b>Vaginite bactérienne </b>chez la chienne et la chatte
+popItems4_col2;;<b>Orchites et épididymite bactériennes </b>chez le chien et le chat
+popItems4_col2;;<b>Antibiothérapie </b>chez le chien et l chat nouveau né
+popItems4_col2;;<b>Antibiothérapie </b>chez la femelle gravide ou allaitante
+popItems4_col2;;<b>Sepsis et choc septique </b>chez le chien et le chat
+popItems4_col2;;<b>Infections nosocomiales des sites opératoires </b>en réanimation
+popItems4_col2;;<b>Infections nosocomiales liées aux cathéters IV </b>en réanimation
+popItems4_col2;;<b>Infections du tractus urinaire bas </b>chez le chien et le chat
+popItems4_col2;;<b>Cancérologie, </b>traitement adjuvant des animaux sous chimiothérapie<br>grade 3 et 4
+popItems4_col2;;<div class="space" ></div>
+popItems4_col2;;[pinkline[En 2ème intention pour :]]
+popItems4_col2;;<b>Chirurgie et infections orales </b>chez le chien et le chat
+popItems4_col2;;<b>Pulpite </b>chez le chien et le chat
+popItems4_col2;;<b>Prostatite chronique </b>du chien
+
+popItems5_guide_title;--;Guide de bonnes pratiques <br>ANSES/AFVAC
+popItems5_guide_text_col1_list;--;[subtitle[Céfalexine préconisée<br>En 1ère intention pour :]]
+popItems5_guide_text_col1_list;--;<b>Pyodermites superficielles et profondes</b> chez le chien
+popItems5_guide_text_col1_list;--;<b>Maladie parodontale</b> chez le chien et le chat
+popItems5_guide_text_col1_list;--;<b>Otites moyennes</b> chez le chien et le chat
+popItems5_guide_text_col1_list;--;<b>Pancréatites</b> chez le chien et le chat
+popItems5_guide_text_col1_list;--;<b>Bronchopneumonies</b> chez le chien et le chat
+popItems5_guide_text_col1_list;--;<b>Rhinopneumonies infectieuses</b> chez le lapin de compagnie
+popItems5_guide_text_col1_list;--;<b>Mammites bactériennes</b> chez le chien et le chat à pH > 7,4
+popItems5_guide_text_col1_list;--;<b>Pyomètre</b> chez la chienne et la chatte
+popItems5_guide_text_col1_list;--;<b>Métrite infectieuse aigue</b> chez la chienne et la chatte
+popItems5_guide_text_col1_list;--;<b>Vaginite bactérienne</b> chez la chienne et la chatte
+popItems5_guide_text_col1_list;--;<b>Orchites et épididymites bactériennes</b> chez le chien et le chat
+popItems5_guide_text_col1_list;--;<b>Antibiothérapie</b> chez le chien et le chat nouveau né
+popItems5_guide_text_col1_list;--;<b>Antibiothérapie</b> chez la femelle gravide ou allaitante
+popItems5_guide_text_col2_list;--;<b>Infections du tractus urinaire bas</b> chez le chien
+popItems5_guide_text_col2_list;--;<b>Cancérologie</b>, traitement adjuvant des animaux sous chimiothérapie <br>grade 3 et 4
+popItems5_guide_text_col2_list;--;[subtitle[En 2ème intention pour :]];
+popItems5_guide_text_col2_list;--;<b>Prostatite chronique</b> du chien
+
+
+popItems6_guide_title;;Guide de bonnes pratiques<br>ANSES/AFVAC
+popItems6_guide_text_col1_list;;[subtitle[Clindamycine préconisée<br>En 1ère intention pour :]]
+popItems6_guide_text_col1_list;;<b>Pyodermites superficielles et profondes </b>chez le chien
+popItems6_guide_text_col1_list;;<b>Maladie parodontale </b>chez le chien et le chat
+popItems6_guide_text_col1_list;;<b>Pulpite </b>chez le chien et le chat
+popItems6_guide_text_col1_list;;<b>Bronchopneumonies </b>chez le chien et le chat
+popItems6_guide_text_col1_list;;<b>Prostatite chronique </b>du chien
+popItems6_guide_text_col1_list;;<b>Antibiothérapie </b>chez le chien et le chat nouveau né
+popItems6_guide_text_col1_list;;<b>Antibiothérapie </b>chez la femelle gravide ou allaitante
+popItems6_guide_text_col1_list;;<div class="space" ></div>
+popItems6_guide_text_col1_list;;[subtitle[En 2ème intention pour :]]
+popItems6_guide_text_col1_list;;<b>Mammites bactériennes </b>chez le chien et le chat à pH < 7,4 et Gram + 

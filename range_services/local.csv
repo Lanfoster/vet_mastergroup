@@ -4,7 +4,6 @@ title;Services support<br>you for a better medicine;Des supports professionnels<
 prescription_title;Responsible prescription:;Prescription responsable :
 prescription_list;PROTECT;Enveloppes de fractionnement et<br>tableaux de posologie
 prescription_list;Culture and sensitivity testing;Posters PROTECT et OTOLOGIE
-prescription_list;Compliance;Culture et antibiogramme
 prescription_list;;Développement de solutions alternatives
 
 data_title;Scientific data:;Données scientifiques :
@@ -63,7 +62,7 @@ popup_pop5_other;;[drnames[Prof Didier Pin,[sub[Unité de Dermatologie<br>Vetagr
 popup_pop5_other;;[part[Partenariat]]]]
 
 popup_pop6_title;;[logofont[Cothivet®]]
-popup_pop6_id;;prescription-3 slide1
+popup_pop6_id;;prescription-2 slide1
 popup_pop6_list;;COTHIVET, le pouvoir des plantes
 popup_pop6_list;;Non toxique
 popup_pop6_list;;Agent cicatrisant
@@ -75,7 +74,7 @@ popup_pop6_list;;Participe à la réduction<br>de l’usage des antibiotiques
 popup_pop6_other;;[nav[[navleft[]][navright[]]]]
 
 popup_pop7_title;;[logofont[Vetedine®]]
-popup_pop7_id;;prescription-3 slide2
+popup_pop7_id;;prescription-2 slide2
 popup_pop7_list;;Povidone iodée
 popup_pop7_list;;Activité bactéricide et rapide sur Gram + et Gram -
 popup_pop7_list;;Action fongicide
@@ -85,8 +84,8 @@ popup_pop7_list;;<b>Savon :</b> Nettoyage et désinfection de la peau<br><b>Solu
 popup_pop7_list;;Participe à la réduction<br>de l’usage des antibiotiques
 popup_pop7_other;;[nav[[navleft[]][navright[]]]]
 
-popup_pop8_title;;[logofont[ENISYL®]]
-popup_pop8_id;;prescription-3 slide3
+popup_pop8_title;;[logofont[Enisyl®]]
+popup_pop8_id;;prescription-2 slide3
 popup_pop8_list;;L-lysine sous forme de pâte appétente
 popup_pop8_list;;Pompe doseuse adaptée pour un traitement d’1 mois chez le chat
 popup_pop8_list;;Le supplément nutritionnel vétérinaire de référence dans la lutte contre l’herpesvirose féline

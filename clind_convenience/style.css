@@ -3,7 +3,7 @@
 }
 
 .content {
-	margin: 160px 0 0 130px
+	margin: 180px 0 0 130px
 }
 
 .content h2 {
@@ -26,6 +26,7 @@
 	padding: 10px 0 0 30px;
 	font-size: 22px
 }
+
 .listeplay li span {
 	margin-top: 5px;
 	display: block;
@@ -45,7 +46,7 @@
 }
 
 .supshow {
-	right: 50px;
+	right: 10px;
 	position: absolute;
 	z-index: -1;
 	top: 180px;

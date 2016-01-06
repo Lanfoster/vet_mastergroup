@@ -33,15 +33,15 @@ define(['jquery', 'Backbone','underscore', 'transit', 'snap' ], function( $, Bac
         container.find( ".optimizedPic .particles" ).transition( { opacity : 1, x:0, delay:3600 }, 700, 'ease');
         container.find( ".optimizedPic .alluminium" ).transition( { opacity : 1, x:0, delay:3700 }, 700, 'ease');
         
-        container.find( ".practical" ).transition( { opacity : 1, x:0, delay:4900 }, 700, 'ease');
+        //container.find( ".practical" ).transition( { opacity : 1, x:0, delay:4900 }, 700, 'ease');
 
-        container.find( ".clearness" ).transition( { opacity : 1, x:0, delay:5900 }, 700, 'ease');
+        container.find( ".clearness" ).transition( { opacity : 1, x:0, delay:4900 }, 700, 'ease');
         container.find( ".clearness ul li" ).each( function( index, item) {
-            $(item).transition( { opacity : 1, x:0, delay:6500+index*150 }, 700, 'ease');
+            $(item).transition( { opacity : 1, x:0, delay:5500+index*150 }, 700, 'ease');
         });
 
-        container.find( ".packBack" ).transition( { opacity : 1,  x: 0, delay:6500 }, 700, 'ease');
-        container.find( ".packBack2" ).transition( { opacity : 1,  x: 0, delay:6600 }, 700, 'ease');
+        container.find( ".packBack" ).transition( { opacity : 1,  x: 0, delay:5500 }, 700, 'ease');
+        container.find( ".packBack2" ).transition( { opacity : 1,  x: 0, delay:5600 }, 700, 'ease');
 
     	}
 

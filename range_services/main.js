@@ -37,7 +37,7 @@ define(['jquery', 'Backbone','underscore', 'transit', 'snap' ], function( $, Bac
         function slider(t)
         {
           slide = slide > 3 ? 1 : slide < 1 ? 3 : slide;
-          $(t).parents('.bloc').transition({ opacity:0, scale:.9 }, 200, function(){ $(this).fadeOut(); container.find('.bloc.prescription-3.slide'+slide).show().transition({ opacity:1, scale:1 }); });
+          $(t).parents('.bloc').transition({ opacity:0, scale:.9 }, 200, function(){ $(this).fadeOut(); container.find('.bloc.prescription-2.slide'+slide).show().transition({ opacity:1, scale:1 }); });
         }
 
         //*****///

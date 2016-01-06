@@ -77,10 +77,11 @@
 #clava_blister .optimizedPic .particles { bottom: 30px; }
 #clava_blister .optimizedPic .alluminium { bottom: 0px; }
 
-/**/
+/*
 #clava_blister .practical { top: 465px; }
-/**/
 #clava_blister .clearness { top: 530px; }
+/**/
+#clava_blister .clearness { top: 465px; }
 
 #clava_blister .clearness ul {
 	position: absolute;

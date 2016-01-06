@@ -28,15 +28,15 @@
 	<% }); %>
 </div>
 
-<div class="popup2">
+<div class="popin popup2">
 	<div class="bloc guide" id="guide">
 		<div class="title"><%= popItems2.guide.title %></div>
 		<div class="close">+</div>
 		<div class="content">
 			<div class="picture"></div>
 			<div class="text">
-				<% _.each( popItems2.guide.text, function(arg) { %>
-					<div class="col">
+				<% _.each( popItems2.guide.text, function(arg, index) { %>
+					<div class="col <%= index %>">
 						<div class="subtitle"><%= arg.title %></div>
 						<ul>
 							<% _.each( arg.list, function(arg2) { %>
@@ -45,6 +45,69 @@
 						</ul>
 					</div>
 				<% }) %>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="popin popup3">
+	<div class="bloc guide" id="guide">
+		<div class="title"><%= popItems3.guide.title %></div>
+		<div class="close">+</div>
+		<div class="content">
+			<div class="picture"></div>
+			<div class="text">
+				<% _.each( popItems3.guide.text, function(arg, index) { %>
+					<div class="col <%= index %>">
+						<div class="subtitle"><%= arg.title %></div>
+						<ul>
+							<% _.each( arg.list, function(arg2) { %>
+								<li><%= arg2 %></li>
+							<% }) %>
+						</ul>
+					</div>
+				<% }) %>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="popin popup4">
+	<div class="bloc guide" id="guide">
+		<div class="title"><%= popItems4.guide.title %></div>
+		<div class="close">+</div>
+		<div class="content">
+			<div class="picture"></div>
+			<div class="text">
+				<div class="col col1"><ul><% _.each( popItems4.col1, function(item) { %><li><%= item %></li><% }) %></ul></div>
+				<div class="col col2"><ul><% _.each( popItems4.col2, function(item) { %><li><%= item %></li><% }) %></ul></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="popin popup5">
+	<div class="bloc guide" id="guide">
+		<div class="title"><%= popItems5.guide.title %></div>
+		<div class="close">+</div>
+		<div class="content">
+			<div class="picture"></div>
+			<div class="text">
+				<div class="col col1"><ul><% _.each( popItems5.guide.text.col1.list, function(item) { %><li><%= item %></li><% }) %></ul></div>
+				<div class="col col2"><ul><% _.each( popItems5.guide.text.col2.list, function(item) { %><li><%= item %></li><% }) %></ul></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="popin popup6">
+	<div class="bloc guide" id="guide">
+		<div class="title"><%= popItems6.guide.title %></div>
+		<div class="close">+</div>
+		<div class="content">
+			<div class="picture"></div>
+			<div class="text">
+				<div class="col col1"><ul><% _.each( popItems6.guide.text.col1.list, function(item) { %><li><%= item %></li><% }) %></ul></div>
 			</div>
 		</div>
 	</div>

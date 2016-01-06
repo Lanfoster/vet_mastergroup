@@ -174,12 +174,12 @@ li { list-style: none; }
 #popin .popin3 ul li:before {
 	content: '';
 	position: absolute;
-	top: 2px;
+	top: 7px;
 	left: -35px;
-	width: 30px;
-	height: 30px;
-	background: url('img/puce.png');
-	background-size: 30px;
+	width: 15px;
+	height: 15px;
+	border-radius: 20px;
+	background: #002596;
 }
 
 #popin .popin2 h2 {

@@ -26,15 +26,16 @@ define(['jquery', 'Backbone','underscore', 'transit', 'snap' ], function( $, Bac
          $(item).transition( { scale : 1 , delay:(1200+index*100) }, 700, 'ease');
         })
 
+        container.find( ".redarrow" ).transition( { opacity : 1, delay:2800 }, 700, 'ease');
         container.find( ".graph .lines .bars .bar2").each( function(index, item) {
-         $(item).transition( { scale : 1 , delay:(2800+index*100) }, 700, 'ease');
+         $(item).transition( { scale : 1 , delay:(5500+index*100) }, 700, 'ease');
         })
 
         container.find( ".graph .lines .bars .med").each( function(index, item) {
-         $(item).transition( { scale : 1 , delay:(2800+index*100) }, 700, 'ease');
+         $(item).transition( { scale : 1 , delay:(5500+index*100) }, 700, 'ease');
         })
 
-        container.find( ".redarrow" ).transition( { opacity : 1, delay:4500 }, 700, 'ease');
+        
         container.find( ".redrect" ).transition( { opacity : 1, delay:6000 }, 700, 'ease');
         container.find( ".redtxt" ).transition( { opacity : 1, delay:6500 }, 700, 'ease');
         container.find( ".graph .lines li .txt" ).transition( { opacity : 1, delay:7500 }, 700, 'ease');

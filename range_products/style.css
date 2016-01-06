@@ -50,7 +50,7 @@
 * POPUP
 */
 
-#range_products .popup2, #range_products .popup {
+#range_products .popin, #range_products .popup {
 	display: none;
   position: absolute;
   top: 0; left: 0;
@@ -59,7 +59,11 @@
   background-color: rgba( 0, 0, 0, .7);
 }
 
-#range_products .popup2 .bloc, #range_products .popup .bloc {
+#range_products .popup .bloc .picture{
+  position: absolute;
+}
+
+#range_products .popin .bloc, #range_products .popup .bloc {
   position: absolute;
   left: 50%; top: 50%;
   margin: -240px 0 0 -335px;
@@ -68,7 +72,7 @@
   border-radius: 0 50px 0 50px;
 }
 
-#range_products .popup2 .bloc .close, #range_products .popup .bloc .close{
+#range_products .popin .bloc .close, #range_products .popup .bloc .close{
   position: absolute;
   right: 25px; top: 25px;
   margin-top: -15px;
@@ -80,7 +84,7 @@
   cursor: pointer;
 }
 
-#range_products .popup2 .bloc .title, #range_products .popup .bloc .title{
+#range_products .popin .bloc .title, #range_products .popup .bloc .title{
   padding-left: 45px;
   font-size: 40px;
   line-height: 100px;
@@ -89,7 +93,7 @@
   text-align: center;
 }
 
-#range_products .popup2 .bloc .content, #range_products .popup .bloc .content {
+#range_products .popin .bloc .content, #range_products .popup .bloc .content {
   position: absolute;
   left: 0; top: 100px; 
   width: 100%;
@@ -123,9 +127,6 @@
   border-radius: 22px;
 }
 
-#range_products .popup2, #range_products .popup .bloc .picture{
-	position: absolute;
-}
 
 #range_products .popup .bloc .text {
   width: 365px;
@@ -310,57 +311,6 @@
 #range_products .popup .rangeArrow.prevBtn:after { -webkit-transform: rotate(225deg); transform: rotate(225deg); margin-left: -5px;}
 
 
-#range_products .popup2 .bloc {
-  width: 900px; height: 580px;
-  margin: -290px 0 0 -450px;
-}
-#range_products .popup2 .bloc .content {
-  height: 480px;
-}
-#range_products .popup2 .picture {
-  background: url('img/popup2.jpg') no-repeat;
-  width: 256px; height: 289px;
-  right: 70px; bottom: 15px;
-  position: absolute;
-}
-#range_products .popup2 .text {
-  padding: 45px;
-}
-#range_products .popup2 .text .col {
-  float: left;
-}
-#range_products .popup2 .text .col:first-child {
-  width: 490px;
-}
-#range_products .popup2 .text .col b {
-  font-family: "FuturaStdHeavy";
-}
-#range_products .popup2 .text .col .subtitle,
-#range_products .popup2 .text .col .blue {
-  font-size: 18px;
-  color: #0072cf;
-}
-#range_products .popup2 .text .col .subtitle {
-  position: relative;
-  font-family: "FuturaStdHeavy";
-}
-#range_products .popup2 .text .col .subtitle:before {
-  content: "";
-  position: absolute;
-  left: -30px; top: -2px;
-  width: 23px; height: 23px;
-  background: url('img/puce.png');
-  background-size: 23px;
-}
-#range_products .popup2 .text .col ul {
-  margin-top: 20px;
-  font-size: 14px;
-}
-#range_products .popup2 .text .col ul li {
-  margin-bottom: 12px;
-  list-style: none;
-}
-
 #range_products .popBtn {
     text-align: center;
     line-height: 20px;
@@ -379,3 +329,226 @@
     display: inline-block;
     position: relative;
 }
+
+/* GUIDE POPIN*/
+
+#range_products .popin{
+  position: absolute;
+}
+
+
+#range_products .popin .bloc {
+  width: 900px; height: 580px;
+  margin: -290px 0 0 -450px;
+}
+#range_products .popin .bloc .content {
+  height: 480px;
+}
+#range_products .popin .picture {
+  background: url('img/popin.jpg') no-repeat;
+  width: 256px; height: 289px;
+  right: 70px; bottom: 15px;
+  position: absolute;
+}
+#range_products .popin .text {
+  padding: 20px ;
+}
+/*#range_products .popin .text .col {
+  float: left;
+}*/
+
+#range_products .popin .text .col.col1 {
+  display: inline-block;
+  margin-top: 10px;
+  vertical-align: top;
+}
+
+#range_products .popin .text .col.col2 {
+  display: inline-block;
+  margin-top: 10px;
+  vertical-align: top;
+}
+/*
+#range_products .popin .text .col:first-child {
+  width: 490px;
+}*/
+#range_products .popin .text .col b {
+  font-family: "FuturaStdHeavy";
+}
+#range_products .popin .text .col .subtitle,
+#range_products .popin .text .col .blue {
+  font-size: 18px;
+  color: #0072cf;
+}
+#range_products .popin .text .col .subtitle {
+  position: relative;
+  font-family: "FuturaStdHeavy";
+}
+#range_products .popin .text .col .subtitle:before {
+  content: "";
+  position: absolute;
+  left: -25px; top: 3px;
+  width: 15px; height: 15px;
+  border-radius: 23px;
+  background: #0072cf;
+}
+#range_products .popin .text .col ul {
+  margin-top: 20px;
+  font-size: 14px;
+}
+#range_products .popin .text .col ul li {
+  margin-bottom: 12px;
+  list-style: none;
+}
+
+#range_products .popin .text .col ul li {
+  position: relative;
+  font-size: 12px;
+  color:#7c959d;
+  margin-bottom: 12px;
+}
+
+#range_products .popin .text .col ul li b {
+  font-family: "FuturaStdHeavy";
+  font-size: 12px;
+  color:#666;
+}
+
+#range_products .popin .text .col ul li .blue b {
+  font-family: "FuturaStdHeavy";
+  font-size: 16px;
+  color:#0072cf;
+}
+
+
+/* GUIDE POPIN 2 SPETOTRYL */
+#range_products .popin.popup2 .picture {
+  right: 70px; bottom: 15px;
+}
+
+#range_products .popin.popup2 .text .col.col1 {
+  width: 490px;
+  padding-left: 45px;
+}
+
+#range_products .popin.popup2 .text .col.col2 {
+  padding-left: 45px;
+}
+
+/* GUIDE POPIN 3 MARBOCYL */
+#range_products .popin.popup3 .bloc{ background-color: #002596; }
+
+#range_products .popin.popup3 .picture {
+  width: 220px; height: 250px;
+  background-size: 220px;
+  bottom: 13px;
+    left: 100px;
+}
+
+#range_products .popin.popup3 .text .col.col1 {
+  width: 390px;
+  padding-left: 45px;
+}
+
+#range_products .popin.popup3 .text .col.col2 {
+  padding-left: 45px;
+}
+
+/* GUIDE POPIN 4 CLAVASEPTIN */
+
+#range_products .popin.popup4 .bloc{ background-color: #d70073; }
+
+#range_products .popin.popup4 .text .col.col1 {
+  width: 390px;
+  padding-left: 45px;
+}
+
+#range_products .popin.popup4 .text .col.col2 {
+  padding-left: 45px;
+}
+
+#range_products .popin.popup4 .picture {
+  width: 120px; height: 130px;
+  background-size: 120px;
+  bottom: 40px; right: 30px;
+}
+
+#range_products .popin.popup4 .space {
+  height: 20px;
+}
+
+#range_products .popin.popup4 .pinkline {
+  margin-bottom: 10px;
+  display: inline-block;
+  font-family: "FuturaStdHeavy";
+  font-size: 18px;
+  color: #d70073;
+}
+
+
+#range_products .popin.popup4 .pinkline:before { top: 0; }
+#range_products .popin.popup4 .pinkline:after { top: 6px; }
+
+/* GUIDE POPIN 5 CEFASTEPTIN */
+
+#range_products .popin.popup5 .bloc{ background-color: #aa4237; }
+
+#range_products .popin.popup5 .text .col.col1 {
+  width: 390px;
+  padding-left: 45px;
+}
+
+#range_products .popin.popup5 .text .col.col2 {
+  padding-left: 45px;
+  width: 390px;
+}
+
+#range_products .popin.popup5 .space {
+  height: 20px;
+}
+
+#range_products .popin.popup5 .text .subtitle {
+  margin-bottom: 10px;
+  display: inline-block;
+  font-family: "FuturaStdHeavy";
+  font-size: 18px;
+  color: #aa4237;
+}
+
+
+#range_products .popin.popup5 .text .subtitle:before { background:#aa4237; }
+
+
+
+/* GUIDE POPIN 6 CLINDASEPTIN */
+
+#range_products .popin.popup6 .bloc{ 
+  margin: -290px 0 0 -370px;
+  width: 740px; height: 580px;
+  background-color: #fed905; 
+}
+
+#range_products .popin.popup6 .text .col.col1 {
+  padding-left: 45px;
+}
+
+
+#range_products .popin.popup6 .space {
+  height: 20px;
+}
+
+#range_products .popin.popup6 .text .subtitle {
+  margin-bottom: 10px;
+  display: inline-block;
+  font-family: "FuturaStdHeavy";
+  font-size: 18px;
+  color: #fed905;
+}
+
+#range_products .popin.popup6 .picture {
+  bottom: 100px;
+}
+
+
+#range_products .popin.popup6 .text .subtitle:before { background:#fed905; }
+

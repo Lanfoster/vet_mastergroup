@@ -7,7 +7,6 @@ define(['jquery', 'Backbone','underscore', 'transit', 'snap' ], function( $, Bac
       init: function( container ) {
         var that = this;
         var popContainer = container.find( ".popup").css( { opacity : 0 } );
-        var popContainer2 = container.find( ".popup2").css( { opacity : 0 } );
 
         /**/
         var blocs = [];
@@ -32,15 +31,19 @@ define(['jquery', 'Backbone','underscore', 'transit', 'snap' ], function( $, Bac
 
           currentBloc.css({display:'block', x: 0 }).delay(500).transition({ opacity : 1}, 500);;
         });
+
         container.find( ".popBtn").click(function()
         {
-          popContainer2.css({ display: "block" }).transition({ opacity : 1}, 500);
-          popContainer2.find('.guide').css({display:'block', x: 0 }).delay(500).transition({ opacity : 1}, 500);;
+          var idPopin = $(this).data('popin');
+          console.log( '.popin.'+idPopin+'' );
+          //popContainer2.css({ display: "block" }).transition({ opacity : 1}, 500);
+          container.find('.popin.'+idPopin+'').css({ opacity: 0, display:'block', x: 0 }).delay(500).transition({ opacity : 1}, 500);;
         });
-        container.find( ".popup2 .close").click(function()
+
+        container.find( ".popin .close").click(function()
         {
-          popContainer2.transition({ opacity : 0}, 500, function() { this.css({display:'none'});})
-          popContainer2.find('.guide').transition({ opacity : 0, delay:200},500, function() { this.css({display:'none'});})
+          //popContainer2.transition({ opacity : 0}, 500, function() { this.css({display:'none'});})
+          container.find('.popin').transition({ opacity : 0, delay:200},500, function() { this.css({display:'none'});})
         });
 
         // CLOSE

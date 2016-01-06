@@ -1,6 +1,6 @@
 li { list-style: none; }
 .pageTitle h1 { background: #0B2892; }
-.content { width: 100%; height: 100%; position: absolute; background: url(img/background.png) no-repeat 360px 240px; }
+.content { width: 100%; height: 100%; position: absolute; background: url(img/background.png) no-repeat 425px 240px; }
 
 
 #marbocyl_tolerance .content ul { margin: 160px 110px }
